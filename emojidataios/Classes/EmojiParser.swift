@@ -80,7 +80,9 @@ open class EmojiParser {
     
     var result = input
     
-    let uniqueChars = Array(Set(input.unicodeScalars.filter{!$0.isASCII}.map { String($0) }))
+//    let uniqueChars = Array(Set(input.unicodeScalars.filter{!$0.isASCII}.map { String($0) }))
+
+    let uniqueChars = Array(Set(input.characters.map { String($0) }))
     
     uniqueChars.forEach {
       

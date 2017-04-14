@@ -50,11 +50,11 @@ class TableOfContentsSpec: QuickSpec {
 //          print("\(emojiFromUnicode) -> \(emoji!)")
       }
       
-      print("Dictionary average matching speed: \(dictionaryTotalTime / entries) sec.")
-      print("Tree average matching speed: \(treeTotalTime / entries) sec.")
-      
-      print("Dictionary matching speed for \(entries) items: \(dictionaryTotalTime) sec.")
-      print("Tree matching speed for \(entries) items: \(treeTotalTime) sec.")
+//      print("Dictionary average matching speed: \(dictionaryTotalTime / entries) sec.")
+//      print("Tree average matching speed: \(treeTotalTime / entries) sec.")
+//      
+//      print("Dictionary matching speed for \(entries) items: \(dictionaryTotalTime) sec.")
+//      print("Tree matching speed for \(entries) items: \(treeTotalTime) sec.")
     }
     
     describe("Check the Cow emoji") {
