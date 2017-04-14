@@ -83,9 +83,6 @@ class TableOfContentsSpec: QuickSpec {
       let familyAliases = EmojiParser.parseUnicode(family)
       
       assert(familyAliases == "I love :cow::cow::cow:, they are like my :family:")
-      
-//      print("\(family) -> \(familyAliases)")
-      
     }
     
     describe("Aliases to Unicode to Aliases to Unicode + Skin tones") {
@@ -95,15 +92,12 @@ class TableOfContentsSpec: QuickSpec {
       
       let thumbsAsUnicode = EmojiParser.parseAliases(thumbsAliasesMixed)
       assert(thumbsAsUnicode == thumbsUnicode)
-//      print( "\(thumbsAliasesMixed) -> \(thumbsAsUnicode)" )
 
       let thumbsAsAliases = EmojiParser.parseUnicode(thumbsUnicode)
       assert(thumbsAsAliases == thumbsAliasesPlusOneColonsSkinTone)
-//      print("\(thumbsUnicode) -> \(thumbsAsAliases)")
 
       let thubsAsUnicodeAgain = EmojiParser.parseAliases(thumbsAsAliases)
       assert(thubsAsUnicodeAgain == thumbsUnicode)
-//      print("\(thumbsAsAliases) -> \(thubsAsUnicodeAgain)")
     }
   }
 }
