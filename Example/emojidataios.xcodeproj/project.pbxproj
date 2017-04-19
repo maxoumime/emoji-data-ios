@@ -14,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		B94FEBCF1EA7CEFD00D180F5 /* emojis-modifiers.txt in Resources */ = {isa = PBXBuildFile; fileRef = B97BCAF51E9FE4EB00DF6D04 /* emojis-modifiers.txt */; };
+		B94FEBD51EA7DD4500D180F5 /* Pods_emojidataios_Tests.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 16626325257FCD3B73D2E196 /* Pods_emojidataios_Tests.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B97BCAF61E9FE4EB00DF6D04 /* emojis-modifiers.txt in Resources */ = {isa = PBXBuildFile; fileRef = B97BCAF51E9FE4EB00DF6D04 /* emojis-modifiers.txt */; };
 		B9FC2DF51E9ED65B00908072 /* emojis-no-modifiers.txt in Resources */ = {isa = PBXBuildFile; fileRef = B9FC2DF41E9ED65B00908072 /* emojis-no-modifiers.txt */; };
 		B9FC2DF61E9ED66C00908072 /* emojis-no-modifiers.txt in Resources */ = {isa = PBXBuildFile; fileRef = B9FC2DF41E9ED65B00908072 /* emojis-no-modifiers.txt */; };
@@ -30,6 +31,19 @@
 			remoteInfo = emojidataios;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B94FEBD41EA7DD2B00D180F5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B94FEBD51EA7DD4500D180F5 /* Pods_emojidataios_Tests.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		03428074A9D82E3E0853BDA6 /* Pods-emojidataios_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emojidataios_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-emojidataios_Tests/Pods-emojidataios_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -184,6 +198,7 @@
 				607FACCE1AFB9204008FA782 /* Resources */,
 				73B6C50ED649ED5EAAE3B73E /* [CP] Embed Pods Frameworks */,
 				DF44BF49E6E45B3292126A92 /* [CP] Copy Pods Resources */,
+				B94FEBD41EA7DD2B00D180F5 /* CopyFiles */,
 			);
 			buildRules = (
 			);
