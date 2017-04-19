@@ -15,19 +15,15 @@ class EmojiManager {
   
   init() {
 
-    let startTime = Date()
     guard let emojisListFilePath = Bundle(for: EmojiManager.self).path(forResource: "emojilist", ofType: "json") else {
       print("emojilist.json was not found")
-      exit(1)
+      return
     }
     
     let emojisListData = FileManager.default.contents(atPath: emojisListFilePath)
     
     do {
-      let loadStartTime = Date()
       if let jsonArray = try JSONSerialization.jsonObject(with: emojisListData!, options: .allowFragments) as? [[String: Any]] {
-        let loadEndime = Date()
-        print("EmojiManager: File parsing time: \(loadEndime.timeIntervalSince1970 - loadStartTime.timeIntervalSince1970) sec.")
         
         jsonArray.forEach { (emoji: [String:Any]) in
           
@@ -62,10 +58,6 @@ class EmojiManager {
     catch {
       print("Could not load emoji list")
     }
-    
-    let endTime = Date()
-    print("EmojiManager: Initialization time: \(endTime.timeIntervalSince1970 - startTime.timeIntervalSince1970) sec.")
-    
   }
   
   func addEmoji(_ emoji: Emoji) {

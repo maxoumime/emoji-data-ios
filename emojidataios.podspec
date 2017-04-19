@@ -33,7 +33,7 @@ Parses your emojis from Unicode to aliases, and vice versa. Based on emoji-data
   s.source_files = 'emojidataios/Classes/**/*'
   
   s.resource_bundles = {
-    'emojidataios' => ['emojidataios/Assets/*']
+    'emojidataios' => ['emojidataios/Assets/*', 'emojidataios/*']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
