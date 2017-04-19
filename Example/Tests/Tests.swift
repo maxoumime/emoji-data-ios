@@ -7,7 +7,7 @@ import emojidataios
 class TableOfContentsSpec: QuickSpec {
   
   override func spec() {
-    
+      
     describe("Check a bunch of Emojis") {
       let frontEmojisFilePath = Bundle.main.path(forResource: "emojis-modifiers", ofType: "txt")
       let frontEmojisContentData = FileManager.default.contents(atPath: frontEmojisFilePath!)
@@ -98,6 +98,13 @@ class TableOfContentsSpec: QuickSpec {
 
       let thubsAsUnicodeAgain = EmojiParser.parseAliases(thumbsAsAliases)
       assert(thubsAsUnicodeAgain == thumbsUnicode)
+    }
+    
+    describe("Test an unknown emoji") {
+      
+      assert(EmojiParser.parseUnicode("🤤") == "")
+      
+      assert(EmojiParser.getAliasesFromUnicode("🤤") == [])
     }
   }
 }

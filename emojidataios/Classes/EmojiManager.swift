@@ -97,4 +97,5 @@ class EmojiManager {
     
     return bytes.isEmpty ? node : getLeafForBytes(root: node, bytes: bytes, withCreation: withCreation)
   }
+  
 }

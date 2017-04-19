@@ -13,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  emojidataios: 81fe26a5dcbcd86a18c037a4bc85fd2de2e65852
+  emojidataios: eb720fee415e070c765633330e7cff91f39da36b
   Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
   Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
 

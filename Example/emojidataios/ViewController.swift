@@ -56,6 +56,10 @@ extension ViewController: UITextViewDelegate {
   
   func textViewDidChange(_ textView: UITextView) {
     
+    if !textView.isFirstResponder {
+      return
+    }
+    
     guard let content = textView.text else { return }
     
     if textView == emojisTextView {

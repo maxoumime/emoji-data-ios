@@ -78,25 +78,69 @@ open class EmojiParser {
   
   open static func parseUnicode(_ input: String) -> String {
     
-    var result = input
-    
-//    let uniqueChars = Array(Set(input.unicodeScalars.filter{!$0.isASCII}.map { String($0) }))
+    var resultData: [UInt8] = []
 
-    let uniqueChars = Array(Set(input.characters.map { String($0) }))
+    var matchedEmoji: Emoji?
     
-    uniqueChars.forEach {
+    let data = input.data(using: .utf8, allowLossyConversion: false)
+    
+    var bytesToTest: [UInt8] = []
+    
+    var indexOfFirstUnknown: Int?
+    
+    data?.forEach { byte in
       
-      if let leaf = emojiManager.getLeafForBytes(bytes: [UInt8]($0.utf8)) {
-       
-        let alias = leaf.emojis.sorted(by: {$0.0.shortName.characters.count < $0.1.shortName.characters.count})[0].shortName
+      bytesToTest.append(byte)
+      
+      if let leaf = emojiManager.getLeafForBytes(bytes: bytesToTest) {
+        matchedEmoji = leaf.emojis.first
         
-        result = result.replacingOccurrences(of: $0, with: ":\(alias):")
+        if let indexOfDataToTest = indexOfFirstUnknown {
+          let dataToTest = resultData[indexOfDataToTest..<resultData.count]
+          
+          if String(bytes: dataToTest, encoding: .utf8) == nil {
+            resultData.removeSubrange(indexOfDataToTest..<resultData.count)
+            indexOfFirstUnknown = nil
+          }
+        }
         
+      } else {
+        bytesToTest = [byte]
+        
+        if let emoji = matchedEmoji {
+          resultData.append(contentsOf: [UInt8](":\(emoji.shortName):".utf8))
+          matchedEmoji = nil
+        }
+        
+        if let backupLeaf = emojiManager.getLeafForBytes(bytes: bytesToTest) {
+          matchedEmoji = backupLeaf.emojis.first
+        } else {
+          
+          if indexOfFirstUnknown == nil {
+            indexOfFirstUnknown = resultData.count
+          }
+          
+          resultData.append(contentsOf: [UInt8](bytesToTest))
+          bytesToTest = []
+        }
       }
     }
     
-    return result
+    if let emoji = matchedEmoji {
+      resultData.append(contentsOf: [UInt8](":\(emoji.shortName):".utf8))
+      matchedEmoji = nil
+    }
     
+    if let indexOfDataToTest = indexOfFirstUnknown {
+      let dataToTest = resultData[indexOfDataToTest..<resultData.count]
+      
+      if String(bytes: dataToTest, encoding: .utf8) == nil {
+        resultData.removeSubrange(indexOfDataToTest..<resultData.count)
+      }
+    }
+    
+    return String(bytes: resultData, encoding: .utf8) ?? ""
+
   }
   
   open static func parseAliases(_ input: String) -> String {
