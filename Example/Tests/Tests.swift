@@ -9,8 +9,11 @@ class TableOfContentsSpec: QuickSpec {
   override func spec() {
       
     describe("Check a bunch of Emojis") {
-      let frontEmojisFilePath = Bundle.main.path(forResource: "emojis-modifiers", ofType: "txt")
-      let frontEmojisContentData = FileManager.default.contents(atPath: frontEmojisFilePath!)
+      guard let frontEmojisFilePath = Bundle.main.path(forResource: "emojis-modifiers", ofType: "txt") else {
+        print("emojis-modifiers.json was not found")
+        exit(1)
+      }
+      let frontEmojisContentData = FileManager.default.contents(atPath: frontEmojisFilePath)
       let frontEmojis = String(data: frontEmojisContentData!, encoding: .utf8)!
       
       var dictionaryTotalTime = 0.0

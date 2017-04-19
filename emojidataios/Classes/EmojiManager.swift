@@ -16,8 +16,12 @@ class EmojiManager {
   init() {
 
     let startTime = Date()
-    let emojisListFilePath = Bundle(for: EmojiManager.self).path(forResource: "emojilist", ofType: "json")
-    let emojisListData = FileManager.default.contents(atPath: emojisListFilePath!)
+    guard let emojisListFilePath = Bundle(for: EmojiManager.self).path(forResource: "emojilist", ofType: "json") else {
+      print("emojilist.json was not found")
+      exit(1)
+    }
+    
+    let emojisListData = FileManager.default.contents(atPath: emojisListFilePath)
     
     do {
       let loadStartTime = Date()
