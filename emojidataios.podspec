@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'emojidataios'
   s.version          = '0.1.0'
-  s.summary          = 'The missing Emoji library for iOS ❤️ Based on emoji-data'
+  s.summary          = 'The missing Emoji library for iOS ❤️  Based on emoji-data'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Parses your emojis from Unicode to aliases, and vice versa. Based on emoji-data
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Maxime Bertheau' => 'maxime.bertheau@gmail.com' }
-  s.source           = { :git => 'https://github.com/maxoumime/emojidataios.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:maxoumime/emoji-data-ios.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/maxoumime'
 
   s.ios.deployment_target = '8.0'
