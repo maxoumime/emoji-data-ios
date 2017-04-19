@@ -13,6 +13,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		B94FEBCF1EA7CEFD00D180F5 /* emojis-modifiers.txt in Resources */ = {isa = PBXBuildFile; fileRef = B97BCAF51E9FE4EB00DF6D04 /* emojis-modifiers.txt */; };
 		B97BCAF61E9FE4EB00DF6D04 /* emojis-modifiers.txt in Resources */ = {isa = PBXBuildFile; fileRef = B97BCAF51E9FE4EB00DF6D04 /* emojis-modifiers.txt */; };
 		B9FC2DF51E9ED65B00908072 /* emojis-no-modifiers.txt in Resources */ = {isa = PBXBuildFile; fileRef = B9FC2DF41E9ED65B00908072 /* emojis-no-modifiers.txt */; };
 		B9FC2DF61E9ED66C00908072 /* emojis-no-modifiers.txt in Resources */ = {isa = PBXBuildFile; fileRef = B9FC2DF41E9ED65B00908072 /* emojis-no-modifiers.txt */; };
@@ -273,6 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B94FEBCF1EA7CEFD00D180F5 /* emojis-modifiers.txt in Resources */,
 				B9FC2DF51E9ED65B00908072 /* emojis-no-modifiers.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
