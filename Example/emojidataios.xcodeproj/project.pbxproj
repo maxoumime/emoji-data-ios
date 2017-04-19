@@ -15,6 +15,7 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		B94FEBCF1EA7CEFD00D180F5 /* emojis-modifiers.txt in Resources */ = {isa = PBXBuildFile; fileRef = B97BCAF51E9FE4EB00DF6D04 /* emojis-modifiers.txt */; };
 		B94FEBD51EA7DD4500D180F5 /* Pods_emojidataios_Tests.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 16626325257FCD3B73D2E196 /* Pods_emojidataios_Tests.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B94FEBD71EA7EB6600D180F5 /* emojidataios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94FEBD61EA7EB6600D180F5 /* emojidataios.framework */; };
 		B97BCAF61E9FE4EB00DF6D04 /* emojis-modifiers.txt in Resources */ = {isa = PBXBuildFile; fileRef = B97BCAF51E9FE4EB00DF6D04 /* emojis-modifiers.txt */; };
 		B9FC2DF51E9ED65B00908072 /* emojis-no-modifiers.txt in Resources */ = {isa = PBXBuildFile; fileRef = B9FC2DF41E9ED65B00908072 /* emojis-no-modifiers.txt */; };
 		B9FC2DF61E9ED66C00908072 /* emojis-no-modifiers.txt in Resources */ = {isa = PBXBuildFile; fileRef = B9FC2DF41E9ED65B00908072 /* emojis-no-modifiers.txt */; };
@@ -64,6 +65,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		682E601E73DA46EE7A49D25C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		797BEDC3C097FD0904E8BD9B /* Pods_emojidataios_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_emojidataios_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B94FEBD61EA7EB6600D180F5 /* emojidataios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = emojidataios.framework; path = "../../../Library/Developer/Xcode/DerivedData/emojidataios-cddlwwqtgdyeaneeunavianctcsg/Build/Products/Debug-iphonesimulator/emojidataios/emojidataios.framework"; sourceTree = "<group>"; };
 		B97BCAF51E9FE4EB00DF6D04 /* emojis-modifiers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "emojis-modifiers.txt"; sourceTree = "<group>"; };
 		B9FC2DF41E9ED65B00908072 /* emojis-no-modifiers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "emojis-no-modifiers.txt"; sourceTree = "<group>"; };
 		B9FC2DF71E9ED7D800908072 /* emojidataios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = emojidataios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B94FEBD71EA7EB6600D180F5 /* emojidataios.framework in Frameworks */,
 				E1B0D5855B327B131A5C16CB /* Pods_emojidataios_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -179,6 +182,7 @@
 		EAE38D232F4F41A5E3500967 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B94FEBD61EA7EB6600D180F5 /* emojidataios.framework */,
 				797BEDC3C097FD0904E8BD9B /* Pods_emojidataios_Example.framework */,
 				16626325257FCD3B73D2E196 /* Pods_emojidataios_Tests.framework */,
 			);
