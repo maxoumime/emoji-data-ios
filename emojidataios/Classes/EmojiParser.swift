@@ -11,7 +11,32 @@ import Foundation
 open class EmojiParser {
   
   fileprivate static let emojiManager = EmojiManager()
+  
+  fileprivate static var _aliasMatchingRegex: NSRegularExpression?
+  fileprivate static var aliasMatchingRegex: NSRegularExpression {
+    if _aliasMatchingRegex == nil {
+      do {
+        _aliasMatchingRegex = try NSRegularExpression(pattern: ":([\\w_+-]+)(?:(?:\\||::)(type_[\\w_]*))?:", options: .caseInsensitive)
+      } catch {
+        
+      }
+    }
+    return _aliasMatchingRegex!
+  }
 
+  fileprivate static var _aliasMatchingRegexOptionalColon: NSRegularExpression?
+  fileprivate static var aliasMatchingRegexOptionalColon: NSRegularExpression {
+    if _aliasMatchingRegex == nil {
+      do {
+        _aliasMatchingRegex = try NSRegularExpression(pattern: ":?([\\w_+-]+)(?:(?:\\||::)(type_[\\w_]*))?:?", options: .caseInsensitive)
+      } catch {
+        
+      }
+    }
+    return _aliasMatchingRegex!
+  }
+
+  
   open static func getAliasesFromUnicode(_ unicode: String) -> [String] {
     
     guard let leaf = emojiManager.getLeafForBytes(bytes: [UInt8](unicode.utf8)) else { return [] }
@@ -21,13 +46,9 @@ open class EmojiParser {
   
   open static func getUnicodeFromAlias(_ alias: String) -> String? {
     
-    do {
-    
     let input = alias as NSString
     
-    let aliasMatchingRegex = try NSRegularExpression(pattern: ":?([\\w_+-]+)(?:(?:\\||::)(type_[\\w_]*))?:?", options: .caseInsensitive)
-    
-    let matches = aliasMatchingRegex.matches(in: alias, options: .withoutAnchoringBounds, range: NSRange(location: 0, length: alias.characters.count))
+    let matches = aliasMatchingRegexOptionalColon.matches(in: alias, options: .withoutAnchoringBounds, range: NSRange(location: 0, length: alias.characters.count))
     
     if(matches.count == 0) {
       return input as String!
@@ -58,10 +79,7 @@ open class EmojiParser {
       emoji = emojiObject.emoji
     }
     return emoji
-      
-    } catch {
-      return nil
-    }
+    
   }
   
   open static func getEmojiFromUnified(_ unified: String) -> String {
@@ -79,21 +97,26 @@ open class EmojiParser {
   open static func parseUnicode(_ input: String) -> String {
     
     var resultData: [UInt8] = []
-
+    
     var matchedEmoji: Emoji?
     
     let data = input.data(using: .utf8, allowLossyConversion: false)
     
-    var bytesToTest: [UInt8] = []
-    
-    var indexOfFirstUnknown: Int?
+    var lastNode: Node?
+    var indexOfFirstUnknown: Int? = nil
     
     data?.forEach { byte in
       
-      bytesToTest.append(byte)
+      let leaf: Node?
+      if let lastNode = lastNode {
+        leaf = EmojiManager.getLeafForBytes(root: lastNode, bytes: [byte])
+      } else {
+        leaf = emojiManager.getLeafForBytes(bytes: [byte])
+      }
       
-      if let leaf = emojiManager.getLeafForBytes(bytes: bytesToTest) {
+      if let leaf = leaf {
         matchedEmoji = leaf.emojis.first
+        lastNode = leaf
         
         if let indexOfDataToTest = indexOfFirstUnknown {
           let dataToTest = resultData[indexOfDataToTest..<resultData.count]
@@ -105,23 +128,35 @@ open class EmojiParser {
         }
         
       } else {
-        bytesToTest = [byte]
+        lastNode = nil
         
         if let emoji = matchedEmoji {
           resultData.append(contentsOf: [UInt8](":\(emoji.shortName):".utf8))
           matchedEmoji = nil
+          indexOfFirstUnknown = nil
         }
         
-        if let backupLeaf = emojiManager.getLeafForBytes(bytes: bytesToTest) {
+        if let backupLeaf = emojiManager.getLeafForBytes(bytes: [byte]) {
           matchedEmoji = backupLeaf.emojis.first
+          lastNode = backupLeaf
+          
+          
+          if let indexOfDataToTest = indexOfFirstUnknown {
+            let dataToTest = resultData[indexOfDataToTest..<resultData.count]
+            
+            if String(bytes: dataToTest, encoding: .utf8) == nil {
+              resultData.removeSubrange(indexOfDataToTest..<resultData.count)
+              indexOfFirstUnknown = nil
+            }
+          }
+          
         } else {
           
           if indexOfFirstUnknown == nil {
             indexOfFirstUnknown = resultData.count
           }
           
-          resultData.append(contentsOf: [UInt8](bytesToTest))
-          bytesToTest = []
+          resultData.append(byte)
         }
       }
     }
@@ -140,60 +175,45 @@ open class EmojiParser {
     }
     
     return String(bytes: resultData, encoding: .utf8) ?? ""
-
+    
   }
   
   open static func parseAliases(_ input: String) -> String {
     
     var result = input
     
-    do {
-      
-      let aliasMatchingRegex = try NSRegularExpression(pattern: ":([\\w_+-]+)(?:(?:\\||::)(type_[\\w_]*))?:", options: .caseInsensitive)
-      
-      let matches = aliasMatchingRegex.matches(in: input, options: .withoutAnchoringBounds, range: NSRange(location: 0, length: input.characters.count))
-      
-      if(matches.count == 0) {
-        return input
+    getUnicodesForAliases(input).forEach { alias, emoji in
+      if let emoji = emoji {
+        result = result.replacingOccurrences(of: alias, with: emoji)
       }
-      
-      let nsInput = input as NSString
-
-      var uniqueMatches: [String:NSTextCheckingResult] = [:]
-      
-      matches.forEach {
-      
-        let fullAlias = nsInput.substring(with: $0.rangeAt(0))
-        
-        if uniqueMatches.index(forKey: fullAlias) == nil {
-          
-          uniqueMatches[fullAlias] = $0
-        }
-        
-      }
-    
-      uniqueMatches
-        .map { fullAlias, match in
-          
-          guard let emoji = getUnicodeFromAlias(fullAlias) else { return nil }
-         
-          return ( fullAlias, emoji ) as (String, String)?
-        }
-        .filter { (value: (String, String)?) in
-          value != nil
-        }
-        .map { return $0! }
-        .sorted(by: { $0.0.0.characters.count > $0.1.0.characters.count }) // Execute the longer first so emojis with skin variations are executed before the ones without
-        .forEach { (value: (String,String) )in
-          
-          let fullAlias = value.0
-          let emoji = value.1
-          
-          result = result.replacingOccurrences(of: fullAlias, with: emoji)
-      }
-    } catch {}
+    }
     
     return result
   }
   
+  open static func getUnicodesForAliases(_ input: String) -> [(key: String, value: String?)] {
+    
+    let matches = aliasMatchingRegex.matches(in: input, options: .withoutAnchoringBounds, range: NSRange(location: 0, length: input.characters.count))
+    
+    if(matches.count == 0) {
+      return []
+    }
+    
+    let nsInput = input as NSString
+    
+    var uniqueMatches: [String:String?] = [:]
+    
+    matches.forEach {
+      
+      let fullAlias = nsInput.substring(with: $0.rangeAt(0))
+      
+      if uniqueMatches.index(forKey: fullAlias) == nil {
+        
+        uniqueMatches[fullAlias] = getUnicodeFromAlias(fullAlias)
+      }
+      
+    }
+    
+    return uniqueMatches.sorted(by: { $0.0.key.characters.count > $0.1.key.characters.count }) // Execute the longer first so emojis with skin variations are executed before the ones without
+  }
 }

@@ -16,38 +16,28 @@ class TableOfContentsSpec: QuickSpec {
       let frontEmojisContentData = FileManager.default.contents(atPath: frontEmojisFilePath)
       let frontEmojis = String(data: frontEmojisContentData!, encoding: .utf8)!
       
-      var dictionaryTotalTime = 0.0
-      var treeTotalTime = 0.0
-      var entries = 0.0
+//      var dictionaryTotalTime = 0.0
+//      var treeTotalTime = 0.0
+//      var entries = 0.0
       
       frontEmojis
         .components(separatedBy: " ")
         .filter { $0.characters.count > 2 && $0.characters.first == ":" && $0.characters.last == ":" }
         .forEach { alias in
           
-          entries = entries + 1.0
-          
-          var cleanedAlias = alias
-          
-          if let firstChar = cleanedAlias.characters.first, String(firstChar) == ":" {
-            cleanedAlias.characters.removeFirst()
-          }
-          
-          if let lastChar = cleanedAlias.characters.last, String(lastChar) == ":" {
-            cleanedAlias.characters.removeLast()
-          }
-          
+//          entries = entries + 1.0
+
           let aliasDecomposition = alias.characters.split(separator: ":", omittingEmptySubsequences: true).map { String($0) }
 
-          let dictionaryStartTime = Date()
-          let emoji = EmojiParser.getUnicodeFromAlias(cleanedAlias)
-          dictionaryTotalTime = dictionaryTotalTime + ( Date().timeIntervalSince1970 - dictionaryStartTime.timeIntervalSince1970 )
+//          let dictionaryStartTime = Date()
+          let emoji = EmojiParser.getUnicodeFromAlias(aliasDecomposition[0])
+//          dictionaryTotalTime = dictionaryTotalTime + ( Date().timeIntervalSince1970 - dictionaryStartTime.timeIntervalSince1970 )
           
           assert( emoji != nil )
 
-          let treeStartTime = Date()
+//          let treeStartTime = Date()
           let emojiFromUnicode = EmojiParser.getAliasesFromUnicode(emoji!)
-          treeTotalTime = treeTotalTime + ( Date().timeIntervalSince1970 - treeStartTime.timeIntervalSince1970 )
+//          treeTotalTime = treeTotalTime + ( Date().timeIntervalSince1970 - treeStartTime.timeIntervalSince1970 )
           assert( emojiFromUnicode.contains(aliasDecomposition[0]) )
           
 //          print("\(emojiFromUnicode) -> \(emoji!)")
