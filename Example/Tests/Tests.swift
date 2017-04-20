@@ -7,14 +7,15 @@ import emojidataios
 class TableOfContentsSpec: QuickSpec {
   
   override func spec() {
-      
+    
+    guard let frontEmojisFilePath = Bundle.main.path(forResource: "emojis-modifiers", ofType: "txt") else {
+      print("emojis-modifiers.json was not found")
+      exit(1)
+    }
+    let frontEmojisContentData = FileManager.default.contents(atPath: frontEmojisFilePath)
+    let frontEmojis = String(data: frontEmojisContentData!, encoding: .utf8)!
+    
     describe("Check a bunch of Emojis") {
-      guard let frontEmojisFilePath = Bundle.main.path(forResource: "emojis-modifiers", ofType: "txt") else {
-        print("emojis-modifiers.json was not found")
-        exit(1)
-      }
-      let frontEmojisContentData = FileManager.default.contents(atPath: frontEmojisFilePath)
-      let frontEmojis = String(data: frontEmojisContentData!, encoding: .utf8)!
       
       var dictionaryTotalTime = 0.0
       var treeTotalTime = 0.0
@@ -58,6 +59,31 @@ class TableOfContentsSpec: QuickSpec {
 //      
 //      print("Dictionary matching speed for \(entries) items: \(dictionaryTotalTime) sec.")
 //      print("Tree matching speed for \(entries) items: \(treeTotalTime) sec.")
+    }
+    
+    describe("Parse all the aliases (with modifiers) -> unicode -> aliases -> unicode -> and compare 1st unicode <-> 2nd unicode") {
+      
+//      var startDate = Date()
+      
+      let parsedToUnicode = EmojiParser.parseAliases(frontEmojis)
+      
+//      print("\(Date().timeIntervalSince1970 - startDate.timeIntervalSince1970) sec.")
+//      print(parsedToUnicode)
+//      startDate = Date()
+      
+      let parsedToAliases = EmojiParser.parseUnicode(parsedToUnicode)
+      
+//      print("\(Date().timeIntervalSince1970 - startDate.timeIntervalSince1970) sec.")
+//      print(parsedToAliases)
+//      startDate = Date()
+      
+      let reparsedToUnicode = EmojiParser.parseAliases(parsedToAliases)
+      
+//      print("\(Date().timeIntervalSince1970 - startDate.timeIntervalSince1970) sec.")
+//      print(reparsedToUnicode)
+      
+      assert(reparsedToUnicode == parsedToUnicode)
+
     }
     
     describe("Check the Cow emoji") {
