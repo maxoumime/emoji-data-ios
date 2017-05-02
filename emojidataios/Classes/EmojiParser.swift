@@ -103,6 +103,7 @@ open class EmojiParser {
     
     var lastNode: Node?
     var indexOfFirstUnknown: Int? = nil
+    var unknownDataYet: [UInt8] = []
     
     data?.forEach { byte in
       
@@ -117,6 +118,12 @@ open class EmojiParser {
         matchedEmoji = leaf.emojis.first
         lastNode = leaf
         
+        if matchedEmoji == nil {
+          unknownDataYet.append(byte)
+        } else if !unknownDataYet.isEmpty {
+          unknownDataYet = []
+        }
+        
         if let indexOfDataToTest = indexOfFirstUnknown {
           let dataToTest = resultData[indexOfDataToTest..<resultData.count]
           
@@ -129,6 +136,11 @@ open class EmojiParser {
       } else {
         lastNode = nil
         
+        if !unknownDataYet.isEmpty {
+          resultData.append(contentsOf: unknownDataYet)
+          unknownDataYet = []
+        }
+        
         if let emoji = matchedEmoji {
           resultData.append(contentsOf: [UInt8](":\(emoji.shortName):".utf8))
           matchedEmoji = nil
@@ -139,6 +151,11 @@ open class EmojiParser {
           matchedEmoji = backupLeaf.emojis.first
           lastNode = backupLeaf
           
+          if matchedEmoji == nil {
+            unknownDataYet.append(byte)
+          } else if !unknownDataYet.isEmpty {
+            unknownDataYet = []
+          }
           
           if let indexOfDataToTest = indexOfFirstUnknown {
             let dataToTest = resultData[indexOfDataToTest..<resultData.count]
@@ -158,6 +175,10 @@ open class EmojiParser {
           resultData.append(byte)
         }
       }
+    }
+    
+    if lastNode != nil && !unknownDataYet.isEmpty {
+      resultData.append(contentsOf: unknownDataYet)
     }
     
     if let emoji = matchedEmoji {
