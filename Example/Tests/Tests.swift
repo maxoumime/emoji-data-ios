@@ -125,5 +125,20 @@ class TableOfContentsSpec: QuickSpec {
       
       assert(EmojiParser.getAliasesFromUnicode("🤤") == [])
     }
+    
+    describe("Issue with matching leaf with no emojis") {
+      
+      var input = "1:2"
+      
+      assert(EmojiParser.parseUnicode(input) == input)
+      
+      input = "01:23"
+      
+      assert(EmojiParser.parseUnicode(input) == input)
+      
+      input = "01987321987:3498234982374497::::2323"
+      
+      assert(EmojiParser.parseUnicode(input) == input)
+    }
   }
 }
