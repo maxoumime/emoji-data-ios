@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'emojidataios'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'The missing Emoji library for iOS ❤️  Based on emoji-data'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,10 @@ Parses your emojis from Unicode to aliases, and vice versa. Based on emoji-data
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'emojidataios/Classes/**/*'
+  
+  # s.resource_bundles = {
+  #  'emojidataios' => ['emojidataios/Assets/*', 'emojidataios/*.json']
+  # }
   
   s.resources = ['emojidataios/Assets/*', 'emojidataios/*.json']
 
