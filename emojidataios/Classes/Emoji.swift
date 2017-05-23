@@ -9,9 +9,13 @@
 import Foundation
 
 class Emoji {
+  var name: String = ""
   var shortName: String
   var unified: String
   var supportsSkinVariation: Bool = false
+  var category: EmojiCategory?
+  var isObsoleted: Bool = false
+  var sortOrder: Int = 0
   
   var emoji: String {
     return getEmojiFor(unified: self.unified)
@@ -22,9 +26,13 @@ class Emoji {
     self.unified = unified
   }
   
-  convenience init(shortName: String, unified: String, supportsSkinVariation: Bool) {
+  convenience init(name: String, shortName: String, unified: String, supportsSkinVariation: Bool, category: EmojiCategory?, isObsoleted: Bool, sortOrder: Int) {
     self.init(shortName: shortName, unified: unified)
     self.supportsSkinVariation = supportsSkinVariation
+    self.name = name
+    self.category = category
+    self.isObsoleted = isObsoleted
+    self.sortOrder = sortOrder
   }
 
   func getEmojiFor(unified: String) -> String {

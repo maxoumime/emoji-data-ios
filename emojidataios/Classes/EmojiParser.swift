@@ -90,7 +90,7 @@ open class EmojiParser {
     
     guard let emoji = emojiManager.shortNameForUnified[alias] else { return nil }
     
-    return emoji
+    return emoji.first
   }
   
   open static func parseUnicode(_ input: String) -> String {
@@ -234,5 +234,12 @@ open class EmojiParser {
     }
     
     return uniqueMatches.sorted(by: { $0.0.key.characters.count > $0.1.key.characters.count }) // Execute the longer first so emojis with skin variations are executed before the ones without
+  }
+  
+  open static func getEmojisForCategory(_ category: EmojiCategory) -> [String] {
+    let emojis = emojiManager.getEmojisForCategory(category) ?? []
+    
+    return emojis.map { $0.emoji }
+    
   }
 }
