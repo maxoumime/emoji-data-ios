@@ -10,8 +10,10 @@ import Foundation
 
 class EmojiManager {
   
+  var emojis: [Emoji] = []
   let emojiTreeRoot: Node = Node(byte: 0)
-  var shortNameForUnified: [String:Emoji] = [:]
+  var shortNameForUnified: [String:[Emoji]] = [:]
+  var emojisForCategory: [EmojiCategory:[Emoji]] = [:]
   
   init() {
 
@@ -26,6 +28,15 @@ class EmojiManager {
       if let jsonArray = try JSONSerialization.jsonObject(with: emojisListData!, options: .allowFragments) as? [[String: Any]] {
         
         jsonArray.forEach { (emoji: [String:Any]) in
+          
+          let name = emoji["name"] as? String
+          let isObsoleted = emoji["obsoleted_by"] != nil
+          let sortOrder: Int = emoji["sort_order"] as? Int ?? 0
+          
+          var category: EmojiCategory? = nil
+          if let categoryName = emoji["category"] as? String {
+            category = EmojiCategory(rawValue: categoryName.uppercased())
+          }
           
           var unifieds: [String] = []
           
@@ -46,24 +57,52 @@ class EmojiManager {
                 
                 let emojiHasSkinVariation = emoji.index(forKey: "skin_variations") != nil
                 
-                let emojiObject = Emoji(shortName: shortName, unified: unified, supportsSkinVariation: emojiHasSkinVariation)
+                let emojiObject = Emoji(name: name ?? "", shortName: shortName, unified: unified, supportsSkinVariation: emojiHasSkinVariation, category: category, isObsoleted: isObsoleted, sortOrder: sortOrder)
                 
-                addEmoji(emojiObject)
+                emojis.append(emojiObject)
               }
             }
           }
         }
       }
+      
+      var namesInsertedInCategories: Set<String> = []
+      emojis
+        .sorted { $0.isObsoleted && $1.isObsoleted }
+        .forEach { emoji in
+          
+          var emojiListFromDictionary = shortNameForUnified[emoji.shortName] ?? []
+          emojiListFromDictionary.append(emoji)
+//          emojiListFromDictionary.sort(by: { $1.unified.characters.count > $0.unified.characters.count })
+          
+          shortNameForUnified[emoji.shortName] = emojiListFromDictionary
+          getLeafForBytes(bytes: [UInt8](emoji.emoji.utf8), withCreation: true)?.emojis.append(emoji)
+          
+          if let category = emoji.category {
+            
+            if namesInsertedInCategories.contains(emoji.name) { return }
+            
+            var emojisInCategory = emojisForCategory[category] ?? []
+            emojisInCategory.append(emoji)
+            emojisInCategory.sort(by: { $0.sortOrder < $1.sortOrder })
+            
+            if !emoji.name.isEmpty {
+              namesInsertedInCategories.insert(emoji.name)
+            }
+            
+            emojisForCategory[category] = emojisInCategory
+          }
+          
+      }
+      
     }
     catch {
       print("Could not load emoji list")
     }
   }
   
-  func addEmoji(_ emoji: Emoji) {
-    shortNameForUnified[emoji.shortName] = emoji
-    getLeafForBytes(bytes: [UInt8](emoji.emoji.utf8), withCreation: true)?.emojis.append(emoji)
-    
+  func getEmojisForCategory(_ category: EmojiCategory) -> [Emoji]? {
+    return emojisForCategory[category]
   }
   
   func getLeafForBytes(bytes originalBytes: [UInt8], withCreation: Bool = false) -> Node? {
