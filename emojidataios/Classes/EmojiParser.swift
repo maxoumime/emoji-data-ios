@@ -120,7 +120,7 @@ open class EmojiParser {
     
     if skinVariationLocation.location + skinVariationLocation.length < input.length  {
       
-      let skinVariationExtracted = input.substring(with: match.rangeAt(2))
+      let skinVariationExtracted = input.substring(with: match.range(at: 2))
       
       if skinVariationExtracted.count > 0 {
         skinVariationString = skinVariationExtracted
@@ -219,7 +219,7 @@ open class EmojiParser {
     var uniqueMatches: [String:String?] = [:]
     
     matches.forEach {
-      let fullAlias = nsInput.substring(with: $0.rangeAt(0))
+      let fullAlias = nsInput.substring(with: $0.range(at: 0))
       
       if uniqueMatches.index(forKey: fullAlias) == nil {
         
@@ -228,7 +228,7 @@ open class EmojiParser {
       
     }
     
-    return uniqueMatches.sorted(by: { $0.0.key.count > $0.1.key.count }) // Execute the longer first so emojis with skin variations are executed before the ones without
+    return uniqueMatches.sorted(by: {
   }
   
   open static func getEmojisForCategory(_ category: EmojiCategory) -> [String] {

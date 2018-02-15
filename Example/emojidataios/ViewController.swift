@@ -38,7 +38,7 @@ class ViewController: UIViewController {
     aliasesTextView.layer.borderWidth = 1
   }
   
-  func keyboardWillShowForResizing(notification: Notification) {
+  @objc func keyboardWillShowForResizing(notification: Notification) {
     if let keyboardSize = (notification.userInfo?[UIKeyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue,
       let window = self.view.window?.frame {
       // We're not just minusing the kb height from the view height because
