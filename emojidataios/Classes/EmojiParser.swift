@@ -26,32 +26,65 @@ open class EmojiParser {
 
   fileprivate static var _aliasMatchingRegexOptionalColon: NSRegularExpression?
   fileprivate static var aliasMatchingRegexOptionalColon: NSRegularExpression {
-    if _aliasMatchingRegex == nil {
+    if _aliasMatchingRegexOptionalColon == nil {
       do {
-        _aliasMatchingRegex = try NSRegularExpression(pattern: ":?([\\w_+-]+)(?:(?:\\||::)((type_|skin-tone-)[\\w_]*))?:?", options: .caseInsensitive)
+        _aliasMatchingRegexOptionalColon = try NSRegularExpression(pattern: ":?([\\w_+-]+)(?:(?:\\||::)((type_|skin-tone-)[\\w_]*))?:?", options: .caseInsensitive)
       } catch {
         
       }
     }
-    return _aliasMatchingRegex!
+    return _aliasMatchingRegexOptionalColon!
   }
 
   
   open static func getAliasesFromUnicode(_ unicode: String) -> [String] {
     
-    guard let leaf = emojiManager.getLeafForBytes(bytes: [UInt8](unicode.utf8)) else { return [] }
+    let escapedUnicode = unicode.unicodeScalars.map { $0.escaped(asASCII: true) }
+      .map { (escaped: String) -> String? in
+      
+          if (!escaped.hasPrefix("\\u{")) {
+            return escaped.unicodeScalars.map { (unicode: Unicode.Scalar) -> String in
+              
+              var hexValue = String(unicode.value, radix: 16).uppercased()
+              
+              while(hexValue.count < 4) {
+                hexValue = "0" + hexValue
+              }
+              
+              return hexValue
+              }.reduce("", +)
+          }
+        
+          // Cleaning
+        
+          // format \u{XXXXX}
+          var cleaned = escaped.dropFirst(3).dropLast()
+          // removing unecessary 0s
+          while (cleaned.hasPrefix("0") && cleaned.count > 4) {
+            cleaned = cleaned.dropFirst()
+          }
+        
+          return String(cleaned)
+        
+      }
     
-    return leaf.emojis.map { $0.shortName }
+    if escapedUnicode.contains(where: { $0 == nil }) {
+      return []
+    }
+    
+    let unified = (escapedUnicode as! [String]).joined(separator: "-")
+    
+    return emojiManager.emojiForUnified[unified]?.map { $0.shortName } ?? []
   }
   
   open static func getUnicodeFromAlias(_ alias: String) -> String? {
     
     let input = alias as NSString
     
-    let matches = aliasMatchingRegexOptionalColon.matches(in: alias, options: .withoutAnchoringBounds, range: NSRange(location: 0, length: alias.characters.count))
+    let matches = aliasMatchingRegexOptionalColon.matches(in: alias, options: .withoutAnchoringBounds, range: NSRange(location: 0, length: alias.count))
     
     if(matches.count == 0) {
-      return input as String!
+      return nil
     }
     
     let match = matches[0]
@@ -65,7 +98,7 @@ open class EmojiParser {
       
       let skinVariationExtracted = input.substring(with: match.rangeAt(2))
       
-      if skinVariationExtracted.characters.count > 0 {
+      if skinVariationExtracted.count > 0 {
         skinVariationString = skinVariationExtracted
       }
     }

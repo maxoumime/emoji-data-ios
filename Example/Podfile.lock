@@ -1,0 +1,22 @@
+PODS:
+  - emojidataios (0.1.7)
+  - Nimble (7.0.3)
+  - Quick (1.2.0)
+
+DEPENDENCIES:
+  - emojidataios (from `../`)
+  - Nimble (~> 7.0.3)
+  - Quick (~> 1.2.0)
+
+EXTERNAL SOURCES:
+  emojidataios:
+    :path: ../
+
+SPEC CHECKSUMS:
+  emojidataios: 39271cb5799a12aecc58dc2ac926023ab3e53e27
+  Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+
+PODFILE CHECKSUM: 8043be9cf104f8ec084e2e5f9eddbb4ca00ce33a
+
+COCOAPODS: 1.4.0

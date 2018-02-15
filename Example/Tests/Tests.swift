@@ -15,20 +15,20 @@ class TableOfContentsSpec: QuickSpec {
     let frontEmojisContentData = FileManager.default.contents(atPath: frontEmojisFilePath)
     let frontEmojis = String(data: frontEmojisContentData!, encoding: .utf8)!
     
-    describe("Check a bunch of Emojis") {
+    it("Check a bunch of Emojis") {
       
 //      var dictionaryTotalTime = 0.0
 //      var treeTotalTime = 0.0
 //      var entries = 0.0
-      
+    
       frontEmojis
         .components(separatedBy: " ")
-        .filter { $0.characters.count > 2 && $0.characters.first == ":" && $0.characters.last == ":" }
+        .filter { $0.count > 2 && $0.first == ":" && $0.last == ":" }
         .forEach { alias in
           
 //          entries = entries + 1.0
 
-          let aliasDecomposition = alias.characters.split(separator: ":", omittingEmptySubsequences: true).map { String($0) }
+          let aliasDecomposition = alias.split(separator: ":", omittingEmptySubsequences: true).map { String($0) }
 
 //          let dictionaryStartTime = Date()
           let emoji = EmojiParser.getUnicodeFromAlias(aliasDecomposition[0])
@@ -51,51 +51,26 @@ class TableOfContentsSpec: QuickSpec {
 //      print("Tree matching speed for \(entries) items: \(treeTotalTime) sec.")
     }
     
-    describe("Parse all the aliases (with modifiers) -> unicode -> aliases -> unicode -> and compare 1st unicode <-> 2nd unicode") {
-      
-//      var startDate = Date()
-      
-      let parsedToUnicode = EmojiParser.parseAliases(frontEmojis)
-      
-//      print("Time to parse aliases to unicode : \(Date().timeIntervalSince1970 - startDate.timeIntervalSince1970) sec.")
-//      print(parsedToUnicode)
-//      startDate = Date()
-      
-      let parsedToAliases = EmojiParser.parseUnicode(parsedToUnicode)
-      
-//      print("Time to parse unicode to aliases : \(Date().timeIntervalSince1970 - startDate.timeIntervalSince1970) sec.")
-//      print(parsedToAliases)
-//      startDate = Date()
-      
-      let reparsedToUnicode = EmojiParser.parseAliases(parsedToAliases)
-      
-//      print("Time to parse to unicode again : \(Date().timeIntervalSince1970 - startDate.timeIntervalSince1970) sec.")
-//      print(reparsedToUnicode)
-      
-//      assert(reparsedToUnicode == parsedToUnicode)
-
-    }
-    
-    describe("Check the Cow emoji") {
+    it("Check the Cow emoji") {
       assert( EmojiParser.getUnicodeFromAlias("cow") == "🐮" )
       assert( EmojiParser.getAliasesFromUnicode("🐮").contains("cow") )
       
     }
     
-    describe("Check the Familly emoji") {
-      
-      assert( EmojiParser.getUnicodeFromAlias("family") == "👪" )
-      assert( EmojiParser.getUnicodeFromAlias("man-woman-boy") == "👪" )
-      
-      assert( EmojiParser.getAliasesFromUnicode("👪").contains("family") )
-     
-      let emoji = EmojiParser.getEmojiFromUnified("1F468-200D-1F469-200D-1F466")
-      assert( emoji == "👨‍👩‍👦" ) // Different kind of family emoji than above -> More bytes /!\
-      assert (EmojiParser.getAliasesFromUnicode(emoji).contains("family"))
-      
-    }
-    
-    describe("Unicode to aliases") {
+//    it("Check the Familly emoji") {
+//
+//      assert( EmojiParser.getUnicodeFromAlias("family") == "👪" )
+//      assert( EmojiParser.getUnicodeFromAlias("man-woman-boy") == "👪" )
+//
+//      assert( EmojiParser.getAliasesFromUnicode("👪").contains("family") )
+//
+//      let emoji = EmojiParser.getEmojiFromUnified("1F468-200D-1F469-200D-1F466")
+//      assert( emoji == "👨‍👩‍👦" ) // Different kind of family emoji than above -> More bytes /!\
+//      assert (EmojiParser.getAliasesFromUnicode(emoji).contains("family"))
+//
+//    }
+//
+    it("Unicode to aliases") {
     
       let family = "I love 🐮🐮🐮, they are like my 👪"
       
@@ -104,7 +79,7 @@ class TableOfContentsSpec: QuickSpec {
       assert(familyAliases == "I love :cow::cow::cow:, they are like my :family:")
     }
     
-    describe("Aliases to Unicode to Aliases to Unicode + Skin tones") {
+    it("Aliases to Unicode to Aliases to Unicode + Skin tones") {
       let thumbsAliasesPlusOneColonsSkinTone = ":+1::+1::skin-tone-2::+1::skin-tone-3::+1::skin-tone-4::+1::skin-tone-5::+1::skin-tone-6:"
       let thumbsAliasesMixed = ":thumbsup::thumbsup::type_1_2::thumbsup|type_3::thumbsup::type_4::thumbsup|type_5::thumbsup::type_6:"
       let thumbsUnicode = "👍👍🏻👍🏼👍🏽👍🏾👍🏿"
@@ -119,12 +94,12 @@ class TableOfContentsSpec: QuickSpec {
       assert(thubsAsUnicodeAgain == thumbsUnicode)
     }
     
-    // No unkown emojis atm
+    // No unknown emojis atm
 //    describe("Test an unknown emoji") {
 //        assert(EmojiParser.parseUnicode("🤩") == "")
 //    }
     
-    describe("Issue with matching leaf with no emojis") {
+    it("Issue with matching leaf with no emojis") {
       
       var input = "1:2"
       
@@ -139,20 +114,23 @@ class TableOfContentsSpec: QuickSpec {
       assert(EmojiParser.parseUnicode(input) == input)
     }
     
-    describe("Testing emoji v9") {
+    it("Testing emoji v9") {
       
       assert(EmojiParser.parseAliases(":man_dancing:") == "🕺")
       assert(EmojiParser.parseAliases(":man_dancing::skin-tone-2:") == "🕺🏻")
       assert(EmojiParser.parseAliases(":drooling_face:") == "🤤")
-      
+      assert(EmojiParser.parseAliases(":female-detective:") == "🕵️‍♀️")
+      assert(EmojiParser.parseAliases(":female-detective::skin-tone-6:") == "🕵🏿‍♀️")
       
       assert(EmojiParser.parseUnicode("🕺") == ":man_dancing:")
       assert(EmojiParser.parseUnicode( "🕺🏻") == ":man_dancing::skin-tone-2:")
       assert(EmojiParser.parseUnicode("🤤") == ":drooling_face:")
+      assert(EmojiParser.parseUnicode("🕵️‍♀️") == ":female-detective:")
+      assert(EmojiParser.parseUnicode("🕵🏿‍♀️") == ":female-detective::skin-tone-6:")
       
     }
     
-    describe("Testing categories") {
+    it("Testing categories") {
       
       let symbolsEmojis = EmojiParser.getEmojisForCategory(.SYMBOLS)
       let objectsEmojis = EmojiParser.getEmojisForCategory(.OBJECTS)
@@ -187,6 +165,12 @@ class TableOfContentsSpec: QuickSpec {
       assert(!flagsEmojis.isEmpty)
       assert(flagsEmojis.contains( EmojiParser.parseAliases(":flag-fr:") ))
       
+    }
+    
+    it("Testing regular sentences") {
+      assert("\"Hello" == EmojiParser.parseUnicode("\"Hello"))
+      assert("You owe me €5" == EmojiParser.parseUnicode("You owe me €5"))
+      assert("Lorem Ipsum" == EmojiParser.parseUnicode("Lorem Ipsum"))
     }
   }
 }
