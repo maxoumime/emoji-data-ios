@@ -10,12 +10,12 @@ import Foundation
 
 public enum EmojiCategory: String {
   
-  case SYMBOLS = "SYMBOLS"
-  case OBJECTS = "OBJECTS"
-  case NATURE = "NATURE"
-  case PEOPLE = "PEOPLE"
-  case FOODS = "FOODS"
-  case PLACES = "PLACES"
-  case ACTIVITY = "ACTIVITY"
-  case FLAGS = "FLAGS"
+  case SYMBOLS = "Symbols"
+  case OBJECTS = "Objects"
+  case NATURE = "Animals & Nature"
+  case PEOPLE = "Smileys & People"
+  case FOODS = "Food & Drink"
+  case PLACES = "Travel & Places"
+  case ACTIVITY = "Activities"
+  case FLAGS = "Flags"
 }

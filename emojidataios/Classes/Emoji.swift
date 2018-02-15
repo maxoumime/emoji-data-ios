@@ -12,7 +12,7 @@ class Emoji {
   var name: String = ""
   var shortName: String
   var unified: String
-  var supportsSkinVariation: Bool = false
+  var skinVariations: [SkinVariation] = []
   var category: EmojiCategory?
   var isObsoleted: Bool = false
   var sortOrder: Int = 0
@@ -26,9 +26,17 @@ class Emoji {
     self.unified = unified
   }
   
-  convenience init(name: String, shortName: String, unified: String, supportsSkinVariation: Bool, category: EmojiCategory?, isObsoleted: Bool, sortOrder: Int) {
+  convenience init(
+    name: String,
+    shortName: String,
+    unified: String,
+    skinVariations: [SkinVariation],
+    category: EmojiCategory?,
+    isObsoleted: Bool,
+    sortOrder: Int
+    ) {
     self.init(shortName: shortName, unified: unified)
-    self.supportsSkinVariation = supportsSkinVariation
+    self.skinVariations = skinVariations
     self.name = name
     self.category = category
     self.isObsoleted = isObsoleted
@@ -47,12 +55,36 @@ class Emoji {
   }
   
   func getEmojiWithSkinVariation(_ skinVariation: SkinVariations) -> String {
+
+//    guard supportsSkinVariation else { return emoji }
+
+    guard let skinVariation = skinVariations.first(where: { $0.skinVariation == skinVariation }) else { return emoji }
     
-    guard supportsSkinVariation else { return emoji }
-    
-    let unifiedVariation = "\(unified)-\(skinVariation.getUnifiedValue())"
-    
+    let unifiedVariation = skinVariation.unified
+
     return getEmojiFor(unified: unifiedVariation)
+  }
+  
+  func clone() -> Emoji {
+    return Emoji(
+      name: self.name,
+      shortName: self.shortName,
+      unified: self.unified,
+      skinVariations: self.skinVariations,
+      category: self.category,
+      isObsoleted: self.isObsoleted,
+      sortOrder: self.sortOrder
+    )
+  }
+}
+
+class SkinVariation {
+  var unified: String
+  var skinVariation: SkinVariations
+  
+  init(unified: String, skinVariation: SkinVariations) {
+    self.unified = unified
+    self.skinVariation = skinVariation
   }
 }
 

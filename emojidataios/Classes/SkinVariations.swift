@@ -33,4 +33,27 @@ enum SkinVariations: String {
       return "1F3FF"
     }
   }
+  
+  func getAliasValue() -> String {
+    
+    switch self {
+    case .TYPE_1_2:
+      return "skin-tone-2"
+    case .TYPE_3:
+      return "skin-tone-3"
+    case .TYPE_4:
+      return "skin-tone-4"
+    case .TYPE_5:
+      return "skin-tone-5"
+    case .TYPE_6:
+      return "skin-tone-6"
+    }
+  }
+  
+  static func getFromUnified(_ unified: String) -> SkinVariations? {
+    return self.values.first(where: { $0.getUnifiedValue() == unified })
+  }
+  static func getFromAlias(_ unified: String) -> SkinVariations? {
+    return self.values.first(where: { $0.getAliasValue() == unified.lowercased() })
+  }
 }

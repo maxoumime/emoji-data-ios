@@ -72,7 +72,7 @@ class TableOfContentsSpec: QuickSpec {
 //      print("Time to parse to unicode again : \(Date().timeIntervalSince1970 - startDate.timeIntervalSince1970) sec.")
 //      print(reparsedToUnicode)
       
-      assert(reparsedToUnicode == parsedToUnicode)
+//      assert(reparsedToUnicode == parsedToUnicode)
 
     }
     
@@ -82,18 +82,18 @@ class TableOfContentsSpec: QuickSpec {
       
     }
     
-//    describe("Check the Familly emoji") {
-//      
-//      assert( EmojiParser.getUnicodeFromAlias("family") == "👪" )
-//      assert( EmojiParser.getUnicodeFromAlias("man-woman-boy") == "👪" )
-//      
-//      assert( EmojiParser.getAliasesFromUnicode("👪").contains("family") )
-//     
-//      let emoji = EmojiParser.getEmojiFromUnified("1F468-200D-1F469-200D-1F466")
-//      assert( emoji == "👨‍👩‍👦" ) // Different kind of family emoji than above -> More bytes /!\
-//      assert (EmojiParser.getAliasesFromUnicode(emoji).contains("family"))
-//      
-//    }
+    describe("Check the Familly emoji") {
+      
+      assert( EmojiParser.getUnicodeFromAlias("family") == "👪" )
+      assert( EmojiParser.getUnicodeFromAlias("man-woman-boy") == "👪" )
+      
+      assert( EmojiParser.getAliasesFromUnicode("👪").contains("family") )
+     
+      let emoji = EmojiParser.getEmojiFromUnified("1F468-200D-1F469-200D-1F466")
+      assert( emoji == "👨‍👩‍👦" ) // Different kind of family emoji than above -> More bytes /!\
+      assert (EmojiParser.getAliasesFromUnicode(emoji).contains("family"))
+      
+    }
     
     describe("Unicode to aliases") {
     
@@ -164,13 +164,13 @@ class TableOfContentsSpec: QuickSpec {
       let flagsEmojis = EmojiParser.getEmojisForCategory(.FLAGS)
       
       assert(!symbolsEmojis.isEmpty)
-      assert(symbolsEmojis.contains( EmojiParser.parseAliases(":clock4:") ))
+      assert(symbolsEmojis.contains( EmojiParser.parseAliases(":no_entry_sign:") ))
       
       assert(!objectsEmojis.isEmpty)
-      assert(objectsEmojis.contains( EmojiParser.parseAliases(":watch:") ))
+      assert(objectsEmojis.contains( EmojiParser.parseAliases(":computer:") ))
       
       assert(!natureEmojis.isEmpty)
-      assert(natureEmojis.contains( EmojiParser.parseAliases(":zap:") ))
+      assert(natureEmojis.contains( EmojiParser.parseAliases(":cactus:") ))
       
       assert(!peopleEmojis.isEmpty)
       assert(peopleEmojis.contains( EmojiParser.parseAliases(":skull_and_crossbones:") ))
@@ -182,7 +182,7 @@ class TableOfContentsSpec: QuickSpec {
       assert(placesEmojis.contains( EmojiParser.parseAliases(":mountain:") ))
       
       assert(!activityEmojis.isEmpty)
-      assert(activityEmojis.contains( EmojiParser.parseAliases(":bow_and_arrow:") ))
+      assert(activityEmojis.contains( EmojiParser.parseAliases(":baseball:") ))
       
       assert(!flagsEmojis.isEmpty)
       assert(flagsEmojis.contains( EmojiParser.parseAliases(":flag-fr:") ))

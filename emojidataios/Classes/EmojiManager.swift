@@ -14,7 +14,8 @@ class EmojiManager {
   let emojiTreeRoot: Node = Node(byte: 0)
   var shortNameForUnified: [String:[Emoji]] = [:]
   var emojisForCategory: [EmojiCategory:[Emoji]] = [:]
-  
+  var emojiForUnified: [String:[Emoji]] = [:]
+
   init() {
 
     guard let emojisListFilePath = Bundle(for: EmojiManager.self).path(forResource: "emojilist", ofType: "json") else {
@@ -25,6 +26,7 @@ class EmojiManager {
     let emojisListData = FileManager.default.contents(atPath: emojisListFilePath)
     
     do {
+      
       if let jsonArray = try JSONSerialization.jsonObject(with: emojisListData!, options: .allowFragments) as? [[String: Any]] {
         
         jsonArray.forEach { (emoji: [String:Any]) in
@@ -35,7 +37,7 @@ class EmojiManager {
           
           var category: EmojiCategory? = nil
           if let categoryName = emoji["category"] as? String {
-            category = EmojiCategory(rawValue: categoryName.uppercased())
+            category = EmojiCategory(rawValue: categoryName)
           }
           
           var unifieds: [String] = []
@@ -55,9 +57,33 @@ class EmojiManager {
             if let shortNames = emoji["short_names"] as? [String] {
               shortNames.forEach { shortName in
                 
-                let emojiHasSkinVariation = emoji.index(forKey: "skin_variations") != nil
+                let emojiSkinVariations = emoji["skin_variations"] as? [[String]]
                 
-                let emojiObject = Emoji(name: name ?? "", shortName: shortName, unified: unified, supportsSkinVariation: emojiHasSkinVariation, category: category, isObsoleted: isObsoleted, sortOrder: sortOrder)
+                var skinVariations: [SkinVariation]
+                
+                if let emojiSkinVariations = emojiSkinVariations {
+                  
+                  skinVariations = emojiSkinVariations.map {
+                    let skinVariation = SkinVariations.getFromUnified($0[0])
+                    return SkinVariation(unified: $0[1], skinVariation: skinVariation!)
+                  }
+                  
+                } else {
+                  skinVariations = []
+                }
+                
+                let supportsSkinVariation = emoji.index(forKey: "supports_skin_variation") != nil
+                
+                let emojiObject = Emoji(
+                  name: name ?? "",
+                  shortName: shortName,
+                  unified: unified,
+//                  supportsSkinVariation: supportsSkinVariation,
+                  skinVariations: skinVariations,
+                  category: category,
+                  isObsoleted: isObsoleted,
+                  sortOrder: sortOrder
+                )
                 
                 emojis.append(emojiObject)
               }
@@ -76,6 +102,22 @@ class EmojiManager {
 //          emojiListFromDictionary.sort(by: { $1.unified.characters.count > $0.unified.characters.count })
           
           shortNameForUnified[emoji.shortName] = emojiListFromDictionary
+          
+          
+          var emojisForUnified  = emojiForUnified[emoji.unified] ?? []
+          emojisForUnified.append(emoji)
+          emojiForUnified[emoji.unified] = emojisForUnified
+          
+          emoji.skinVariations.forEach { variation in
+            var emojisVariationForUnified  = emojiForUnified[variation.unified] ?? []
+            
+            let emojiVariation = emoji.clone()
+            emojiVariation.shortName = emoji.shortName + "::" + variation.skinVariation.getAliasValue()
+            
+            emojisVariationForUnified.append(emojiVariation)
+            emojiForUnified[variation.unified] = emojisVariationForUnified
+          }
+          
           getLeafForBytes(bytes: [UInt8](emoji.emoji.utf8), withCreation: true)?.emojis.append(emoji)
           
           if let category = emoji.category {
@@ -97,7 +139,7 @@ class EmojiManager {
       
     }
     catch {
-      print("Could not load emoji list")
+      print("Could not load emoji list \(error)")
     }
   }
   
