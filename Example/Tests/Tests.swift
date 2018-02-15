@@ -72,11 +72,11 @@ class TableOfContentsSpec: QuickSpec {
 //
     it("Unicode to aliases") {
     
-      let family = "I love 🐮🐮🐮, they are like my 👪"
+      let family = "I love 🐮🐮🐮 and 🐺🐺🐺"
       
       let familyAliases = EmojiParser.parseUnicode(family)
       
-      assert(familyAliases == "I love :cow::cow::cow:, they are like my :family:")
+      assert(familyAliases == "I love :cow::cow::cow: and :wolf::wolf::wolf:")
     }
     
     it("Aliases to Unicode to Aliases to Unicode + Skin tones") {

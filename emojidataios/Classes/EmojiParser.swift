@@ -10,7 +10,14 @@ import Foundation
 
 open class EmojiParser {
   
-  fileprivate static let emojiManager = EmojiManager()
+  fileprivate static var loading = false
+  fileprivate static var _emojiManager: EmojiManager?
+  fileprivate static var emojiManager: EmojiManager {
+    get {
+      if _emojiManager == nil { _emojiManager = EmojiManager() }
+      return _emojiManager!
+    }
+  }
   
   fileprivate static var _aliasMatchingRegex: NSRegularExpression?
   fileprivate static var aliasMatchingRegex: NSRegularExpression {
@@ -36,6 +43,23 @@ open class EmojiParser {
     return _aliasMatchingRegexOptionalColon!
   }
 
+  open static func prepare() {
+
+    if loading || _emojiManager != nil { return }
+    
+    loading = true
+    
+    DispatchQueue.global(qos: .background).async {
+      let emojiManager = EmojiManager()
+      
+      DispatchQueue.main.async {
+        loading = false
+        if self._emojiManager == nil {
+          self._emojiManager = emojiManager
+        }
+      }
+    }
+  }
   
   open static func getAliasesFromUnicode(_ unicode: String) -> [String] {
     
@@ -208,6 +232,7 @@ open class EmojiParser {
   }
   
   open static func getEmojisForCategory(_ category: EmojiCategory) -> [String] {
+    
     let emojis = emojiManager.getEmojisForCategory(category) ?? []
     
     return emojis.map { $0.emoji }

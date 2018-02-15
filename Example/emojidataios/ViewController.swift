@@ -17,6 +17,8 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
+    EmojiParser.prepare()
+    
     NotificationCenter.default.addObserver(self,
                                            selector: #selector(self.keyboardWillShowForResizing),
                                            name: Notification.Name.UIKeyboardWillShow,
@@ -26,7 +28,6 @@ class ViewController: UIViewController {
     
     emojisTextView.delegate = self
     aliasesTextView.delegate = self
-    
     
     textViewDidChange(emojisTextView)
     

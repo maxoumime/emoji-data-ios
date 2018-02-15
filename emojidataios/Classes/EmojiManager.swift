@@ -11,7 +11,6 @@ import Foundation
 class EmojiManager {
   
   var emojis: [Emoji] = []
-  let emojiTreeRoot: Node = Node(byte: 0)
   var shortNameForUnified: [String:[Emoji]] = [:]
   var emojisForCategory: [EmojiCategory:[Emoji]] = [:]
   var emojiForUnified: [String:[Emoji]] = [:]
@@ -72,13 +71,10 @@ class EmojiManager {
                   skinVariations = []
                 }
                 
-                let supportsSkinVariation = emoji.index(forKey: "supports_skin_variation") != nil
-                
                 let emojiObject = Emoji(
                   name: name ?? "",
                   shortName: shortName,
                   unified: unified,
-//                  supportsSkinVariation: supportsSkinVariation,
                   skinVariations: skinVariations,
                   category: category,
                   isObsoleted: isObsoleted,
@@ -99,8 +95,6 @@ class EmojiManager {
           
           var emojiListFromDictionary = shortNameForUnified[emoji.shortName] ?? []
           emojiListFromDictionary.append(emoji)
-//          emojiListFromDictionary.sort(by: { $1.unified.characters.count > $0.unified.characters.count })
-          
           shortNameForUnified[emoji.shortName] = emojiListFromDictionary
           
           
@@ -117,8 +111,6 @@ class EmojiManager {
             emojisVariationForUnified.append(emojiVariation)
             emojiForUnified[variation.unified] = emojisVariationForUnified
           }
-          
-          getLeafForBytes(bytes: [UInt8](emoji.emoji.utf8), withCreation: true)?.emojis.append(emoji)
           
           if let category = emoji.category {
             
@@ -146,33 +138,4 @@ class EmojiManager {
   func getEmojisForCategory(_ category: EmojiCategory) -> [Emoji]? {
     return emojisForCategory[category]
   }
-  
-  func getLeafForBytes(bytes originalBytes: [UInt8], withCreation: Bool = false) -> Node? {
-    return EmojiManager.getLeafForBytes(root: emojiTreeRoot, bytes: originalBytes, withCreation: withCreation)
-  }
-  
-  static func getLeafForBytes(root: Node, bytes originalBytes: [UInt8], withCreation: Bool = false) -> Node? {
-    
-    var bytes = originalBytes
-    
-    var node: Node
-    let byte = bytes.removeFirst()
-    
-    let matchingChildren = root.children.filter { $0.byte == byte }
-    
-    if matchingChildren.count == 0 {
-      
-      guard withCreation else { return nil }
-
-      node = Node(byte: byte)
-      node.parent = root
-      root.children.append(node)
-
-    } else {
-      node = matchingChildren[0]
-    }
-    
-    return bytes.isEmpty ? node : getLeafForBytes(root: node, bytes: bytes, withCreation: withCreation)
-  }
-  
 }
