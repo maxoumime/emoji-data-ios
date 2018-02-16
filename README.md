@@ -27,6 +27,8 @@ You can also get Emojis depending on their Category
 
 ### EmojiParser
 
+Since it takes some time to load the Emoji list, you might want to consider calling `EmojiParser.prepare()` when starting the app. It will load the Emoji list in a background thread, so it is ready when you need it.
+
 #### Categories
 
 There is 8 different categories, their are available through a enum named `EmojiCategory`
