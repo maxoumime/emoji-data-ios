@@ -101,28 +101,18 @@ Here is a table of the available emojis and their aliases.
 
 | Emoji | Aliases | Emoji | Aliases |
 | :---: | ------- | :---: | ------- |
-| 👍 | +1 | 👍🏻 | +1::skin-tone-2 |
-| 👍🏼 | +1::skin-tone-3 | 👍🏽 | +1::skin-tone-4 |
-| 👍🏾 | +1::skin-tone-5 | 👍🏿 | +1::skin-tone-6 |
-| 👎 | -1 | 👎🏻 | -1::skin-tone-2 |
-| 👎🏼 | -1::skin-tone-3 | 👎🏽 | -1::skin-tone-4 |
-| 👎🏾 | -1::skin-tone-5 | 👎🏿 | -1::skin-tone-6 |
+| 👍 👍🏻 👍🏼 👍🏽 👍🏾 👍🏿 | +1 | 👎 👎🏻 👎🏼 👎🏽 👎🏾 👎🏿 | -1 |
 | 💯 | 100 | 🔢 | 1234 |
 | 🎱 | 8ball | 🅰️ | a |
 | 🆎 | ab | 🔤 | abc |
 | 🔡 | abcd | 🉑 | accept |
-| 🎟️ | admission_tickets | 🧑 | adult |
-| 🧑🏻 | adult::skin-tone-2 | 🧑🏼 | adult::skin-tone-3 |
-| 🧑🏽 | adult::skin-tone-4 | 🧑🏾 | adult::skin-tone-5 |
-| 🧑🏿 | adult::skin-tone-6 | 🚡 | aerial_tramway |
-| ✈️ | airplane | 🛬 | airplane_arriving |
-| 🛫 | airplane_departure | ⏰ | alarm_clock |
-| ⚗️ | alembic | 👽 | alien |
-| 🚑 | ambulance | 🏺 | amphora |
-| ⚓ | anchor | 👼 | angel |
-| 👼🏻 | angel::skin-tone-2 | 👼🏼 | angel::skin-tone-3 |
-| 👼🏽 | angel::skin-tone-4 | 👼🏾 | angel::skin-tone-5 |
-| 👼🏿 | angel::skin-tone-6 | 💢 | anger |
+| 🎟️ | admission_tickets | 🧑 🧑🏻 🧑🏼 🧑🏽 🧑🏾 🧑🏿 | adult |
+| 🚡 | aerial_tramway | ✈️ | airplane |
+| 🛬 | airplane_arriving | 🛫 | airplane_departure |
+| ⏰ | alarm_clock | ⚗️ | alembic |
+| 👽 | alien | 🚑 | ambulance |
+| 🏺 | amphora | ⚓ | anchor |
+| 👼 👼🏻 👼🏼 👼🏽 👼🏾 👼🏿 | angel | 💢 | anger |
 | 😠 | angry | 😧 | anguished |
 | 🐜 | ant | 🍎 | apple |
 | ♒ | aquarius | ♈ | aries |
@@ -140,35 +130,25 @@ Here is a table of the available emojis and their aliases.
 | 😲 | astonished | 👟 | athletic_shoe |
 | 🏧 | atm | ⚛️ | atom_symbol |
 | 🥑 | avocado | 🅱️ | b |
-| 👶 | baby | 👶🏻 | baby::skin-tone-2 |
-| 👶🏼 | baby::skin-tone-3 | 👶🏽 | baby::skin-tone-4 |
-| 👶🏾 | baby::skin-tone-5 | 👶🏿 | baby::skin-tone-6 |
-| 🍼 | baby_bottle | 🐤 | baby_chick |
-| 🚼 | baby_symbol | 🔙 | back |
-| 🥓 | bacon | 🏸 | badminton_racquet_and_shuttlecock |
-| 🛄 | baggage_claim | 🥖 | baguette_bread |
-| 🎈 | balloon | 🗳️ | ballot_box_with_ballot |
-| ☑️ | ballot_box_with_check | 🎍 | bamboo |
-| 🍌 | banana | ‼️ | bangbang |
-| 🏦 | bank | 📊 | bar_chart |
-| 💈 | barber | 🌥️ | barely_sunny |
-| ⚾ | baseball | 🏀 | basketball |
-| 🦇 | bat | 🛀 | bath |
-| 🛀🏻 | bath::skin-tone-2 | 🛀🏼 | bath::skin-tone-3 |
-| 🛀🏽 | bath::skin-tone-4 | 🛀🏾 | bath::skin-tone-5 |
-| 🛀🏿 | bath::skin-tone-6 | 🛁 | bathtub |
+| 👶 👶🏻 👶🏼 👶🏽 👶🏾 👶🏿 | baby | 🍼 | baby_bottle |
+| 🐤 | baby_chick | 🚼 | baby_symbol |
+| 🔙 | back | 🥓 | bacon |
+| 🏸 | badminton_racquet_and_shuttlecock | 🛄 | baggage_claim |
+| 🥖 | baguette_bread | 🎈 | balloon |
+| 🗳️ | ballot_box_with_ballot | ☑️ | ballot_box_with_check |
+| 🎍 | bamboo | 🍌 | banana |
+| ‼️ | bangbang | 🏦 | bank |
+| 📊 | bar_chart | 💈 | barber |
+| 🌥️ | barely_sunny | ⚾ | baseball |
+| 🏀 | basketball | 🦇 | bat |
+| 🛀 🛀🏻 🛀🏼 🛀🏽 🛀🏾 🛀🏿 | bath | 🛁 | bathtub |
 | 🔋 | battery | 🏖️ | beach_with_umbrella |
-| 🐻 | bear | 🧔 | bearded_person |
-| 🧔🏻 | bearded_person::skin-tone-2 | 🧔🏼 | bearded_person::skin-tone-3 |
-| 🧔🏽 | bearded_person::skin-tone-4 | 🧔🏾 | bearded_person::skin-tone-5 |
-| 🧔🏿 | bearded_person::skin-tone-6 | 🛏️ | bed |
-| 🐝 | bee | 🍺 | beer |
-| 🍻 | beers | 🐞 | beetle |
-| 🔰 | beginner | 🔔 | bell |
-| 🛎️ | bellhop_bell | 🍱 | bento |
-| 🚴 | bicyclist | 🚴🏻 | bicyclist::skin-tone-2 |
-| 🚴🏼 | bicyclist::skin-tone-3 | 🚴🏽 | bicyclist::skin-tone-4 |
-| 🚴🏾 | bicyclist::skin-tone-5 | 🚴🏿 | bicyclist::skin-tone-6 |
+| 🐻 | bear | 🧔 🧔🏻 🧔🏼 🧔🏽 🧔🏾 🧔🏿 | bearded_person |
+| 🛏️ | bed | 🐝 | bee |
+| 🍺 | beer | 🍻 | beers |
+| 🐞 | beetle | 🔰 | beginner |
+| 🔔 | bell | 🛎️ | bellhop_bell |
+| 🍱 | bento | 🚴 🚴🏻 🚴🏼 🚴🏽 🚴🏾 🚴🏿 | bicyclist |
 | 🚲 | bike | 👙 | bikini |
 | 🧢 | billed_cap | ☣️ | biohazard_sign |
 | 🐦 | bird | 🎂 | birthday |
@@ -179,12 +159,7 @@ Here is a table of the available emojis and their aliases.
 | ✒️ | black_nib | ⏭️ | black_right_pointing_double_triangle_with_vertical_bar |
 | ⏯️ | black_right_pointing_triangle_with_double_vertical_bar | ▪️ | black_small_square |
 | 🔲 | black_square_button | ⏹️ | black_square_for_stop |
-| 👱‍♂️ | blond-haired-man | 👱🏻‍♂️ | blond-haired-man::skin-tone-2 |
-| 👱🏼‍♂️ | blond-haired-man::skin-tone-3 | 👱🏽‍♂️ | blond-haired-man::skin-tone-4 |
-| 👱🏾‍♂️ | blond-haired-man::skin-tone-5 | 👱🏿‍♂️ | blond-haired-man::skin-tone-6 |
-| 👱‍♀️ | blond-haired-woman | 👱🏻‍♀️ | blond-haired-woman::skin-tone-2 |
-| 👱🏼‍♀️ | blond-haired-woman::skin-tone-3 | 👱🏽‍♀️ | blond-haired-woman::skin-tone-4 |
-| 👱🏾‍♀️ | blond-haired-woman::skin-tone-5 | 👱🏿‍♀️ | blond-haired-woman::skin-tone-6 |
+| 👱‍♂️ 👱🏻‍♂️ 👱🏼‍♂️ 👱🏽‍♂️ 👱🏾‍♂️ 👱🏿‍♂️ | blond-haired-man | 👱‍♀️ 👱🏻‍♀️ 👱🏼‍♀️ 👱🏽‍♀️ 👱🏾‍♀️ 👱🏿‍♀️ | blond-haired-woman |
 | 🌼 | blossom | 🐡 | blowfish |
 | 📘 | blue_book | 🚙 | blue_car |
 | 💙 | blue_heart | 😊 | blush |
@@ -193,21 +168,11 @@ Here is a table of the available emojis and their aliases.
 | 🔖 | bookmark | 📑 | bookmark_tabs |
 | 📚 | books | 💥 | boom |
 | 👢 | boot | 💐 | bouquet |
-| 🙇 | bow | 🙇🏻 | bow::skin-tone-2 |
-| 🙇🏼 | bow::skin-tone-3 | 🙇🏽 | bow::skin-tone-4 |
-| 🙇🏾 | bow::skin-tone-5 | 🙇🏿 | bow::skin-tone-6 |
-| 🏹 | bow_and_arrow | 🥣 | bowl_with_spoon |
-| 🎳 | bowling | 🥊 | boxing_glove |
-| 👦 | boy | 👦🏻 | boy::skin-tone-2 |
-| 👦🏼 | boy::skin-tone-3 | 👦🏽 | boy::skin-tone-4 |
-| 👦🏾 | boy::skin-tone-5 | 👦🏿 | boy::skin-tone-6 |
+| 🙇 🙇🏻 🙇🏼 🙇🏽 🙇🏾 🙇🏿 | bow | 🏹 | bow_and_arrow |
+| 🥣 | bowl_with_spoon | 🎳 | bowling |
+| 🥊 | boxing_glove | 👦 👦🏻 👦🏼 👦🏽 👦🏾 👦🏿 | boy |
 | 🧠 | brain | 🍞 | bread |
-| 🤱 | breast-feeding | 🤱🏻 | breast-feeding::skin-tone-2 |
-| 🤱🏼 | breast-feeding::skin-tone-3 | 🤱🏽 | breast-feeding::skin-tone-4 |
-| 🤱🏾 | breast-feeding::skin-tone-5 | 🤱🏿 | breast-feeding::skin-tone-6 |
-| 👰 | bride_with_veil | 👰🏻 | bride_with_veil::skin-tone-2 |
-| 👰🏼 | bride_with_veil::skin-tone-3 | 👰🏽 | bride_with_veil::skin-tone-4 |
-| 👰🏾 | bride_with_veil::skin-tone-5 | 👰🏿 | bride_with_veil::skin-tone-6 |
+| 🤱 🤱🏻 🤱🏼 🤱🏽 🤱🏾 🤱🏿 | breast-feeding | 👰 👰🏻 👰🏼 👰🏽 👰🏾 👰🏿 | bride_with_veil |
 | 🌉 | bridge_at_night | 💼 | briefcase |
 | 🥦 | broccoli | 💔 | broken_heart |
 | 🐛 | bug | 🏗️ | building_construction |
@@ -217,81 +182,66 @@ Here is a table of the available emojis and their aliases.
 | 👤 | bust_in_silhouette | 👥 | busts_in_silhouette |
 | 🦋 | butterfly | 🌵 | cactus |
 | 🍰 | cake | 📆 | calendar |
-| 🤙 | call_me_hand | 🤙🏻 | call_me_hand::skin-tone-2 |
-| 🤙🏼 | call_me_hand::skin-tone-3 | 🤙🏽 | call_me_hand::skin-tone-4 |
-| 🤙🏾 | call_me_hand::skin-tone-5 | 🤙🏿 | call_me_hand::skin-tone-6 |
-| 📲 | calling | 🐫 | camel |
-| 📷 | camera | 📸 | camera_with_flash |
-| 🏕️ | camping | ♋ | cancer |
-| 🕯️ | candle | 🍬 | candy |
-| 🥫 | canned_food | 🛶 | canoe |
-| 🔠 | capital_abcd | ♑ | capricorn |
-| 🚗 | car | 🗃️ | card_file_box |
-| 📇 | card_index | 🗂️ | card_index_dividers |
-| 🎠 | carousel_horse | 🥕 | carrot |
-| 🐱 | cat | 🐈 | cat2 |
-| 💿 | cd | ⛓️ | chains |
-| 🍾 | champagne | 💹 | chart |
-| 📉 | chart_with_downwards_trend | 📈 | chart_with_upwards_trend |
-| 🏁 | checkered_flag | 🧀 | cheese_wedge |
-| 🍒 | cherries | 🌸 | cherry_blossom |
-| 🌰 | chestnut | 🐔 | chicken |
-| 🧒 | child | 🧒🏻 | child::skin-tone-2 |
-| 🧒🏼 | child::skin-tone-3 | 🧒🏽 | child::skin-tone-4 |
-| 🧒🏾 | child::skin-tone-5 | 🧒🏿 | child::skin-tone-6 |
+| 🤙 🤙🏻 🤙🏼 🤙🏽 🤙🏾 🤙🏿 | call_me_hand | 📲 | calling |
+| 🐫 | camel | 📷 | camera |
+| 📸 | camera_with_flash | 🏕️ | camping |
+| ♋ | cancer | 🕯️ | candle |
+| 🍬 | candy | 🥫 | canned_food |
+| 🛶 | canoe | 🔠 | capital_abcd |
+| ♑ | capricorn | 🚗 | car |
+| 🗃️ | card_file_box | 📇 | card_index |
+| 🗂️ | card_index_dividers | 🎠 | carousel_horse |
+| 🥕 | carrot | 🐱 | cat |
+| 🐈 | cat2 | 💿 | cd |
+| ⛓️ | chains | 🍾 | champagne |
+| 💹 | chart | 📉 | chart_with_downwards_trend |
+| 📈 | chart_with_upwards_trend | 🏁 | checkered_flag |
+| 🧀 | cheese_wedge | 🍒 | cherries |
+| 🌸 | cherry_blossom | 🌰 | chestnut |
+| 🐔 | chicken | 🧒 🧒🏻 🧒🏼 🧒🏽 🧒🏾 🧒🏿 | child |
 | 🚸 | children_crossing | 🐿️ | chipmunk |
 | 🍫 | chocolate_bar | 🥢 | chopsticks |
 | 🎄 | christmas_tree | ⛪ | church |
 | 🎦 | cinema | 🎪 | circus_tent |
 | 🌇 | city_sunrise | 🌆 | city_sunset |
 | 🏙️ | cityscape | 🆑 | cl |
-| 👏 | clap | 👏🏻 | clap::skin-tone-2 |
-| 👏🏼 | clap::skin-tone-3 | 👏🏽 | clap::skin-tone-4 |
-| 👏🏾 | clap::skin-tone-5 | 👏🏿 | clap::skin-tone-6 |
-| 🎬 | clapper | 🏛️ | classical_building |
-| 🥂 | clinking_glasses | 📋 | clipboard |
-| 🕐 | clock1 | 🕙 | clock10 |
-| 🕥 | clock1030 | 🕚 | clock11 |
-| 🕦 | clock1130 | 🕛 | clock12 |
-| 🕧 | clock1230 | 🕜 | clock130 |
-| 🕑 | clock2 | 🕝 | clock230 |
-| 🕒 | clock3 | 🕞 | clock330 |
-| 🕓 | clock4 | 🕟 | clock430 |
-| 🕔 | clock5 | 🕠 | clock530 |
-| 🕕 | clock6 | 🕡 | clock630 |
-| 🕖 | clock7 | 🕢 | clock730 |
-| 🕗 | clock8 | 🕣 | clock830 |
-| 🕘 | clock9 | 🕤 | clock930 |
-| 📕 | closed_book | 🔐 | closed_lock_with_key |
-| 🌂 | closed_umbrella | ☁️ | cloud |
-| 🤡 | clown_face | ♣️ | clubs |
-| 🇨🇳 | cn | 🧥 | coat |
-| 🍸 | cocktail | 🥥 | coconut |
-| ☕ | coffee | ⚰️ | coffin |
-| 😰 | cold_sweat | 💥 | collision |
-| ☄️ | comet | 🗜️ | compression |
-| 💻 | computer | 🎊 | confetti_ball |
-| 😖 | confounded | 😕 | confused |
-| ㊗️ | congratulations | 🚧 | construction |
-| 👷 | construction_worker | 👷🏻 | construction_worker::skin-tone-2 |
-| 👷🏼 | construction_worker::skin-tone-3 | 👷🏽 | construction_worker::skin-tone-4 |
-| 👷🏾 | construction_worker::skin-tone-5 | 👷🏿 | construction_worker::skin-tone-6 |
+| 👏 👏🏻 👏🏼 👏🏽 👏🏾 👏🏿 | clap | 🎬 | clapper |
+| 🏛️ | classical_building | 🥂 | clinking_glasses |
+| 📋 | clipboard | 🕐 | clock1 |
+| 🕙 | clock10 | 🕥 | clock1030 |
+| 🕚 | clock11 | 🕦 | clock1130 |
+| 🕛 | clock12 | 🕧 | clock1230 |
+| 🕜 | clock130 | 🕑 | clock2 |
+| 🕝 | clock230 | 🕒 | clock3 |
+| 🕞 | clock330 | 🕓 | clock4 |
+| 🕟 | clock430 | 🕔 | clock5 |
+| 🕠 | clock530 | 🕕 | clock6 |
+| 🕡 | clock630 | 🕖 | clock7 |
+| 🕢 | clock730 | 🕗 | clock8 |
+| 🕣 | clock830 | 🕘 | clock9 |
+| 🕤 | clock930 | 📕 | closed_book |
+| 🔐 | closed_lock_with_key | 🌂 | closed_umbrella |
+| ☁️ | cloud | 🤡 | clown_face |
+| ♣️ | clubs | 🇨🇳 | cn |
+| 🧥 | coat | 🍸 | cocktail |
+| 🥥 | coconut | ☕ | coffee |
+| ⚰️ | coffin | 😰 | cold_sweat |
+| 💥 | collision | ☄️ | comet |
+| 🗜️ | compression | 💻 | computer |
+| 🎊 | confetti_ball | 😖 | confounded |
+| 😕 | confused | ㊗️ | congratulations |
+| 🚧 | construction | 👷 👷🏻 👷🏼 👷🏽 👷🏾 👷🏿 | construction_worker |
 | 🎛️ | control_knobs | 🏪 | convenience_store |
 | 🍪 | cookie | 🍳 | cooking |
-| 🆒 | cool | 👮 | cop |
-| 👮🏻 | cop::skin-tone-2 | 👮🏼 | cop::skin-tone-3 |
-| 👮🏽 | cop::skin-tone-4 | 👮🏾 | cop::skin-tone-5 |
-| 👮🏿 | cop::skin-tone-6 | ©️ | copyright |
-| 🌽 | corn | 🛋️ | couch_and_lamp |
-| 👫 | couple | 💑 | couple_with_heart |
-| 💏 | couplekiss | 🐮 | cow |
-| 🐄 | cow2 | 🦀 | crab |
-| 💳 | credit_card | 🌙 | crescent_moon |
-| 🦗 | cricket | 🏏 | cricket_bat_and_ball |
-| 🐊 | crocodile | 🥐 | croissant |
-| 🤞 | crossed_fingers | 🤞🏻 | crossed_fingers::skin-tone-2 |
-| 🤞🏼 | crossed_fingers::skin-tone-3 | 🤞🏽 | crossed_fingers::skin-tone-4 |
-| 🤞🏾 | crossed_fingers::skin-tone-5 | 🤞🏿 | crossed_fingers::skin-tone-6 |
+| 🆒 | cool | 👮 👮🏻 👮🏼 👮🏽 👮🏾 👮🏿 | cop |
+| ©️ | copyright | 🌽 | corn |
+| 🛋️ | couch_and_lamp | 👫 | couple |
+| 💑 | couple_with_heart | 💏 | couplekiss |
+| 🐮 | cow | 🐄 | cow2 |
+| 🦀 | crab | 💳 | credit_card |
+| 🌙 | crescent_moon | 🦗 | cricket |
+| 🏏 | cricket_bat_and_ball | 🐊 | crocodile |
+| 🥐 | croissant | 🤞 🤞🏻 🤞🏼 🤞🏽 🤞🏾 🤞🏿 | crossed_fingers |
 | 🎌 | crossed_flags | ⚔️ | crossed_swords |
 | 👑 | crown | 😢 | cry |
 | 😿 | crying_cat_face | 🔮 | crystal_ball |
@@ -301,142 +251,67 @@ Here is a table of the available emojis and their aliases.
 | 🍛 | curry | 🍮 | custard |
 | 🛃 | customs | 🥩 | cut_of_meat |
 | 🌀 | cyclone | 🗡️ | dagger_knife |
-| 💃 | dancer | 💃🏻 | dancer::skin-tone-2 |
-| 💃🏼 | dancer::skin-tone-3 | 💃🏽 | dancer::skin-tone-4 |
-| 💃🏾 | dancer::skin-tone-5 | 💃🏿 | dancer::skin-tone-6 |
-| 👯 | dancers | 🍡 | dango |
-| 🕶️ | dark_sunglasses | 🎯 | dart |
-| 💨 | dash | 📅 | date |
-| 🇩🇪 | de | 🌳 | deciduous_tree |
-| 🦌 | deer | 🏬 | department_store |
-| 🏚️ | derelict_house_building | 🏜️ | desert |
-| 🏝️ | desert_island | 🖥️ | desktop_computer |
-| 💠 | diamond_shape_with_a_dot_inside | ♦️ | diamonds |
-| 😞 | disappointed | 😥 | disappointed_relieved |
-| 💫 | dizzy | 😵 | dizzy_face |
-| 🚯 | do_not_litter | 🐶 | dog |
-| 🐕 | dog2 | 💵 | dollar |
-| 🎎 | dolls | 🐬 | dolphin |
-| 🚪 | door | ⏸️ | double_vertical_bar |
-| 🍩 | doughnut | 🕊️ | dove_of_peace |
-| 🐉 | dragon | 🐲 | dragon_face |
-| 👗 | dress | 🐪 | dromedary_camel |
-| 🤤 | drooling_face | 💧 | droplet |
-| 🥁 | drum_with_drumsticks | 🦆 | duck |
-| 🥟 | dumpling | 📀 | dvd |
-| 📧 | e-mail | 🦅 | eagle |
-| 👂 | ear | 👂🏻 | ear::skin-tone-2 |
-| 👂🏼 | ear::skin-tone-3 | 👂🏽 | ear::skin-tone-4 |
-| 👂🏾 | ear::skin-tone-5 | 👂🏿 | ear::skin-tone-6 |
+| 💃 💃🏻 💃🏼 💃🏽 💃🏾 💃🏿 | dancer | 👯 | dancers |
+| 🍡 | dango | 🕶️ | dark_sunglasses |
+| 🎯 | dart | 💨 | dash |
+| 📅 | date | 🇩🇪 | de |
+| 🌳 | deciduous_tree | 🦌 | deer |
+| 🏬 | department_store | 🏚️ | derelict_house_building |
+| 🏜️ | desert | 🏝️ | desert_island |
+| 🖥️ | desktop_computer | 💠 | diamond_shape_with_a_dot_inside |
+| ♦️ | diamonds | 😞 | disappointed |
+| 😥 | disappointed_relieved | 💫 | dizzy |
+| 😵 | dizzy_face | 🚯 | do_not_litter |
+| 🐶 | dog | 🐕 | dog2 |
+| 💵 | dollar | 🎎 | dolls |
+| 🐬 | dolphin | 🚪 | door |
+| ⏸️ | double_vertical_bar | 🍩 | doughnut |
+| 🕊️ | dove_of_peace | 🐉 | dragon |
+| 🐲 | dragon_face | 👗 | dress |
+| 🐪 | dromedary_camel | 🤤 | drooling_face |
+| 💧 | droplet | 🥁 | drum_with_drumsticks |
+| 🦆 | duck | 🥟 | dumpling |
+| 📀 | dvd | 📧 | e-mail |
+| 🦅 | eagle | 👂 👂🏻 👂🏼 👂🏽 👂🏾 👂🏿 | ear |
 | 🌾 | ear_of_rice | 🌍 | earth_africa |
 | 🌎 | earth_americas | 🌏 | earth_asia |
 | 🥚 | egg | 🍆 | eggplant |
 | 8️⃣ | eight | ✴️ | eight_pointed_black_star |
 | ✳️ | eight_spoked_asterisk | ⏏️ | eject |
 | 🔌 | electric_plug | 🐘 | elephant |
-| 🧝 | elf | 🧝🏻 | elf::skin-tone-2 |
-| 🧝🏼 | elf::skin-tone-3 | 🧝🏽 | elf::skin-tone-4 |
-| 🧝🏾 | elf::skin-tone-5 | 🧝🏿 | elf::skin-tone-6 |
-| ✉️ | email | 🔚 | end |
-| ✉️ | envelope | 📩 | envelope_with_arrow |
-| 🇪🇸 | es | 💶 | euro |
-| 🏰 | european_castle | 🏤 | european_post_office |
-| 🌲 | evergreen_tree | ❗ | exclamation |
-| 🤯 | exploding_head | 😑 | expressionless |
-| 👁️ | eye | 👁️‍🗨️ | eye-in-speech-bubble |
-| 👓 | eyeglasses | 👀 | eyes |
-| 🤦 | face_palm | 🤦🏻 | face_palm::skin-tone-2 |
-| 🤦🏼 | face_palm::skin-tone-3 | 🤦🏽 | face_palm::skin-tone-4 |
-| 🤦🏾 | face_palm::skin-tone-5 | 🤦🏿 | face_palm::skin-tone-6 |
+| 🧝 🧝🏻 🧝🏼 🧝🏽 🧝🏾 🧝🏿 | elf | ✉️ | email |
+| 🔚 | end | ✉️ | envelope |
+| 📩 | envelope_with_arrow | 🇪🇸 | es |
+| 💶 | euro | 🏰 | european_castle |
+| 🏤 | european_post_office | 🌲 | evergreen_tree |
+| ❗ | exclamation | 🤯 | exploding_head |
+| 😑 | expressionless | 👁️ | eye |
+| 👁️‍🗨️ | eye-in-speech-bubble | 👓 | eyeglasses |
+| 👀 | eyes | 🤦 🤦🏻 🤦🏼 🤦🏽 🤦🏾 🤦🏿 | face_palm |
 | 🤮 | face_vomiting | 🤠 | face_with_cowboy_hat |
 | 🤫 | face_with_finger_covering_closed_lips | 🤭 | face_with_hand_over_mouth |
 | 🤕 | face_with_head_bandage | 🧐 | face_with_monocle |
 | 🤨 | face_with_one_eyebrow_raised | 🤮 | face_with_open_mouth_vomiting |
 | 🤨 | face_with_raised_eyebrow | 🙄 | face_with_rolling_eyes |
 | 🤬 | face_with_symbols_on_mouth | 🤒 | face_with_thermometer |
-| 👊 | facepunch | 👊🏻 | facepunch::skin-tone-2 |
-| 👊🏼 | facepunch::skin-tone-3 | 👊🏽 | facepunch::skin-tone-4 |
-| 👊🏾 | facepunch::skin-tone-5 | 👊🏿 | facepunch::skin-tone-6 |
-| 🏭 | factory | 🧚 | fairy |
-| 🧚🏻 | fairy::skin-tone-2 | 🧚🏼 | fairy::skin-tone-3 |
-| 🧚🏽 | fairy::skin-tone-4 | 🧚🏾 | fairy::skin-tone-5 |
-| 🧚🏿 | fairy::skin-tone-6 | 🍂 | fallen_leaf |
+| 👊 👊🏻 👊🏼 👊🏽 👊🏾 👊🏿 | facepunch | 🏭 | factory |
+| 🧚 🧚🏻 🧚🏼 🧚🏽 🧚🏾 🧚🏿 | fairy | 🍂 | fallen_leaf |
 | 👨‍👩‍👦 | family | 👪 | family |
 | ⏩ | fast_forward | 📠 | fax |
 | 😨 | fearful | 🐾 | feet |
-| 👩‍🎨 | female-artist | 👩🏻‍🎨 | female-artist::skin-tone-2 |
-| 👩🏼‍🎨 | female-artist::skin-tone-3 | 👩🏽‍🎨 | female-artist::skin-tone-4 |
-| 👩🏾‍🎨 | female-artist::skin-tone-5 | 👩🏿‍🎨 | female-artist::skin-tone-6 |
-| 👩‍🚀 | female-astronaut | 👩🏻‍🚀 | female-astronaut::skin-tone-2 |
-| 👩🏼‍🚀 | female-astronaut::skin-tone-3 | 👩🏽‍🚀 | female-astronaut::skin-tone-4 |
-| 👩🏾‍🚀 | female-astronaut::skin-tone-5 | 👩🏿‍🚀 | female-astronaut::skin-tone-6 |
-| 👷‍♀️ | female-construction-worker | 👷🏻‍♀️ | female-construction-worker::skin-tone-2 |
-| 👷🏼‍♀️ | female-construction-worker::skin-tone-3 | 👷🏽‍♀️ | female-construction-worker::skin-tone-4 |
-| 👷🏾‍♀️ | female-construction-worker::skin-tone-5 | 👷🏿‍♀️ | female-construction-worker::skin-tone-6 |
-| 👩‍🍳 | female-cook | 👩🏻‍🍳 | female-cook::skin-tone-2 |
-| 👩🏼‍🍳 | female-cook::skin-tone-3 | 👩🏽‍🍳 | female-cook::skin-tone-4 |
-| 👩🏾‍🍳 | female-cook::skin-tone-5 | 👩🏿‍🍳 | female-cook::skin-tone-6 |
-| 🕵️‍♀️ | female-detective | 🕵🏻‍♀️ | female-detective::skin-tone-2 |
-| 🕵🏼‍♀️ | female-detective::skin-tone-3 | 🕵🏽‍♀️ | female-detective::skin-tone-4 |
-| 🕵🏾‍♀️ | female-detective::skin-tone-5 | 🕵🏿‍♀️ | female-detective::skin-tone-6 |
-| 👩‍⚕️ | female-doctor | 👩🏻‍⚕️ | female-doctor::skin-tone-2 |
-| 👩🏼‍⚕️ | female-doctor::skin-tone-3 | 👩🏽‍⚕️ | female-doctor::skin-tone-4 |
-| 👩🏾‍⚕️ | female-doctor::skin-tone-5 | 👩🏿‍⚕️ | female-doctor::skin-tone-6 |
-| 👩‍🏭 | female-factory-worker | 👩🏻‍🏭 | female-factory-worker::skin-tone-2 |
-| 👩🏼‍🏭 | female-factory-worker::skin-tone-3 | 👩🏽‍🏭 | female-factory-worker::skin-tone-4 |
-| 👩🏾‍🏭 | female-factory-worker::skin-tone-5 | 👩🏿‍🏭 | female-factory-worker::skin-tone-6 |
-| 👩‍🌾 | female-farmer | 👩🏻‍🌾 | female-farmer::skin-tone-2 |
-| 👩🏼‍🌾 | female-farmer::skin-tone-3 | 👩🏽‍🌾 | female-farmer::skin-tone-4 |
-| 👩🏾‍🌾 | female-farmer::skin-tone-5 | 👩🏿‍🌾 | female-farmer::skin-tone-6 |
-| 👩‍🚒 | female-firefighter | 👩🏻‍🚒 | female-firefighter::skin-tone-2 |
-| 👩🏼‍🚒 | female-firefighter::skin-tone-3 | 👩🏽‍🚒 | female-firefighter::skin-tone-4 |
-| 👩🏾‍🚒 | female-firefighter::skin-tone-5 | 👩🏿‍🚒 | female-firefighter::skin-tone-6 |
-| 💂‍♀️ | female-guard | 💂🏻‍♀️ | female-guard::skin-tone-2 |
-| 💂🏼‍♀️ | female-guard::skin-tone-3 | 💂🏽‍♀️ | female-guard::skin-tone-4 |
-| 💂🏾‍♀️ | female-guard::skin-tone-5 | 💂🏿‍♀️ | female-guard::skin-tone-6 |
-| 👩‍⚖️ | female-judge | 👩🏻‍⚖️ | female-judge::skin-tone-2 |
-| 👩🏼‍⚖️ | female-judge::skin-tone-3 | 👩🏽‍⚖️ | female-judge::skin-tone-4 |
-| 👩🏾‍⚖️ | female-judge::skin-tone-5 | 👩🏿‍⚖️ | female-judge::skin-tone-6 |
-| 👩‍🔧 | female-mechanic | 👩🏻‍🔧 | female-mechanic::skin-tone-2 |
-| 👩🏼‍🔧 | female-mechanic::skin-tone-3 | 👩🏽‍🔧 | female-mechanic::skin-tone-4 |
-| 👩🏾‍🔧 | female-mechanic::skin-tone-5 | 👩🏿‍🔧 | female-mechanic::skin-tone-6 |
-| 👩‍💼 | female-office-worker | 👩🏻‍💼 | female-office-worker::skin-tone-2 |
-| 👩🏼‍💼 | female-office-worker::skin-tone-3 | 👩🏽‍💼 | female-office-worker::skin-tone-4 |
-| 👩🏾‍💼 | female-office-worker::skin-tone-5 | 👩🏿‍💼 | female-office-worker::skin-tone-6 |
-| 👩‍✈️ | female-pilot | 👩🏻‍✈️ | female-pilot::skin-tone-2 |
-| 👩🏼‍✈️ | female-pilot::skin-tone-3 | 👩🏽‍✈️ | female-pilot::skin-tone-4 |
-| 👩🏾‍✈️ | female-pilot::skin-tone-5 | 👩🏿‍✈️ | female-pilot::skin-tone-6 |
-| 👮‍♀️ | female-police-officer | 👮🏻‍♀️ | female-police-officer::skin-tone-2 |
-| 👮🏼‍♀️ | female-police-officer::skin-tone-3 | 👮🏽‍♀️ | female-police-officer::skin-tone-4 |
-| 👮🏾‍♀️ | female-police-officer::skin-tone-5 | 👮🏿‍♀️ | female-police-officer::skin-tone-6 |
-| 👩‍🔬 | female-scientist | 👩🏻‍🔬 | female-scientist::skin-tone-2 |
-| 👩🏼‍🔬 | female-scientist::skin-tone-3 | 👩🏽‍🔬 | female-scientist::skin-tone-4 |
-| 👩🏾‍🔬 | female-scientist::skin-tone-5 | 👩🏿‍🔬 | female-scientist::skin-tone-6 |
-| 👩‍🎤 | female-singer | 👩🏻‍🎤 | female-singer::skin-tone-2 |
-| 👩🏼‍🎤 | female-singer::skin-tone-3 | 👩🏽‍🎤 | female-singer::skin-tone-4 |
-| 👩🏾‍🎤 | female-singer::skin-tone-5 | 👩🏿‍🎤 | female-singer::skin-tone-6 |
-| 👩‍🎓 | female-student | 👩🏻‍🎓 | female-student::skin-tone-2 |
-| 👩🏼‍🎓 | female-student::skin-tone-3 | 👩🏽‍🎓 | female-student::skin-tone-4 |
-| 👩🏾‍🎓 | female-student::skin-tone-5 | 👩🏿‍🎓 | female-student::skin-tone-6 |
-| 👩‍🏫 | female-teacher | 👩🏻‍🏫 | female-teacher::skin-tone-2 |
-| 👩🏼‍🏫 | female-teacher::skin-tone-3 | 👩🏽‍🏫 | female-teacher::skin-tone-4 |
-| 👩🏾‍🏫 | female-teacher::skin-tone-5 | 👩🏿‍🏫 | female-teacher::skin-tone-6 |
-| 👩‍💻 | female-technologist | 👩🏻‍💻 | female-technologist::skin-tone-2 |
-| 👩🏼‍💻 | female-technologist::skin-tone-3 | 👩🏽‍💻 | female-technologist::skin-tone-4 |
-| 👩🏾‍💻 | female-technologist::skin-tone-5 | 👩🏿‍💻 | female-technologist::skin-tone-6 |
-| 🧝‍♀️ | female_elf | 🧝🏻‍♀️ | female_elf::skin-tone-2 |
-| 🧝🏼‍♀️ | female_elf::skin-tone-3 | 🧝🏽‍♀️ | female_elf::skin-tone-4 |
-| 🧝🏾‍♀️ | female_elf::skin-tone-5 | 🧝🏿‍♀️ | female_elf::skin-tone-6 |
-| 🧚‍♀️ | female_fairy | 🧚🏻‍♀️ | female_fairy::skin-tone-2 |
-| 🧚🏼‍♀️ | female_fairy::skin-tone-3 | 🧚🏽‍♀️ | female_fairy::skin-tone-4 |
-| 🧚🏾‍♀️ | female_fairy::skin-tone-5 | 🧚🏿‍♀️ | female_fairy::skin-tone-6 |
-| 🧞‍♀️ | female_genie | 🧙‍♀️ | female_mage |
-| 🧙🏻‍♀️ | female_mage::skin-tone-2 | 🧙🏼‍♀️ | female_mage::skin-tone-3 |
-| 🧙🏽‍♀️ | female_mage::skin-tone-4 | 🧙🏾‍♀️ | female_mage::skin-tone-5 |
-| 🧙🏿‍♀️ | female_mage::skin-tone-6 | ♀️ | female_sign |
-| 🧛‍♀️ | female_vampire | 🧛🏻‍♀️ | female_vampire::skin-tone-2 |
-| 🧛🏼‍♀️ | female_vampire::skin-tone-3 | 🧛🏽‍♀️ | female_vampire::skin-tone-4 |
-| 🧛🏾‍♀️ | female_vampire::skin-tone-5 | 🧛🏿‍♀️ | female_vampire::skin-tone-6 |
+| 👩‍🎨 👩🏻‍🎨 👩🏼‍🎨 👩🏽‍🎨 👩🏾‍🎨 👩🏿‍🎨 | female-artist | 👩‍🚀 👩🏻‍🚀 👩🏼‍🚀 👩🏽‍🚀 👩🏾‍🚀 👩🏿‍🚀 | female-astronaut |
+| 👷‍♀️ 👷🏻‍♀️ 👷🏼‍♀️ 👷🏽‍♀️ 👷🏾‍♀️ 👷🏿‍♀️ | female-construction-worker | 👩‍🍳 👩🏻‍🍳 👩🏼‍🍳 👩🏽‍🍳 👩🏾‍🍳 👩🏿‍🍳 | female-cook |
+| 🕵️‍♀️ 🕵🏻‍♀️ 🕵🏼‍♀️ 🕵🏽‍♀️ 🕵🏾‍♀️ 🕵🏿‍♀️ | female-detective | 👩‍⚕️ 👩🏻‍⚕️ 👩🏼‍⚕️ 👩🏽‍⚕️ 👩🏾‍⚕️ 👩🏿‍⚕️ | female-doctor |
+| 👩‍🏭 👩🏻‍🏭 👩🏼‍🏭 👩🏽‍🏭 👩🏾‍🏭 👩🏿‍🏭 | female-factory-worker | 👩‍🌾 👩🏻‍🌾 👩🏼‍🌾 👩🏽‍🌾 👩🏾‍🌾 👩🏿‍🌾 | female-farmer |
+| 👩‍🚒 👩🏻‍🚒 👩🏼‍🚒 👩🏽‍🚒 👩🏾‍🚒 👩🏿‍🚒 | female-firefighter | 💂‍♀️ 💂🏻‍♀️ 💂🏼‍♀️ 💂🏽‍♀️ 💂🏾‍♀️ 💂🏿‍♀️ | female-guard |
+| 👩‍⚖️ 👩🏻‍⚖️ 👩🏼‍⚖️ 👩🏽‍⚖️ 👩🏾‍⚖️ 👩🏿‍⚖️ | female-judge | 👩‍🔧 👩🏻‍🔧 👩🏼‍🔧 👩🏽‍🔧 👩🏾‍🔧 👩🏿‍🔧 | female-mechanic |
+| 👩‍💼 👩🏻‍💼 👩🏼‍💼 👩🏽‍💼 👩🏾‍💼 👩🏿‍💼 | female-office-worker | 👩‍✈️ 👩🏻‍✈️ 👩🏼‍✈️ 👩🏽‍✈️ 👩🏾‍✈️ 👩🏿‍✈️ | female-pilot |
+| 👮‍♀️ 👮🏻‍♀️ 👮🏼‍♀️ 👮🏽‍♀️ 👮🏾‍♀️ 👮🏿‍♀️ | female-police-officer | 👩‍🔬 👩🏻‍🔬 👩🏼‍🔬 👩🏽‍🔬 👩🏾‍🔬 👩🏿‍🔬 | female-scientist |
+| 👩‍🎤 👩🏻‍🎤 👩🏼‍🎤 👩🏽‍🎤 👩🏾‍🎤 👩🏿‍🎤 | female-singer | 👩‍🎓 👩🏻‍🎓 👩🏼‍🎓 👩🏽‍🎓 👩🏾‍🎓 👩🏿‍🎓 | female-student |
+| 👩‍🏫 👩🏻‍🏫 👩🏼‍🏫 👩🏽‍🏫 👩🏾‍🏫 👩🏿‍🏫 | female-teacher | 👩‍💻 👩🏻‍💻 👩🏼‍💻 👩🏽‍💻 👩🏾‍💻 👩🏿‍💻 | female-technologist |
+| 🧝‍♀️ 🧝🏻‍♀️ 🧝🏼‍♀️ 🧝🏽‍♀️ 🧝🏾‍♀️ 🧝🏿‍♀️ | female_elf | 🧚‍♀️ 🧚🏻‍♀️ 🧚🏼‍♀️ 🧚🏽‍♀️ 🧚🏾‍♀️ 🧚🏿‍♀️ | female_fairy |
+| 🧞‍♀️ | female_genie | 🧙‍♀️ 🧙🏻‍♀️ 🧙🏼‍♀️ 🧙🏽‍♀️ 🧙🏾‍♀️ 🧙🏿‍♀️ | female_mage |
+| ♀️ | female_sign | 🧛‍♀️ 🧛🏻‍♀️ 🧛🏼‍♀️ 🧛🏽‍♀️ 🧛🏾‍♀️ 🧛🏿‍♀️ | female_vampire |
 | 🧟‍♀️ | female_zombie | 🤺 | fencer |
 | 🎡 | ferris_wheel | ⛴️ | ferry |
 | 🏑 | field_hockey_stick_and_ball | 🗄️ | file_cabinet |
@@ -446,195 +321,175 @@ Here is a table of the available emojis and their aliases.
 | 🥇 | first_place_medal | 🌓 | first_quarter_moon |
 | 🌛 | first_quarter_moon_with_face | 🐟 | fish |
 | 🍥 | fish_cake | 🎣 | fishing_pole_and_fish |
-| ✊ | fist | ✊🏻 | fist::skin-tone-2 |
-| ✊🏼 | fist::skin-tone-3 | ✊🏽 | fist::skin-tone-4 |
-| ✊🏾 | fist::skin-tone-5 | ✊🏿 | fist::skin-tone-6 |
-| 5️⃣ | five | 🇦🇨 | flag-ac |
-| 🇦🇩 | flag-ad | 🇦🇪 | flag-ae |
-| 🇦🇫 | flag-af | 🇦🇬 | flag-ag |
-| 🇦🇮 | flag-ai | 🇦🇱 | flag-al |
-| 🇦🇲 | flag-am | 🇦🇴 | flag-ao |
-| 🇦🇶 | flag-aq | 🇦🇷 | flag-ar |
-| 🇦🇸 | flag-as | 🇦🇹 | flag-at |
-| 🇦🇺 | flag-au | 🇦🇼 | flag-aw |
-| 🇦🇽 | flag-ax | 🇦🇿 | flag-az |
-| 🇧🇦 | flag-ba | 🇧🇧 | flag-bb |
-| 🇧🇩 | flag-bd | 🇧🇪 | flag-be |
-| 🇧🇫 | flag-bf | 🇧🇬 | flag-bg |
-| 🇧🇭 | flag-bh | 🇧🇮 | flag-bi |
-| 🇧🇯 | flag-bj | 🇧🇱 | flag-bl |
-| 🇧🇲 | flag-bm | 🇧🇳 | flag-bn |
-| 🇧🇴 | flag-bo | 🇧🇶 | flag-bq |
-| 🇧🇷 | flag-br | 🇧🇸 | flag-bs |
-| 🇧🇹 | flag-bt | 🇧🇻 | flag-bv |
-| 🇧🇼 | flag-bw | 🇧🇾 | flag-by |
-| 🇧🇿 | flag-bz | 🇨🇦 | flag-ca |
-| 🇨🇨 | flag-cc | 🇨🇩 | flag-cd |
-| 🇨🇫 | flag-cf | 🇨🇬 | flag-cg |
-| 🇨🇭 | flag-ch | 🇨🇮 | flag-ci |
-| 🇨🇰 | flag-ck | 🇨🇱 | flag-cl |
-| 🇨🇲 | flag-cm | 🇨🇳 | flag-cn |
-| 🇨🇴 | flag-co | 🇨🇵 | flag-cp |
-| 🇨🇷 | flag-cr | 🇨🇺 | flag-cu |
-| 🇨🇻 | flag-cv | 🇨🇼 | flag-cw |
-| 🇨🇽 | flag-cx | 🇨🇾 | flag-cy |
-| 🇨🇿 | flag-cz | 🇩🇪 | flag-de |
-| 🇩🇬 | flag-dg | 🇩🇯 | flag-dj |
-| 🇩🇰 | flag-dk | 🇩🇲 | flag-dm |
-| 🇩🇴 | flag-do | 🇩🇿 | flag-dz |
-| 🇪🇦 | flag-ea | 🇪🇨 | flag-ec |
-| 🇪🇪 | flag-ee | 🇪🇬 | flag-eg |
-| 🇪🇭 | flag-eh | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 | flag-england |
-| 🇪🇷 | flag-er | 🇪🇸 | flag-es |
-| 🇪🇹 | flag-et | 🇪🇺 | flag-eu |
-| 🇫🇮 | flag-fi | 🇫🇯 | flag-fj |
-| 🇫🇰 | flag-fk | 🇫🇲 | flag-fm |
-| 🇫🇴 | flag-fo | 🇫🇷 | flag-fr |
-| 🇬🇦 | flag-ga | 🇬🇧 | flag-gb |
-| 🇬🇩 | flag-gd | 🇬🇪 | flag-ge |
-| 🇬🇫 | flag-gf | 🇬🇬 | flag-gg |
-| 🇬🇭 | flag-gh | 🇬🇮 | flag-gi |
-| 🇬🇱 | flag-gl | 🇬🇲 | flag-gm |
-| 🇬🇳 | flag-gn | 🇬🇵 | flag-gp |
-| 🇬🇶 | flag-gq | 🇬🇷 | flag-gr |
-| 🇬🇸 | flag-gs | 🇬🇹 | flag-gt |
-| 🇬🇺 | flag-gu | 🇬🇼 | flag-gw |
-| 🇬🇾 | flag-gy | 🇭🇰 | flag-hk |
-| 🇭🇲 | flag-hm | 🇭🇳 | flag-hn |
-| 🇭🇷 | flag-hr | 🇭🇹 | flag-ht |
-| 🇭🇺 | flag-hu | 🇮🇨 | flag-ic |
-| 🇮🇩 | flag-id | 🇮🇪 | flag-ie |
-| 🇮🇱 | flag-il | 🇮🇲 | flag-im |
-| 🇮🇳 | flag-in | 🇮🇴 | flag-io |
-| 🇮🇶 | flag-iq | 🇮🇷 | flag-ir |
-| 🇮🇸 | flag-is | 🇮🇹 | flag-it |
-| 🇯🇪 | flag-je | 🇯🇲 | flag-jm |
-| 🇯🇴 | flag-jo | 🇯🇵 | flag-jp |
-| 🇰🇪 | flag-ke | 🇰🇬 | flag-kg |
-| 🇰🇭 | flag-kh | 🇰🇮 | flag-ki |
-| 🇰🇲 | flag-km | 🇰🇳 | flag-kn |
-| 🇰🇵 | flag-kp | 🇰🇷 | flag-kr |
-| 🇰🇼 | flag-kw | 🇰🇾 | flag-ky |
-| 🇰🇿 | flag-kz | 🇱🇦 | flag-la |
-| 🇱🇧 | flag-lb | 🇱🇨 | flag-lc |
-| 🇱🇮 | flag-li | 🇱🇰 | flag-lk |
-| 🇱🇷 | flag-lr | 🇱🇸 | flag-ls |
-| 🇱🇹 | flag-lt | 🇱🇺 | flag-lu |
-| 🇱🇻 | flag-lv | 🇱🇾 | flag-ly |
-| 🇲🇦 | flag-ma | 🇲🇨 | flag-mc |
-| 🇲🇩 | flag-md | 🇲🇪 | flag-me |
-| 🇲🇫 | flag-mf | 🇲🇬 | flag-mg |
-| 🇲🇭 | flag-mh | 🇲🇰 | flag-mk |
-| 🇲🇱 | flag-ml | 🇲🇲 | flag-mm |
-| 🇲🇳 | flag-mn | 🇲🇴 | flag-mo |
-| 🇲🇵 | flag-mp | 🇲🇶 | flag-mq |
-| 🇲🇷 | flag-mr | 🇲🇸 | flag-ms |
-| 🇲🇹 | flag-mt | 🇲🇺 | flag-mu |
-| 🇲🇻 | flag-mv | 🇲🇼 | flag-mw |
-| 🇲🇽 | flag-mx | 🇲🇾 | flag-my |
-| 🇲🇿 | flag-mz | 🇳🇦 | flag-na |
-| 🇳🇨 | flag-nc | 🇳🇪 | flag-ne |
-| 🇳🇫 | flag-nf | 🇳🇬 | flag-ng |
-| 🇳🇮 | flag-ni | 🇳🇱 | flag-nl |
-| 🇳🇴 | flag-no | 🇳🇵 | flag-np |
-| 🇳🇷 | flag-nr | 🇳🇺 | flag-nu |
-| 🇳🇿 | flag-nz | 🇴🇲 | flag-om |
-| 🇵🇦 | flag-pa | 🇵🇪 | flag-pe |
-| 🇵🇫 | flag-pf | 🇵🇬 | flag-pg |
-| 🇵🇭 | flag-ph | 🇵🇰 | flag-pk |
-| 🇵🇱 | flag-pl | 🇵🇲 | flag-pm |
-| 🇵🇳 | flag-pn | 🇵🇷 | flag-pr |
-| 🇵🇸 | flag-ps | 🇵🇹 | flag-pt |
-| 🇵🇼 | flag-pw | 🇵🇾 | flag-py |
-| 🇶🇦 | flag-qa | 🇷🇪 | flag-re |
-| 🇷🇴 | flag-ro | 🇷🇸 | flag-rs |
-| 🇷🇺 | flag-ru | 🇷🇼 | flag-rw |
-| 🇸🇦 | flag-sa | 🇸🇧 | flag-sb |
-| 🇸🇨 | flag-sc | 🏴󠁧󠁢󠁳󠁣󠁴󠁿 | flag-scotland |
-| 🇸🇩 | flag-sd | 🇸🇪 | flag-se |
-| 🇸🇬 | flag-sg | 🇸🇭 | flag-sh |
-| 🇸🇮 | flag-si | 🇸🇯 | flag-sj |
-| 🇸🇰 | flag-sk | 🇸🇱 | flag-sl |
-| 🇸🇲 | flag-sm | 🇸🇳 | flag-sn |
-| 🇸🇴 | flag-so | 🇸🇷 | flag-sr |
-| 🇸🇸 | flag-ss | 🇸🇹 | flag-st |
-| 🇸🇻 | flag-sv | 🇸🇽 | flag-sx |
-| 🇸🇾 | flag-sy | 🇸🇿 | flag-sz |
-| 🇹🇦 | flag-ta | 🇹🇨 | flag-tc |
-| 🇹🇩 | flag-td | 🇹🇫 | flag-tf |
-| 🇹🇬 | flag-tg | 🇹🇭 | flag-th |
-| 🇹🇯 | flag-tj | 🇹🇰 | flag-tk |
-| 🇹🇱 | flag-tl | 🇹🇲 | flag-tm |
-| 🇹🇳 | flag-tn | 🇹🇴 | flag-to |
-| 🇹🇷 | flag-tr | 🇹🇹 | flag-tt |
-| 🇹🇻 | flag-tv | 🇹🇼 | flag-tw |
-| 🇹🇿 | flag-tz | 🇺🇦 | flag-ua |
-| 🇺🇬 | flag-ug | 🇺🇲 | flag-um |
-| 🇺🇳 | flag-un | 🇺🇸 | flag-us |
-| 🇺🇾 | flag-uy | 🇺🇿 | flag-uz |
-| 🇻🇦 | flag-va | 🇻🇨 | flag-vc |
-| 🇻🇪 | flag-ve | 🇻🇬 | flag-vg |
-| 🇻🇮 | flag-vi | 🇻🇳 | flag-vn |
-| 🇻🇺 | flag-vu | 🏴󠁧󠁢󠁷󠁬󠁳󠁿 | flag-wales |
-| 🇼🇫 | flag-wf | 🇼🇸 | flag-ws |
-| 🇽🇰 | flag-xk | 🇾🇪 | flag-ye |
-| 🇾🇹 | flag-yt | 🇿🇦 | flag-za |
-| 🇿🇲 | flag-zm | 🇿🇼 | flag-zw |
-| 🎏 | flags | 🔦 | flashlight |
-| ⚜️ | fleur_de_lis | 🐬 | flipper |
-| 💾 | floppy_disk | 🎴 | flower_playing_cards |
-| 😳 | flushed | 🛸 | flying_saucer |
-| 🌫️ | fog | 🌁 | foggy |
-| 🏈 | football | 👣 | footprints |
-| 🍴 | fork_and_knife | 🥠 | fortune_cookie |
-| ⛲ | fountain | 4️⃣ | four |
-| 🍀 | four_leaf_clover | 🦊 | fox_face |
-| 🇫🇷 | fr | 🖼️ | frame_with_picture |
-| 🆓 | free | 🍳 | fried_egg |
-| 🍤 | fried_shrimp | 🍟 | fries |
-| 🐸 | frog | 😦 | frowning |
-| ⛽ | fuelpump | 🌕 | full_moon |
-| 🌝 | full_moon_with_face | ⚱️ | funeral_urn |
-| 🎲 | game_die | 🇬🇧 | gb |
-| ⚙️ | gear | 💎 | gem |
-| ♊ | gemini | 🧞 | genie |
-| 👻 | ghost | 🎁 | gift |
-| 💝 | gift_heart | 🦒 | giraffe_face |
-| 👧 | girl | 👧🏻 | girl::skin-tone-2 |
-| 👧🏼 | girl::skin-tone-3 | 👧🏽 | girl::skin-tone-4 |
-| 👧🏾 | girl::skin-tone-5 | 👧🏿 | girl::skin-tone-6 |
+| ✊ ✊🏻 ✊🏼 ✊🏽 ✊🏾 ✊🏿 | fist | 5️⃣ | five |
+| 🇦🇨 | flag-ac | 🇦🇩 | flag-ad |
+| 🇦🇪 | flag-ae | 🇦🇫 | flag-af |
+| 🇦🇬 | flag-ag | 🇦🇮 | flag-ai |
+| 🇦🇱 | flag-al | 🇦🇲 | flag-am |
+| 🇦🇴 | flag-ao | 🇦🇶 | flag-aq |
+| 🇦🇷 | flag-ar | 🇦🇸 | flag-as |
+| 🇦🇹 | flag-at | 🇦🇺 | flag-au |
+| 🇦🇼 | flag-aw | 🇦🇽 | flag-ax |
+| 🇦🇿 | flag-az | 🇧🇦 | flag-ba |
+| 🇧🇧 | flag-bb | 🇧🇩 | flag-bd |
+| 🇧🇪 | flag-be | 🇧🇫 | flag-bf |
+| 🇧🇬 | flag-bg | 🇧🇭 | flag-bh |
+| 🇧🇮 | flag-bi | 🇧🇯 | flag-bj |
+| 🇧🇱 | flag-bl | 🇧🇲 | flag-bm |
+| 🇧🇳 | flag-bn | 🇧🇴 | flag-bo |
+| 🇧🇶 | flag-bq | 🇧🇷 | flag-br |
+| 🇧🇸 | flag-bs | 🇧🇹 | flag-bt |
+| 🇧🇻 | flag-bv | 🇧🇼 | flag-bw |
+| 🇧🇾 | flag-by | 🇧🇿 | flag-bz |
+| 🇨🇦 | flag-ca | 🇨🇨 | flag-cc |
+| 🇨🇩 | flag-cd | 🇨🇫 | flag-cf |
+| 🇨🇬 | flag-cg | 🇨🇭 | flag-ch |
+| 🇨🇮 | flag-ci | 🇨🇰 | flag-ck |
+| 🇨🇱 | flag-cl | 🇨🇲 | flag-cm |
+| 🇨🇳 | flag-cn | 🇨🇴 | flag-co |
+| 🇨🇵 | flag-cp | 🇨🇷 | flag-cr |
+| 🇨🇺 | flag-cu | 🇨🇻 | flag-cv |
+| 🇨🇼 | flag-cw | 🇨🇽 | flag-cx |
+| 🇨🇾 | flag-cy | 🇨🇿 | flag-cz |
+| 🇩🇪 | flag-de | 🇩🇬 | flag-dg |
+| 🇩🇯 | flag-dj | 🇩🇰 | flag-dk |
+| 🇩🇲 | flag-dm | 🇩🇴 | flag-do |
+| 🇩🇿 | flag-dz | 🇪🇦 | flag-ea |
+| 🇪🇨 | flag-ec | 🇪🇪 | flag-ee |
+| 🇪🇬 | flag-eg | 🇪🇭 | flag-eh |
+| 🏴󠁧󠁢󠁥󠁮󠁧󠁿 | flag-england | 🇪🇷 | flag-er |
+| 🇪🇸 | flag-es | 🇪🇹 | flag-et |
+| 🇪🇺 | flag-eu | 🇫🇮 | flag-fi |
+| 🇫🇯 | flag-fj | 🇫🇰 | flag-fk |
+| 🇫🇲 | flag-fm | 🇫🇴 | flag-fo |
+| 🇫🇷 | flag-fr | 🇬🇦 | flag-ga |
+| 🇬🇧 | flag-gb | 🇬🇩 | flag-gd |
+| 🇬🇪 | flag-ge | 🇬🇫 | flag-gf |
+| 🇬🇬 | flag-gg | 🇬🇭 | flag-gh |
+| 🇬🇮 | flag-gi | 🇬🇱 | flag-gl |
+| 🇬🇲 | flag-gm | 🇬🇳 | flag-gn |
+| 🇬🇵 | flag-gp | 🇬🇶 | flag-gq |
+| 🇬🇷 | flag-gr | 🇬🇸 | flag-gs |
+| 🇬🇹 | flag-gt | 🇬🇺 | flag-gu |
+| 🇬🇼 | flag-gw | 🇬🇾 | flag-gy |
+| 🇭🇰 | flag-hk | 🇭🇲 | flag-hm |
+| 🇭🇳 | flag-hn | 🇭🇷 | flag-hr |
+| 🇭🇹 | flag-ht | 🇭🇺 | flag-hu |
+| 🇮🇨 | flag-ic | 🇮🇩 | flag-id |
+| 🇮🇪 | flag-ie | 🇮🇱 | flag-il |
+| 🇮🇲 | flag-im | 🇮🇳 | flag-in |
+| 🇮🇴 | flag-io | 🇮🇶 | flag-iq |
+| 🇮🇷 | flag-ir | 🇮🇸 | flag-is |
+| 🇮🇹 | flag-it | 🇯🇪 | flag-je |
+| 🇯🇲 | flag-jm | 🇯🇴 | flag-jo |
+| 🇯🇵 | flag-jp | 🇰🇪 | flag-ke |
+| 🇰🇬 | flag-kg | 🇰🇭 | flag-kh |
+| 🇰🇮 | flag-ki | 🇰🇲 | flag-km |
+| 🇰🇳 | flag-kn | 🇰🇵 | flag-kp |
+| 🇰🇷 | flag-kr | 🇰🇼 | flag-kw |
+| 🇰🇾 | flag-ky | 🇰🇿 | flag-kz |
+| 🇱🇦 | flag-la | 🇱🇧 | flag-lb |
+| 🇱🇨 | flag-lc | 🇱🇮 | flag-li |
+| 🇱🇰 | flag-lk | 🇱🇷 | flag-lr |
+| 🇱🇸 | flag-ls | 🇱🇹 | flag-lt |
+| 🇱🇺 | flag-lu | 🇱🇻 | flag-lv |
+| 🇱🇾 | flag-ly | 🇲🇦 | flag-ma |
+| 🇲🇨 | flag-mc | 🇲🇩 | flag-md |
+| 🇲🇪 | flag-me | 🇲🇫 | flag-mf |
+| 🇲🇬 | flag-mg | 🇲🇭 | flag-mh |
+| 🇲🇰 | flag-mk | 🇲🇱 | flag-ml |
+| 🇲🇲 | flag-mm | 🇲🇳 | flag-mn |
+| 🇲🇴 | flag-mo | 🇲🇵 | flag-mp |
+| 🇲🇶 | flag-mq | 🇲🇷 | flag-mr |
+| 🇲🇸 | flag-ms | 🇲🇹 | flag-mt |
+| 🇲🇺 | flag-mu | 🇲🇻 | flag-mv |
+| 🇲🇼 | flag-mw | 🇲🇽 | flag-mx |
+| 🇲🇾 | flag-my | 🇲🇿 | flag-mz |
+| 🇳🇦 | flag-na | 🇳🇨 | flag-nc |
+| 🇳🇪 | flag-ne | 🇳🇫 | flag-nf |
+| 🇳🇬 | flag-ng | 🇳🇮 | flag-ni |
+| 🇳🇱 | flag-nl | 🇳🇴 | flag-no |
+| 🇳🇵 | flag-np | 🇳🇷 | flag-nr |
+| 🇳🇺 | flag-nu | 🇳🇿 | flag-nz |
+| 🇴🇲 | flag-om | 🇵🇦 | flag-pa |
+| 🇵🇪 | flag-pe | 🇵🇫 | flag-pf |
+| 🇵🇬 | flag-pg | 🇵🇭 | flag-ph |
+| 🇵🇰 | flag-pk | 🇵🇱 | flag-pl |
+| 🇵🇲 | flag-pm | 🇵🇳 | flag-pn |
+| 🇵🇷 | flag-pr | 🇵🇸 | flag-ps |
+| 🇵🇹 | flag-pt | 🇵🇼 | flag-pw |
+| 🇵🇾 | flag-py | 🇶🇦 | flag-qa |
+| 🇷🇪 | flag-re | 🇷🇴 | flag-ro |
+| 🇷🇸 | flag-rs | 🇷🇺 | flag-ru |
+| 🇷🇼 | flag-rw | 🇸🇦 | flag-sa |
+| 🇸🇧 | flag-sb | 🇸🇨 | flag-sc |
+| 🏴󠁧󠁢󠁳󠁣󠁴󠁿 | flag-scotland | 🇸🇩 | flag-sd |
+| 🇸🇪 | flag-se | 🇸🇬 | flag-sg |
+| 🇸🇭 | flag-sh | 🇸🇮 | flag-si |
+| 🇸🇯 | flag-sj | 🇸🇰 | flag-sk |
+| 🇸🇱 | flag-sl | 🇸🇲 | flag-sm |
+| 🇸🇳 | flag-sn | 🇸🇴 | flag-so |
+| 🇸🇷 | flag-sr | 🇸🇸 | flag-ss |
+| 🇸🇹 | flag-st | 🇸🇻 | flag-sv |
+| 🇸🇽 | flag-sx | 🇸🇾 | flag-sy |
+| 🇸🇿 | flag-sz | 🇹🇦 | flag-ta |
+| 🇹🇨 | flag-tc | 🇹🇩 | flag-td |
+| 🇹🇫 | flag-tf | 🇹🇬 | flag-tg |
+| 🇹🇭 | flag-th | 🇹🇯 | flag-tj |
+| 🇹🇰 | flag-tk | 🇹🇱 | flag-tl |
+| 🇹🇲 | flag-tm | 🇹🇳 | flag-tn |
+| 🇹🇴 | flag-to | 🇹🇷 | flag-tr |
+| 🇹🇹 | flag-tt | 🇹🇻 | flag-tv |
+| 🇹🇼 | flag-tw | 🇹🇿 | flag-tz |
+| 🇺🇦 | flag-ua | 🇺🇬 | flag-ug |
+| 🇺🇲 | flag-um | 🇺🇳 | flag-un |
+| 🇺🇸 | flag-us | 🇺🇾 | flag-uy |
+| 🇺🇿 | flag-uz | 🇻🇦 | flag-va |
+| 🇻🇨 | flag-vc | 🇻🇪 | flag-ve |
+| 🇻🇬 | flag-vg | 🇻🇮 | flag-vi |
+| 🇻🇳 | flag-vn | 🇻🇺 | flag-vu |
+| 🏴󠁧󠁢󠁷󠁬󠁳󠁿 | flag-wales | 🇼🇫 | flag-wf |
+| 🇼🇸 | flag-ws | 🇽🇰 | flag-xk |
+| 🇾🇪 | flag-ye | 🇾🇹 | flag-yt |
+| 🇿🇦 | flag-za | 🇿🇲 | flag-zm |
+| 🇿🇼 | flag-zw | 🎏 | flags |
+| 🔦 | flashlight | ⚜️ | fleur_de_lis |
+| 🐬 | flipper | 💾 | floppy_disk |
+| 🎴 | flower_playing_cards | 😳 | flushed |
+| 🛸 | flying_saucer | 🌫️ | fog |
+| 🌁 | foggy | 🏈 | football |
+| 👣 | footprints | 🍴 | fork_and_knife |
+| 🥠 | fortune_cookie | ⛲ | fountain |
+| 4️⃣ | four | 🍀 | four_leaf_clover |
+| 🦊 | fox_face | 🇫🇷 | fr |
+| 🖼️ | frame_with_picture | 🆓 | free |
+| 🍳 | fried_egg | 🍤 | fried_shrimp |
+| 🍟 | fries | 🐸 | frog |
+| 😦 | frowning | ⛽ | fuelpump |
+| 🌕 | full_moon | 🌝 | full_moon_with_face |
+| ⚱️ | funeral_urn | 🎲 | game_die |
+| 🇬🇧 | gb | ⚙️ | gear |
+| 💎 | gem | ♊ | gemini |
+| 🧞 | genie | 👻 | ghost |
+| 🎁 | gift | 💝 | gift_heart |
+| 🦒 | giraffe_face | 👧 👧🏻 👧🏼 👧🏽 👧🏾 👧🏿 | girl |
 | 🥛 | glass_of_milk | 🌐 | globe_with_meridians |
 | 🧤 | gloves | 🥅 | goal_net |
 | 🐐 | goat | ⛳ | golf |
-| 🏌️ | golfer | 🏌🏻 | golfer::skin-tone-2 |
-| 🏌🏼 | golfer::skin-tone-3 | 🏌🏽 | golfer::skin-tone-4 |
-| 🏌🏾 | golfer::skin-tone-5 | 🏌🏿 | golfer::skin-tone-6 |
-| 🦍 | gorilla | 🍇 | grapes |
-| 🍏 | green_apple | 📗 | green_book |
-| 💚 | green_heart | 🥗 | green_salad |
-| ❕ | grey_exclamation | ❔ | grey_question |
-| 😬 | grimacing | 😁 | grin |
-| 😀 | grinning | 🤪 | grinning_face_with_one_large_and_one_small_eye |
-| 🤩 | grinning_face_with_star_eyes | 💂 | guardsman |
-| 💂🏻 | guardsman::skin-tone-2 | 💂🏼 | guardsman::skin-tone-3 |
-| 💂🏽 | guardsman::skin-tone-4 | 💂🏾 | guardsman::skin-tone-5 |
-| 💂🏿 | guardsman::skin-tone-6 | 🎸 | guitar |
-| 🔫 | gun | 💇 | haircut |
-| 💇🏻 | haircut::skin-tone-2 | 💇🏼 | haircut::skin-tone-3 |
-| 💇🏽 | haircut::skin-tone-4 | 💇🏾 | haircut::skin-tone-5 |
-| 💇🏿 | haircut::skin-tone-6 | 🍔 | hamburger |
-| 🔨 | hammer | ⚒️ | hammer_and_pick |
-| 🛠️ | hammer_and_wrench | 🐹 | hamster |
-| ✋ | hand | ✋🏻 | hand::skin-tone-2 |
-| ✋🏼 | hand::skin-tone-3 | ✋🏽 | hand::skin-tone-4 |
-| ✋🏾 | hand::skin-tone-5 | ✋🏿 | hand::skin-tone-6 |
-| 🤞 | hand_with_index_and_middle_fingers_crossed | 🤞🏻 | hand_with_index_and_middle_fingers_crossed::skin-tone-2 |
-| 🤞🏼 | hand_with_index_and_middle_fingers_crossed::skin-tone-3 | 🤞🏽 | hand_with_index_and_middle_fingers_crossed::skin-tone-4 |
-| 🤞🏾 | hand_with_index_and_middle_fingers_crossed::skin-tone-5 | 🤞🏿 | hand_with_index_and_middle_fingers_crossed::skin-tone-6 |
-| 👜 | handbag | 🤾 | handball |
-| 🤾🏻 | handball::skin-tone-2 | 🤾🏼 | handball::skin-tone-3 |
-| 🤾🏽 | handball::skin-tone-4 | 🤾🏾 | handball::skin-tone-5 |
-| 🤾🏿 | handball::skin-tone-6 | 🤝 | handshake |
+| 🏌️ 🏌🏻 🏌🏼 🏌🏽 🏌🏾 🏌🏿 | golfer | 🦍 | gorilla |
+| 🍇 | grapes | 🍏 | green_apple |
+| 📗 | green_book | 💚 | green_heart |
+| 🥗 | green_salad | ❕ | grey_exclamation |
+| ❔ | grey_question | 😬 | grimacing |
+| 😁 | grin | 😀 | grinning |
+| 🤪 | grinning_face_with_one_large_and_one_small_eye | 🤩 | grinning_face_with_star_eyes |
+| 💂 💂🏻 💂🏼 💂🏽 💂🏾 💂🏿 | guardsman | 🎸 | guitar |
+| 🔫 | gun | 💇 💇🏻 💇🏼 💇🏽 💇🏾 💇🏿 | haircut |
+| 🍔 | hamburger | 🔨 | hammer |
+| ⚒️ | hammer_and_pick | 🛠️ | hammer_and_wrench |
+| 🐹 | hamster | ✋ ✋🏻 ✋🏼 ✋🏽 ✋🏾 ✋🏿 | hand |
+| 🤞 🤞🏻 🤞🏼 🤞🏽 🤞🏾 🤞🏿 | hand_with_index_and_middle_fingers_crossed | 👜 | handbag |
+| 🤾 🤾🏻 🤾🏼 🤾🏽 🤾🏾 🤾🏿 | handball | 🤝 | handshake |
 | 💩 | hankey | #️⃣ | hash |
 | 🐥 | hatched_chick | 🐣 | hatching_chick |
 | 🎧 | headphones | 🙉 | hear_no_evil |
@@ -651,37 +506,27 @@ Here is a table of the available emojis and their aliases.
 | 🔆 | high_brightness | 👠 | high_heel |
 | 🔪 | hocho | 🕳️ | hole |
 | 🍯 | honey_pot | 🐝 | honeybee |
-| 🐴 | horse | 🏇 | horse_racing |
-| 🏇🏻 | horse_racing::skin-tone-2 | 🏇🏼 | horse_racing::skin-tone-3 |
-| 🏇🏽 | horse_racing::skin-tone-4 | 🏇🏾 | horse_racing::skin-tone-5 |
-| 🏇🏿 | horse_racing::skin-tone-6 | 🏥 | hospital |
-| 🌶️ | hot_pepper | 🌭 | hotdog |
-| 🏨 | hotel | ♨️ | hotsprings |
-| ⌛ | hourglass | ⏳ | hourglass_flowing_sand |
-| 🏠 | house | 🏘️ | house_buildings |
-| 🏡 | house_with_garden | 🤗 | hugging_face |
-| 😯 | hushed | 🤟 | i_love_you_hand_sign |
-| 🤟🏻 | i_love_you_hand_sign::skin-tone-2 | 🤟🏼 | i_love_you_hand_sign::skin-tone-3 |
-| 🤟🏽 | i_love_you_hand_sign::skin-tone-4 | 🤟🏾 | i_love_you_hand_sign::skin-tone-5 |
-| 🤟🏿 | i_love_you_hand_sign::skin-tone-6 | 🍨 | ice_cream |
+| 🐴 | horse | 🏇 🏇🏻 🏇🏼 🏇🏽 🏇🏾 🏇🏿 | horse_racing |
+| 🏥 | hospital | 🌶️ | hot_pepper |
+| 🌭 | hotdog | 🏨 | hotel |
+| ♨️ | hotsprings | ⌛ | hourglass |
+| ⏳ | hourglass_flowing_sand | 🏠 | house |
+| 🏘️ | house_buildings | 🏡 | house_with_garden |
+| 🤗 | hugging_face | 😯 | hushed |
+| 🤟 🤟🏻 🤟🏼 🤟🏽 🤟🏾 🤟🏿 | i_love_you_hand_sign | 🍨 | ice_cream |
 | 🏒 | ice_hockey_stick_and_puck | ⛸️ | ice_skate |
 | 🍦 | icecream | 🆔 | id |
 | 🉐 | ideograph_advantage | 👿 | imp |
 | 📥 | inbox_tray | 📨 | incoming_envelope |
-| 💁 | information_desk_person | 💁🏻 | information_desk_person::skin-tone-2 |
-| 💁🏼 | information_desk_person::skin-tone-3 | 💁🏽 | information_desk_person::skin-tone-4 |
-| 💁🏾 | information_desk_person::skin-tone-5 | 💁🏿 | information_desk_person::skin-tone-6 |
-| ℹ️ | information_source | 😇 | innocent |
-| ⁉️ | interrobang | 📱 | iphone |
-| 🇮🇹 | it | 🏮 | izakaya_lantern |
-| 🎃 | jack_o_lantern | 🗾 | japan |
-| 🏯 | japanese_castle | 👺 | japanese_goblin |
-| 👹 | japanese_ogre | 👖 | jeans |
-| 😂 | joy | 😹 | joy_cat |
-| 🕹️ | joystick | 🇯🇵 | jp |
-| 🤹 | juggling | 🤹🏻 | juggling::skin-tone-2 |
-| 🤹🏼 | juggling::skin-tone-3 | 🤹🏽 | juggling::skin-tone-4 |
-| 🤹🏾 | juggling::skin-tone-5 | 🤹🏿 | juggling::skin-tone-6 |
+| 💁 💁🏻 💁🏼 💁🏽 💁🏾 💁🏿 | information_desk_person | ℹ️ | information_source |
+| 😇 | innocent | ⁉️ | interrobang |
+| 📱 | iphone | 🇮🇹 | it |
+| 🏮 | izakaya_lantern | 🎃 | jack_o_lantern |
+| 🗾 | japan | 🏯 | japanese_castle |
+| 👺 | japanese_goblin | 👹 | japanese_ogre |
+| 👖 | jeans | 😂 | joy |
+| 😹 | joy_cat | 🕹️ | joystick |
+| 🇯🇵 | jp | 🤹 🤹🏻 🤹🏼 🤹🏽 🤹🏾 🤹🏿 | juggling |
 | 🕋 | kaaba | 🔑 | key |
 | ⌨️ | keyboard | *️⃣ | keycap_star |
 | 🔟 | keycap_ten | 👘 | kimono |
@@ -696,331 +541,131 @@ Here is a table of the available emojis and their aliases.
 | 🔶 | large_orange_diamond | 🌗 | last_quarter_moon |
 | 🌜 | last_quarter_moon_with_face | ✝️ | latin_cross |
 | 😆 | laughing | 🍃 | leaves |
-| 📒 | ledger | 🤛 | left-facing_fist |
-| 🤛🏻 | left-facing_fist::skin-tone-2 | 🤛🏼 | left-facing_fist::skin-tone-3 |
-| 🤛🏽 | left-facing_fist::skin-tone-4 | 🤛🏾 | left-facing_fist::skin-tone-5 |
-| 🤛🏿 | left-facing_fist::skin-tone-6 | 🛅 | left_luggage |
-| ↔️ | left_right_arrow | 🗨️ | left_speech_bubble |
-| ↩️ | leftwards_arrow_with_hook | 🍋 | lemon |
-| ♌ | leo | 🐆 | leopard |
-| 🎚️ | level_slider | ♎ | libra |
-| 🚈 | light_rail | 🌩️ | lightning |
-| 🌩️ | lightning_cloud | 🔗 | link |
-| 🖇️ | linked_paperclips | 🦁 | lion_face |
-| 👄 | lips | 💄 | lipstick |
-| 🦎 | lizard | 🔒 | lock |
-| 🔏 | lock_with_ink_pen | 🍭 | lollipop |
-| ➿ | loop | 🔊 | loud_sound |
-| 📢 | loudspeaker | 🏩 | love_hotel |
-| 💌 | love_letter | 🔅 | low_brightness |
-| 🖊️ | lower_left_ballpoint_pen | 🖍️ | lower_left_crayon |
-| 🖋️ | lower_left_fountain_pen | 🖌️ | lower_left_paintbrush |
-| 🤥 | lying_face | Ⓜ️ | m |
-| 🔍 | mag | 🔎 | mag_right |
-| 🧙 | mage | 🧙🏻 | mage::skin-tone-2 |
-| 🧙🏼 | mage::skin-tone-3 | 🧙🏽 | mage::skin-tone-4 |
-| 🧙🏾 | mage::skin-tone-5 | 🧙🏿 | mage::skin-tone-6 |
+| 📒 | ledger | 🤛 🤛🏻 🤛🏼 🤛🏽 🤛🏾 🤛🏿 | left-facing_fist |
+| 🛅 | left_luggage | ↔️ | left_right_arrow |
+| 🗨️ | left_speech_bubble | ↩️ | leftwards_arrow_with_hook |
+| 🍋 | lemon | ♌ | leo |
+| 🐆 | leopard | 🎚️ | level_slider |
+| ♎ | libra | 🚈 | light_rail |
+| 🌩️ | lightning | 🌩️ | lightning_cloud |
+| 🔗 | link | 🖇️ | linked_paperclips |
+| 🦁 | lion_face | 👄 | lips |
+| 💄 | lipstick | 🦎 | lizard |
+| 🔒 | lock | 🔏 | lock_with_ink_pen |
+| 🍭 | lollipop | ➿ | loop |
+| 🔊 | loud_sound | 📢 | loudspeaker |
+| 🏩 | love_hotel | 💌 | love_letter |
+| 🔅 | low_brightness | 🖊️ | lower_left_ballpoint_pen |
+| 🖍️ | lower_left_crayon | 🖋️ | lower_left_fountain_pen |
+| 🖌️ | lower_left_paintbrush | 🤥 | lying_face |
+| Ⓜ️ | m | 🔍 | mag |
+| 🔎 | mag_right | 🧙 🧙🏻 🧙🏼 🧙🏽 🧙🏾 🧙🏿 | mage |
 | 🀄 | mahjong | 📫 | mailbox |
 | 📪 | mailbox_closed | 📬 | mailbox_with_mail |
-| 📭 | mailbox_with_no_mail | 👨‍🎨 | male-artist |
-| 👨🏻‍🎨 | male-artist::skin-tone-2 | 👨🏼‍🎨 | male-artist::skin-tone-3 |
-| 👨🏽‍🎨 | male-artist::skin-tone-4 | 👨🏾‍🎨 | male-artist::skin-tone-5 |
-| 👨🏿‍🎨 | male-artist::skin-tone-6 | 👨‍🚀 | male-astronaut |
-| 👨🏻‍🚀 | male-astronaut::skin-tone-2 | 👨🏼‍🚀 | male-astronaut::skin-tone-3 |
-| 👨🏽‍🚀 | male-astronaut::skin-tone-4 | 👨🏾‍🚀 | male-astronaut::skin-tone-5 |
-| 👨🏿‍🚀 | male-astronaut::skin-tone-6 | 👷‍♂️ | male-construction-worker |
-| 👷🏻‍♂️ | male-construction-worker::skin-tone-2 | 👷🏼‍♂️ | male-construction-worker::skin-tone-3 |
-| 👷🏽‍♂️ | male-construction-worker::skin-tone-4 | 👷🏾‍♂️ | male-construction-worker::skin-tone-5 |
-| 👷🏿‍♂️ | male-construction-worker::skin-tone-6 | 👨‍🍳 | male-cook |
-| 👨🏻‍🍳 | male-cook::skin-tone-2 | 👨🏼‍🍳 | male-cook::skin-tone-3 |
-| 👨🏽‍🍳 | male-cook::skin-tone-4 | 👨🏾‍🍳 | male-cook::skin-tone-5 |
-| 👨🏿‍🍳 | male-cook::skin-tone-6 | 🕵️‍♂️ | male-detective |
-| 🕵🏻‍♂️ | male-detective::skin-tone-2 | 🕵🏼‍♂️ | male-detective::skin-tone-3 |
-| 🕵🏽‍♂️ | male-detective::skin-tone-4 | 🕵🏾‍♂️ | male-detective::skin-tone-5 |
-| 🕵🏿‍♂️ | male-detective::skin-tone-6 | 👨‍⚕️ | male-doctor |
-| 👨🏻‍⚕️ | male-doctor::skin-tone-2 | 👨🏼‍⚕️ | male-doctor::skin-tone-3 |
-| 👨🏽‍⚕️ | male-doctor::skin-tone-4 | 👨🏾‍⚕️ | male-doctor::skin-tone-5 |
-| 👨🏿‍⚕️ | male-doctor::skin-tone-6 | 👨‍🏭 | male-factory-worker |
-| 👨🏻‍🏭 | male-factory-worker::skin-tone-2 | 👨🏼‍🏭 | male-factory-worker::skin-tone-3 |
-| 👨🏽‍🏭 | male-factory-worker::skin-tone-4 | 👨🏾‍🏭 | male-factory-worker::skin-tone-5 |
-| 👨🏿‍🏭 | male-factory-worker::skin-tone-6 | 👨‍🌾 | male-farmer |
-| 👨🏻‍🌾 | male-farmer::skin-tone-2 | 👨🏼‍🌾 | male-farmer::skin-tone-3 |
-| 👨🏽‍🌾 | male-farmer::skin-tone-4 | 👨🏾‍🌾 | male-farmer::skin-tone-5 |
-| 👨🏿‍🌾 | male-farmer::skin-tone-6 | 👨‍🚒 | male-firefighter |
-| 👨🏻‍🚒 | male-firefighter::skin-tone-2 | 👨🏼‍🚒 | male-firefighter::skin-tone-3 |
-| 👨🏽‍🚒 | male-firefighter::skin-tone-4 | 👨🏾‍🚒 | male-firefighter::skin-tone-5 |
-| 👨🏿‍🚒 | male-firefighter::skin-tone-6 | 💂‍♂️ | male-guard |
-| 💂🏻‍♂️ | male-guard::skin-tone-2 | 💂🏼‍♂️ | male-guard::skin-tone-3 |
-| 💂🏽‍♂️ | male-guard::skin-tone-4 | 💂🏾‍♂️ | male-guard::skin-tone-5 |
-| 💂🏿‍♂️ | male-guard::skin-tone-6 | 👨‍⚖️ | male-judge |
-| 👨🏻‍⚖️ | male-judge::skin-tone-2 | 👨🏼‍⚖️ | male-judge::skin-tone-3 |
-| 👨🏽‍⚖️ | male-judge::skin-tone-4 | 👨🏾‍⚖️ | male-judge::skin-tone-5 |
-| 👨🏿‍⚖️ | male-judge::skin-tone-6 | 👨‍🔧 | male-mechanic |
-| 👨🏻‍🔧 | male-mechanic::skin-tone-2 | 👨🏼‍🔧 | male-mechanic::skin-tone-3 |
-| 👨🏽‍🔧 | male-mechanic::skin-tone-4 | 👨🏾‍🔧 | male-mechanic::skin-tone-5 |
-| 👨🏿‍🔧 | male-mechanic::skin-tone-6 | 👨‍💼 | male-office-worker |
-| 👨🏻‍💼 | male-office-worker::skin-tone-2 | 👨🏼‍💼 | male-office-worker::skin-tone-3 |
-| 👨🏽‍💼 | male-office-worker::skin-tone-4 | 👨🏾‍💼 | male-office-worker::skin-tone-5 |
-| 👨🏿‍💼 | male-office-worker::skin-tone-6 | 👨‍✈️ | male-pilot |
-| 👨🏻‍✈️ | male-pilot::skin-tone-2 | 👨🏼‍✈️ | male-pilot::skin-tone-3 |
-| 👨🏽‍✈️ | male-pilot::skin-tone-4 | 👨🏾‍✈️ | male-pilot::skin-tone-5 |
-| 👨🏿‍✈️ | male-pilot::skin-tone-6 | 👮‍♂️ | male-police-officer |
-| 👮🏻‍♂️ | male-police-officer::skin-tone-2 | 👮🏼‍♂️ | male-police-officer::skin-tone-3 |
-| 👮🏽‍♂️ | male-police-officer::skin-tone-4 | 👮🏾‍♂️ | male-police-officer::skin-tone-5 |
-| 👮🏿‍♂️ | male-police-officer::skin-tone-6 | 👨‍🔬 | male-scientist |
-| 👨🏻‍🔬 | male-scientist::skin-tone-2 | 👨🏼‍🔬 | male-scientist::skin-tone-3 |
-| 👨🏽‍🔬 | male-scientist::skin-tone-4 | 👨🏾‍🔬 | male-scientist::skin-tone-5 |
-| 👨🏿‍🔬 | male-scientist::skin-tone-6 | 👨‍🎤 | male-singer |
-| 👨🏻‍🎤 | male-singer::skin-tone-2 | 👨🏼‍🎤 | male-singer::skin-tone-3 |
-| 👨🏽‍🎤 | male-singer::skin-tone-4 | 👨🏾‍🎤 | male-singer::skin-tone-5 |
-| 👨🏿‍🎤 | male-singer::skin-tone-6 | 👨‍🎓 | male-student |
-| 👨🏻‍🎓 | male-student::skin-tone-2 | 👨🏼‍🎓 | male-student::skin-tone-3 |
-| 👨🏽‍🎓 | male-student::skin-tone-4 | 👨🏾‍🎓 | male-student::skin-tone-5 |
-| 👨🏿‍🎓 | male-student::skin-tone-6 | 👨‍🏫 | male-teacher |
-| 👨🏻‍🏫 | male-teacher::skin-tone-2 | 👨🏼‍🏫 | male-teacher::skin-tone-3 |
-| 👨🏽‍🏫 | male-teacher::skin-tone-4 | 👨🏾‍🏫 | male-teacher::skin-tone-5 |
-| 👨🏿‍🏫 | male-teacher::skin-tone-6 | 👨‍💻 | male-technologist |
-| 👨🏻‍💻 | male-technologist::skin-tone-2 | 👨🏼‍💻 | male-technologist::skin-tone-3 |
-| 👨🏽‍💻 | male-technologist::skin-tone-4 | 👨🏾‍💻 | male-technologist::skin-tone-5 |
-| 👨🏿‍💻 | male-technologist::skin-tone-6 | 🧝‍♂️ | male_elf |
-| 🧝🏻‍♂️ | male_elf::skin-tone-2 | 🧝🏼‍♂️ | male_elf::skin-tone-3 |
-| 🧝🏽‍♂️ | male_elf::skin-tone-4 | 🧝🏾‍♂️ | male_elf::skin-tone-5 |
-| 🧝🏿‍♂️ | male_elf::skin-tone-6 | 🧚‍♂️ | male_fairy |
-| 🧚🏻‍♂️ | male_fairy::skin-tone-2 | 🧚🏼‍♂️ | male_fairy::skin-tone-3 |
-| 🧚🏽‍♂️ | male_fairy::skin-tone-4 | 🧚🏾‍♂️ | male_fairy::skin-tone-5 |
-| 🧚🏿‍♂️ | male_fairy::skin-tone-6 | 🧞‍♂️ | male_genie |
-| 🧙‍♂️ | male_mage | 🧙🏻‍♂️ | male_mage::skin-tone-2 |
-| 🧙🏼‍♂️ | male_mage::skin-tone-3 | 🧙🏽‍♂️ | male_mage::skin-tone-4 |
-| 🧙🏾‍♂️ | male_mage::skin-tone-5 | 🧙🏿‍♂️ | male_mage::skin-tone-6 |
-| ♂️ | male_sign | 🧛‍♂️ | male_vampire |
-| 🧛🏻‍♂️ | male_vampire::skin-tone-2 | 🧛🏼‍♂️ | male_vampire::skin-tone-3 |
-| 🧛🏽‍♂️ | male_vampire::skin-tone-4 | 🧛🏾‍♂️ | male_vampire::skin-tone-5 |
-| 🧛🏿‍♂️ | male_vampire::skin-tone-6 | 🧟‍♂️ | male_zombie |
-| 👨 | man | 👨🏻 | man::skin-tone-2 |
-| 👨🏼 | man::skin-tone-3 | 👨🏽 | man::skin-tone-4 |
-| 👨🏾 | man::skin-tone-5 | 👨🏿 | man::skin-tone-6 |
-| 🚴‍♂️ | man-biking | 🚴🏻‍♂️ | man-biking::skin-tone-2 |
-| 🚴🏼‍♂️ | man-biking::skin-tone-3 | 🚴🏽‍♂️ | man-biking::skin-tone-4 |
-| 🚴🏾‍♂️ | man-biking::skin-tone-5 | 🚴🏿‍♂️ | man-biking::skin-tone-6 |
-| ⛹️‍♂️ | man-bouncing-ball | ⛹🏻‍♂️ | man-bouncing-ball::skin-tone-2 |
-| ⛹🏼‍♂️ | man-bouncing-ball::skin-tone-3 | ⛹🏽‍♂️ | man-bouncing-ball::skin-tone-4 |
-| ⛹🏾‍♂️ | man-bouncing-ball::skin-tone-5 | ⛹🏿‍♂️ | man-bouncing-ball::skin-tone-6 |
-| 🙇‍♂️ | man-bowing | 🙇🏻‍♂️ | man-bowing::skin-tone-2 |
-| 🙇🏼‍♂️ | man-bowing::skin-tone-3 | 🙇🏽‍♂️ | man-bowing::skin-tone-4 |
-| 🙇🏾‍♂️ | man-bowing::skin-tone-5 | 🙇🏿‍♂️ | man-bowing::skin-tone-6 |
+| 📭 | mailbox_with_no_mail | 👨‍🎨 👨🏻‍🎨 👨🏼‍🎨 👨🏽‍🎨 👨🏾‍🎨 👨🏿‍🎨 | male-artist |
+| 👨‍🚀 👨🏻‍🚀 👨🏼‍🚀 👨🏽‍🚀 👨🏾‍🚀 👨🏿‍🚀 | male-astronaut | 👷‍♂️ 👷🏻‍♂️ 👷🏼‍♂️ 👷🏽‍♂️ 👷🏾‍♂️ 👷🏿‍♂️ | male-construction-worker |
+| 👨‍🍳 👨🏻‍🍳 👨🏼‍🍳 👨🏽‍🍳 👨🏾‍🍳 👨🏿‍🍳 | male-cook | 🕵️‍♂️ 🕵🏻‍♂️ 🕵🏼‍♂️ 🕵🏽‍♂️ 🕵🏾‍♂️ 🕵🏿‍♂️ | male-detective |
+| 👨‍⚕️ 👨🏻‍⚕️ 👨🏼‍⚕️ 👨🏽‍⚕️ 👨🏾‍⚕️ 👨🏿‍⚕️ | male-doctor | 👨‍🏭 👨🏻‍🏭 👨🏼‍🏭 👨🏽‍🏭 👨🏾‍🏭 👨🏿‍🏭 | male-factory-worker |
+| 👨‍🌾 👨🏻‍🌾 👨🏼‍🌾 👨🏽‍🌾 👨🏾‍🌾 👨🏿‍🌾 | male-farmer | 👨‍🚒 👨🏻‍🚒 👨🏼‍🚒 👨🏽‍🚒 👨🏾‍🚒 👨🏿‍🚒 | male-firefighter |
+| 💂‍♂️ 💂🏻‍♂️ 💂🏼‍♂️ 💂🏽‍♂️ 💂🏾‍♂️ 💂🏿‍♂️ | male-guard | 👨‍⚖️ 👨🏻‍⚖️ 👨🏼‍⚖️ 👨🏽‍⚖️ 👨🏾‍⚖️ 👨🏿‍⚖️ | male-judge |
+| 👨‍🔧 👨🏻‍🔧 👨🏼‍🔧 👨🏽‍🔧 👨🏾‍🔧 👨🏿‍🔧 | male-mechanic | 👨‍💼 👨🏻‍💼 👨🏼‍💼 👨🏽‍💼 👨🏾‍💼 👨🏿‍💼 | male-office-worker |
+| 👨‍✈️ 👨🏻‍✈️ 👨🏼‍✈️ 👨🏽‍✈️ 👨🏾‍✈️ 👨🏿‍✈️ | male-pilot | 👮‍♂️ 👮🏻‍♂️ 👮🏼‍♂️ 👮🏽‍♂️ 👮🏾‍♂️ 👮🏿‍♂️ | male-police-officer |
+| 👨‍🔬 👨🏻‍🔬 👨🏼‍🔬 👨🏽‍🔬 👨🏾‍🔬 👨🏿‍🔬 | male-scientist | 👨‍🎤 👨🏻‍🎤 👨🏼‍🎤 👨🏽‍🎤 👨🏾‍🎤 👨🏿‍🎤 | male-singer |
+| 👨‍🎓 👨🏻‍🎓 👨🏼‍🎓 👨🏽‍🎓 👨🏾‍🎓 👨🏿‍🎓 | male-student | 👨‍🏫 👨🏻‍🏫 👨🏼‍🏫 👨🏽‍🏫 👨🏾‍🏫 👨🏿‍🏫 | male-teacher |
+| 👨‍💻 👨🏻‍💻 👨🏼‍💻 👨🏽‍💻 👨🏾‍💻 👨🏿‍💻 | male-technologist | 🧝‍♂️ 🧝🏻‍♂️ 🧝🏼‍♂️ 🧝🏽‍♂️ 🧝🏾‍♂️ 🧝🏿‍♂️ | male_elf |
+| 🧚‍♂️ 🧚🏻‍♂️ 🧚🏼‍♂️ 🧚🏽‍♂️ 🧚🏾‍♂️ 🧚🏿‍♂️ | male_fairy | 🧞‍♂️ | male_genie |
+| 🧙‍♂️ 🧙🏻‍♂️ 🧙🏼‍♂️ 🧙🏽‍♂️ 🧙🏾‍♂️ 🧙🏿‍♂️ | male_mage | ♂️ | male_sign |
+| 🧛‍♂️ 🧛🏻‍♂️ 🧛🏼‍♂️ 🧛🏽‍♂️ 🧛🏾‍♂️ 🧛🏿‍♂️ | male_vampire | 🧟‍♂️ | male_zombie |
+| 👨 👨🏻 👨🏼 👨🏽 👨🏾 👨🏿 | man | 🚴‍♂️ 🚴🏻‍♂️ 🚴🏼‍♂️ 🚴🏽‍♂️ 🚴🏾‍♂️ 🚴🏿‍♂️ | man-biking |
+| ⛹️‍♂️ ⛹🏻‍♂️ ⛹🏼‍♂️ ⛹🏽‍♂️ ⛹🏾‍♂️ ⛹🏿‍♂️ | man-bouncing-ball | 🙇‍♂️ 🙇🏻‍♂️ 🙇🏼‍♂️ 🙇🏽‍♂️ 🙇🏾‍♂️ 🙇🏿‍♂️ | man-bowing |
 | 👨‍👦 | man-boy | 👨‍👦‍👦 | man-boy-boy |
-| 🤸‍♂️ | man-cartwheeling | 🤸🏻‍♂️ | man-cartwheeling::skin-tone-2 |
-| 🤸🏼‍♂️ | man-cartwheeling::skin-tone-3 | 🤸🏽‍♂️ | man-cartwheeling::skin-tone-4 |
-| 🤸🏾‍♂️ | man-cartwheeling::skin-tone-5 | 🤸🏿‍♂️ | man-cartwheeling::skin-tone-6 |
-| 🤦‍♂️ | man-facepalming | 🤦🏻‍♂️ | man-facepalming::skin-tone-2 |
-| 🤦🏼‍♂️ | man-facepalming::skin-tone-3 | 🤦🏽‍♂️ | man-facepalming::skin-tone-4 |
-| 🤦🏾‍♂️ | man-facepalming::skin-tone-5 | 🤦🏿‍♂️ | man-facepalming::skin-tone-6 |
-| 🙍‍♂️ | man-frowning | 🙍🏻‍♂️ | man-frowning::skin-tone-2 |
-| 🙍🏼‍♂️ | man-frowning::skin-tone-3 | 🙍🏽‍♂️ | man-frowning::skin-tone-4 |
-| 🙍🏾‍♂️ | man-frowning::skin-tone-5 | 🙍🏿‍♂️ | man-frowning::skin-tone-6 |
-| 🙅‍♂️ | man-gesturing-no | 🙅🏻‍♂️ | man-gesturing-no::skin-tone-2 |
-| 🙅🏼‍♂️ | man-gesturing-no::skin-tone-3 | 🙅🏽‍♂️ | man-gesturing-no::skin-tone-4 |
-| 🙅🏾‍♂️ | man-gesturing-no::skin-tone-5 | 🙅🏿‍♂️ | man-gesturing-no::skin-tone-6 |
-| 🙆‍♂️ | man-gesturing-ok | 🙆🏻‍♂️ | man-gesturing-ok::skin-tone-2 |
-| 🙆🏼‍♂️ | man-gesturing-ok::skin-tone-3 | 🙆🏽‍♂️ | man-gesturing-ok::skin-tone-4 |
-| 🙆🏾‍♂️ | man-gesturing-ok::skin-tone-5 | 🙆🏿‍♂️ | man-gesturing-ok::skin-tone-6 |
-| 💇‍♂️ | man-getting-haircut | 💇🏻‍♂️ | man-getting-haircut::skin-tone-2 |
-| 💇🏼‍♂️ | man-getting-haircut::skin-tone-3 | 💇🏽‍♂️ | man-getting-haircut::skin-tone-4 |
-| 💇🏾‍♂️ | man-getting-haircut::skin-tone-5 | 💇🏿‍♂️ | man-getting-haircut::skin-tone-6 |
-| 💆‍♂️ | man-getting-massage | 💆🏻‍♂️ | man-getting-massage::skin-tone-2 |
-| 💆🏼‍♂️ | man-getting-massage::skin-tone-3 | 💆🏽‍♂️ | man-getting-massage::skin-tone-4 |
-| 💆🏾‍♂️ | man-getting-massage::skin-tone-5 | 💆🏿‍♂️ | man-getting-massage::skin-tone-6 |
-| 👨‍👧 | man-girl | 👨‍👧‍👦 | man-girl-boy |
-| 👨‍👧‍👧 | man-girl-girl | 🏌️‍♂️ | man-golfing |
-| 🏌🏻‍♂️ | man-golfing::skin-tone-2 | 🏌🏼‍♂️ | man-golfing::skin-tone-3 |
-| 🏌🏽‍♂️ | man-golfing::skin-tone-4 | 🏌🏾‍♂️ | man-golfing::skin-tone-5 |
-| 🏌🏿‍♂️ | man-golfing::skin-tone-6 | 👨‍❤️‍👨 | man-heart-man |
-| 🤹‍♂️ | man-juggling | 🤹🏻‍♂️ | man-juggling::skin-tone-2 |
-| 🤹🏼‍♂️ | man-juggling::skin-tone-3 | 🤹🏽‍♂️ | man-juggling::skin-tone-4 |
-| 🤹🏾‍♂️ | man-juggling::skin-tone-5 | 🤹🏿‍♂️ | man-juggling::skin-tone-6 |
-| 👨‍❤️‍💋‍👨 | man-kiss-man | 🏋️‍♂️ | man-lifting-weights |
-| 🏋🏻‍♂️ | man-lifting-weights::skin-tone-2 | 🏋🏼‍♂️ | man-lifting-weights::skin-tone-3 |
-| 🏋🏽‍♂️ | man-lifting-weights::skin-tone-4 | 🏋🏾‍♂️ | man-lifting-weights::skin-tone-5 |
-| 🏋🏿‍♂️ | man-lifting-weights::skin-tone-6 | 👨‍👨‍👦 | man-man-boy |
+| 🤸‍♂️ 🤸🏻‍♂️ 🤸🏼‍♂️ 🤸🏽‍♂️ 🤸🏾‍♂️ 🤸🏿‍♂️ | man-cartwheeling | 🤦‍♂️ 🤦🏻‍♂️ 🤦🏼‍♂️ 🤦🏽‍♂️ 🤦🏾‍♂️ 🤦🏿‍♂️ | man-facepalming |
+| 🙍‍♂️ 🙍🏻‍♂️ 🙍🏼‍♂️ 🙍🏽‍♂️ 🙍🏾‍♂️ 🙍🏿‍♂️ | man-frowning | 🙅‍♂️ 🙅🏻‍♂️ 🙅🏼‍♂️ 🙅🏽‍♂️ 🙅🏾‍♂️ 🙅🏿‍♂️ | man-gesturing-no |
+| 🙆‍♂️ 🙆🏻‍♂️ 🙆🏼‍♂️ 🙆🏽‍♂️ 🙆🏾‍♂️ 🙆🏿‍♂️ | man-gesturing-ok | 💇‍♂️ 💇🏻‍♂️ 💇🏼‍♂️ 💇🏽‍♂️ 💇🏾‍♂️ 💇🏿‍♂️ | man-getting-haircut |
+| 💆‍♂️ 💆🏻‍♂️ 💆🏼‍♂️ 💆🏽‍♂️ 💆🏾‍♂️ 💆🏿‍♂️ | man-getting-massage | 👨‍👧 | man-girl |
+| 👨‍👧‍👦 | man-girl-boy | 👨‍👧‍👧 | man-girl-girl |
+| 🏌️‍♂️ 🏌🏻‍♂️ 🏌🏼‍♂️ 🏌🏽‍♂️ 🏌🏾‍♂️ 🏌🏿‍♂️ | man-golfing | 👨‍❤️‍👨 | man-heart-man |
+| 🤹‍♂️ 🤹🏻‍♂️ 🤹🏼‍♂️ 🤹🏽‍♂️ 🤹🏾‍♂️ 🤹🏿‍♂️ | man-juggling | 👨‍❤️‍💋‍👨 | man-kiss-man |
+| 🏋️‍♂️ 🏋🏻‍♂️ 🏋🏼‍♂️ 🏋🏽‍♂️ 🏋🏾‍♂️ 🏋🏿‍♂️ | man-lifting-weights | 👨‍👨‍👦 | man-man-boy |
 | 👨‍👨‍👦‍👦 | man-man-boy-boy | 👨‍👨‍👧 | man-man-girl |
 | 👨‍👨‍👧‍👦 | man-man-girl-boy | 👨‍👨‍👧‍👧 | man-man-girl-girl |
-| 🚵‍♂️ | man-mountain-biking | 🚵🏻‍♂️ | man-mountain-biking::skin-tone-2 |
-| 🚵🏼‍♂️ | man-mountain-biking::skin-tone-3 | 🚵🏽‍♂️ | man-mountain-biking::skin-tone-4 |
-| 🚵🏾‍♂️ | man-mountain-biking::skin-tone-5 | 🚵🏿‍♂️ | man-mountain-biking::skin-tone-6 |
-| 🤾‍♂️ | man-playing-handball | 🤾🏻‍♂️ | man-playing-handball::skin-tone-2 |
-| 🤾🏼‍♂️ | man-playing-handball::skin-tone-3 | 🤾🏽‍♂️ | man-playing-handball::skin-tone-4 |
-| 🤾🏾‍♂️ | man-playing-handball::skin-tone-5 | 🤾🏿‍♂️ | man-playing-handball::skin-tone-6 |
-| 🤽‍♂️ | man-playing-water-polo | 🤽🏻‍♂️ | man-playing-water-polo::skin-tone-2 |
-| 🤽🏼‍♂️ | man-playing-water-polo::skin-tone-3 | 🤽🏽‍♂️ | man-playing-water-polo::skin-tone-4 |
-| 🤽🏾‍♂️ | man-playing-water-polo::skin-tone-5 | 🤽🏿‍♂️ | man-playing-water-polo::skin-tone-6 |
-| 🙎‍♂️ | man-pouting | 🙎🏻‍♂️ | man-pouting::skin-tone-2 |
-| 🙎🏼‍♂️ | man-pouting::skin-tone-3 | 🙎🏽‍♂️ | man-pouting::skin-tone-4 |
-| 🙎🏾‍♂️ | man-pouting::skin-tone-5 | 🙎🏿‍♂️ | man-pouting::skin-tone-6 |
-| 🙋‍♂️ | man-raising-hand | 🙋🏻‍♂️ | man-raising-hand::skin-tone-2 |
-| 🙋🏼‍♂️ | man-raising-hand::skin-tone-3 | 🙋🏽‍♂️ | man-raising-hand::skin-tone-4 |
-| 🙋🏾‍♂️ | man-raising-hand::skin-tone-5 | 🙋🏿‍♂️ | man-raising-hand::skin-tone-6 |
-| 🚣‍♂️ | man-rowing-boat | 🚣🏻‍♂️ | man-rowing-boat::skin-tone-2 |
-| 🚣🏼‍♂️ | man-rowing-boat::skin-tone-3 | 🚣🏽‍♂️ | man-rowing-boat::skin-tone-4 |
-| 🚣🏾‍♂️ | man-rowing-boat::skin-tone-5 | 🚣🏿‍♂️ | man-rowing-boat::skin-tone-6 |
-| 🏃‍♂️ | man-running | 🏃🏻‍♂️ | man-running::skin-tone-2 |
-| 🏃🏼‍♂️ | man-running::skin-tone-3 | 🏃🏽‍♂️ | man-running::skin-tone-4 |
-| 🏃🏾‍♂️ | man-running::skin-tone-5 | 🏃🏿‍♂️ | man-running::skin-tone-6 |
-| 🤷‍♂️ | man-shrugging | 🤷🏻‍♂️ | man-shrugging::skin-tone-2 |
-| 🤷🏼‍♂️ | man-shrugging::skin-tone-3 | 🤷🏽‍♂️ | man-shrugging::skin-tone-4 |
-| 🤷🏾‍♂️ | man-shrugging::skin-tone-5 | 🤷🏿‍♂️ | man-shrugging::skin-tone-6 |
-| 🏄‍♂️ | man-surfing | 🏄🏻‍♂️ | man-surfing::skin-tone-2 |
-| 🏄🏼‍♂️ | man-surfing::skin-tone-3 | 🏄🏽‍♂️ | man-surfing::skin-tone-4 |
-| 🏄🏾‍♂️ | man-surfing::skin-tone-5 | 🏄🏿‍♂️ | man-surfing::skin-tone-6 |
-| 🏊‍♂️ | man-swimming | 🏊🏻‍♂️ | man-swimming::skin-tone-2 |
-| 🏊🏼‍♂️ | man-swimming::skin-tone-3 | 🏊🏽‍♂️ | man-swimming::skin-tone-4 |
-| 🏊🏾‍♂️ | man-swimming::skin-tone-5 | 🏊🏿‍♂️ | man-swimming::skin-tone-6 |
-| 💁‍♂️ | man-tipping-hand | 💁🏻‍♂️ | man-tipping-hand::skin-tone-2 |
-| 💁🏼‍♂️ | man-tipping-hand::skin-tone-3 | 💁🏽‍♂️ | man-tipping-hand::skin-tone-4 |
-| 💁🏾‍♂️ | man-tipping-hand::skin-tone-5 | 💁🏿‍♂️ | man-tipping-hand::skin-tone-6 |
-| 🚶‍♂️ | man-walking | 🚶🏻‍♂️ | man-walking::skin-tone-2 |
-| 🚶🏼‍♂️ | man-walking::skin-tone-3 | 🚶🏽‍♂️ | man-walking::skin-tone-4 |
-| 🚶🏾‍♂️ | man-walking::skin-tone-5 | 🚶🏿‍♂️ | man-walking::skin-tone-6 |
-| 👳‍♂️ | man-wearing-turban | 👳🏻‍♂️ | man-wearing-turban::skin-tone-2 |
-| 👳🏼‍♂️ | man-wearing-turban::skin-tone-3 | 👳🏽‍♂️ | man-wearing-turban::skin-tone-4 |
-| 👳🏾‍♂️ | man-wearing-turban::skin-tone-5 | 👳🏿‍♂️ | man-wearing-turban::skin-tone-6 |
-| 👯‍♂️ | man-with-bunny-ears-partying | 👪 | man-woman-boy |
-| 👨‍👩‍👦 | man-woman-boy | 👨‍👩‍👦‍👦 | man-woman-boy-boy |
-| 👨‍👩‍👧 | man-woman-girl | 👨‍👩‍👧‍👦 | man-woman-girl-boy |
-| 👨‍👩‍👧‍👧 | man-woman-girl-girl | 🤼‍♂️ | man-wrestling |
-| 👫 | man_and_woman_holding_hands | 🧗‍♂️ | man_climbing |
-| 🧗🏻‍♂️ | man_climbing::skin-tone-2 | 🧗🏼‍♂️ | man_climbing::skin-tone-3 |
-| 🧗🏽‍♂️ | man_climbing::skin-tone-4 | 🧗🏾‍♂️ | man_climbing::skin-tone-5 |
-| 🧗🏿‍♂️ | man_climbing::skin-tone-6 | 🕺 | man_dancing |
-| 🕺🏻 | man_dancing::skin-tone-2 | 🕺🏼 | man_dancing::skin-tone-3 |
-| 🕺🏽 | man_dancing::skin-tone-4 | 🕺🏾 | man_dancing::skin-tone-5 |
-| 🕺🏿 | man_dancing::skin-tone-6 | 🕴️ | man_in_business_suit_levitating |
-| 🕴🏻 | man_in_business_suit_levitating::skin-tone-2 | 🕴🏼 | man_in_business_suit_levitating::skin-tone-3 |
-| 🕴🏽 | man_in_business_suit_levitating::skin-tone-4 | 🕴🏾 | man_in_business_suit_levitating::skin-tone-5 |
-| 🕴🏿 | man_in_business_suit_levitating::skin-tone-6 | 🧘‍♂️ | man_in_lotus_position |
-| 🧘🏻‍♂️ | man_in_lotus_position::skin-tone-2 | 🧘🏼‍♂️ | man_in_lotus_position::skin-tone-3 |
-| 🧘🏽‍♂️ | man_in_lotus_position::skin-tone-4 | 🧘🏾‍♂️ | man_in_lotus_position::skin-tone-5 |
-| 🧘🏿‍♂️ | man_in_lotus_position::skin-tone-6 | 🧖‍♂️ | man_in_steamy_room |
-| 🧖🏻‍♂️ | man_in_steamy_room::skin-tone-2 | 🧖🏼‍♂️ | man_in_steamy_room::skin-tone-3 |
-| 🧖🏽‍♂️ | man_in_steamy_room::skin-tone-4 | 🧖🏾‍♂️ | man_in_steamy_room::skin-tone-5 |
-| 🧖🏿‍♂️ | man_in_steamy_room::skin-tone-6 | 🤵 | man_in_tuxedo |
-| 🤵🏻 | man_in_tuxedo::skin-tone-2 | 🤵🏼 | man_in_tuxedo::skin-tone-3 |
-| 🤵🏽 | man_in_tuxedo::skin-tone-4 | 🤵🏾 | man_in_tuxedo::skin-tone-5 |
-| 🤵🏿 | man_in_tuxedo::skin-tone-6 | 👲 | man_with_gua_pi_mao |
-| 👲🏻 | man_with_gua_pi_mao::skin-tone-2 | 👲🏼 | man_with_gua_pi_mao::skin-tone-3 |
-| 👲🏽 | man_with_gua_pi_mao::skin-tone-4 | 👲🏾 | man_with_gua_pi_mao::skin-tone-5 |
-| 👲🏿 | man_with_gua_pi_mao::skin-tone-6 | 👳 | man_with_turban |
-| 👳🏻 | man_with_turban::skin-tone-2 | 👳🏼 | man_with_turban::skin-tone-3 |
-| 👳🏽 | man_with_turban::skin-tone-4 | 👳🏾 | man_with_turban::skin-tone-5 |
-| 👳🏿 | man_with_turban::skin-tone-6 | 👞 | mans_shoe |
-| 🕰️ | mantelpiece_clock | 🍁 | maple_leaf |
-| 🥋 | martial_arts_uniform | 😷 | mask |
-| 💆 | massage | 💆🏻 | massage::skin-tone-2 |
-| 💆🏼 | massage::skin-tone-3 | 💆🏽 | massage::skin-tone-4 |
-| 💆🏾 | massage::skin-tone-5 | 💆🏿 | massage::skin-tone-6 |
+| 🚵‍♂️ 🚵🏻‍♂️ 🚵🏼‍♂️ 🚵🏽‍♂️ 🚵🏾‍♂️ 🚵🏿‍♂️ | man-mountain-biking | 🤾‍♂️ 🤾🏻‍♂️ 🤾🏼‍♂️ 🤾🏽‍♂️ 🤾🏾‍♂️ 🤾🏿‍♂️ | man-playing-handball |
+| 🤽‍♂️ 🤽🏻‍♂️ 🤽🏼‍♂️ 🤽🏽‍♂️ 🤽🏾‍♂️ 🤽🏿‍♂️ | man-playing-water-polo | 🙎‍♂️ 🙎🏻‍♂️ 🙎🏼‍♂️ 🙎🏽‍♂️ 🙎🏾‍♂️ 🙎🏿‍♂️ | man-pouting |
+| 🙋‍♂️ 🙋🏻‍♂️ 🙋🏼‍♂️ 🙋🏽‍♂️ 🙋🏾‍♂️ 🙋🏿‍♂️ | man-raising-hand | 🚣‍♂️ 🚣🏻‍♂️ 🚣🏼‍♂️ 🚣🏽‍♂️ 🚣🏾‍♂️ 🚣🏿‍♂️ | man-rowing-boat |
+| 🏃‍♂️ 🏃🏻‍♂️ 🏃🏼‍♂️ 🏃🏽‍♂️ 🏃🏾‍♂️ 🏃🏿‍♂️ | man-running | 🤷‍♂️ 🤷🏻‍♂️ 🤷🏼‍♂️ 🤷🏽‍♂️ 🤷🏾‍♂️ 🤷🏿‍♂️ | man-shrugging |
+| 🏄‍♂️ 🏄🏻‍♂️ 🏄🏼‍♂️ 🏄🏽‍♂️ 🏄🏾‍♂️ 🏄🏿‍♂️ | man-surfing | 🏊‍♂️ 🏊🏻‍♂️ 🏊🏼‍♂️ 🏊🏽‍♂️ 🏊🏾‍♂️ 🏊🏿‍♂️ | man-swimming |
+| 💁‍♂️ 💁🏻‍♂️ 💁🏼‍♂️ 💁🏽‍♂️ 💁🏾‍♂️ 💁🏿‍♂️ | man-tipping-hand | 🚶‍♂️ 🚶🏻‍♂️ 🚶🏼‍♂️ 🚶🏽‍♂️ 🚶🏾‍♂️ 🚶🏿‍♂️ | man-walking |
+| 👳‍♂️ 👳🏻‍♂️ 👳🏼‍♂️ 👳🏽‍♂️ 👳🏾‍♂️ 👳🏿‍♂️ | man-wearing-turban | 👯‍♂️ | man-with-bunny-ears-partying |
+| 👪 | man-woman-boy | 👨‍👩‍👦 | man-woman-boy |
+| 👨‍👩‍👦‍👦 | man-woman-boy-boy | 👨‍👩‍👧 | man-woman-girl |
+| 👨‍👩‍👧‍👦 | man-woman-girl-boy | 👨‍👩‍👧‍👧 | man-woman-girl-girl |
+| 🤼‍♂️ | man-wrestling | 👫 | man_and_woman_holding_hands |
+| 🧗‍♂️ 🧗🏻‍♂️ 🧗🏼‍♂️ 🧗🏽‍♂️ 🧗🏾‍♂️ 🧗🏿‍♂️ | man_climbing | 🕺 🕺🏻 🕺🏼 🕺🏽 🕺🏾 🕺🏿 | man_dancing |
+| 🕴️ 🕴🏻 🕴🏼 🕴🏽 🕴🏾 🕴🏿 | man_in_business_suit_levitating | 🧘‍♂️ 🧘🏻‍♂️ 🧘🏼‍♂️ 🧘🏽‍♂️ 🧘🏾‍♂️ 🧘🏿‍♂️ | man_in_lotus_position |
+| 🧖‍♂️ 🧖🏻‍♂️ 🧖🏼‍♂️ 🧖🏽‍♂️ 🧖🏾‍♂️ 🧖🏿‍♂️ | man_in_steamy_room | 🤵 🤵🏻 🤵🏼 🤵🏽 🤵🏾 🤵🏿 | man_in_tuxedo |
+| 👲 👲🏻 👲🏼 👲🏽 👲🏾 👲🏿 | man_with_gua_pi_mao | 👳 👳🏻 👳🏼 👳🏽 👳🏾 👳🏿 | man_with_turban |
+| 👞 | mans_shoe | 🕰️ | mantelpiece_clock |
+| 🍁 | maple_leaf | 🥋 | martial_arts_uniform |
+| 😷 | mask | 💆 💆🏻 💆🏼 💆🏽 💆🏾 💆🏿 | massage |
 | 🍖 | meat_on_bone | 🎖️ | medal |
 | ⚕️ | medical_symbol | 📣 | mega |
 | 🍈 | melon | 📝 | memo |
 | 🕎 | menorah_with_nine_branches | 🚹 | mens |
-| 🧜‍♀️ | mermaid | 🧜🏻‍♀️ | mermaid::skin-tone-2 |
-| 🧜🏼‍♀️ | mermaid::skin-tone-3 | 🧜🏽‍♀️ | mermaid::skin-tone-4 |
-| 🧜🏾‍♀️ | mermaid::skin-tone-5 | 🧜🏿‍♀️ | mermaid::skin-tone-6 |
-| 🧜‍♂️ | merman | 🧜🏻‍♂️ | merman::skin-tone-2 |
-| 🧜🏼‍♂️ | merman::skin-tone-3 | 🧜🏽‍♂️ | merman::skin-tone-4 |
-| 🧜🏾‍♂️ | merman::skin-tone-5 | 🧜🏿‍♂️ | merman::skin-tone-6 |
-| 🧜 | merperson | 🧜🏻 | merperson::skin-tone-2 |
-| 🧜🏼 | merperson::skin-tone-3 | 🧜🏽 | merperson::skin-tone-4 |
-| 🧜🏾 | merperson::skin-tone-5 | 🧜🏿 | merperson::skin-tone-6 |
-| 🚇 | metro | 🎤 | microphone |
-| 🔬 | microscope | 🖕 | middle_finger |
-| 🖕🏻 | middle_finger::skin-tone-2 | 🖕🏼 | middle_finger::skin-tone-3 |
-| 🖕🏽 | middle_finger::skin-tone-4 | 🖕🏾 | middle_finger::skin-tone-5 |
-| 🖕🏿 | middle_finger::skin-tone-6 | 🌌 | milky_way |
+| 🧜‍♀️ 🧜🏻‍♀️ 🧜🏼‍♀️ 🧜🏽‍♀️ 🧜🏾‍♀️ 🧜🏿‍♀️ | mermaid | 🧜‍♂️ 🧜🏻‍♂️ 🧜🏼‍♂️ 🧜🏽‍♂️ 🧜🏾‍♂️ 🧜🏿‍♂️ | merman |
+| 🧜 🧜🏻 🧜🏼 🧜🏽 🧜🏾 🧜🏿 | merperson | 🚇 | metro |
+| 🎤 | microphone | 🔬 | microscope |
+| 🖕 🖕🏻 🖕🏼 🖕🏽 🖕🏾 🖕🏿 | middle_finger | 🌌 | milky_way |
 | 🚐 | minibus | 💽 | minidisc |
 | 📴 | mobile_phone_off | 🤑 | money_mouth_face |
 | 💸 | money_with_wings | 💰 | moneybag |
 | 🐒 | monkey | 🐵 | monkey_face |
 | 🚝 | monorail | 🌔 | moon |
 | 🎓 | mortar_board | 🕌 | mosque |
-| 🌤️ | mostly_sunny | 🤶 | mother_christmas |
-| 🤶🏻 | mother_christmas::skin-tone-2 | 🤶🏼 | mother_christmas::skin-tone-3 |
-| 🤶🏽 | mother_christmas::skin-tone-4 | 🤶🏾 | mother_christmas::skin-tone-5 |
-| 🤶🏿 | mother_christmas::skin-tone-6 | 🛥️ | motor_boat |
-| 🛵 | motor_scooter | 🛣️ | motorway |
-| 🗻 | mount_fuji | ⛰️ | mountain |
-| 🚵 | mountain_bicyclist | 🚵🏻 | mountain_bicyclist::skin-tone-2 |
-| 🚵🏼 | mountain_bicyclist::skin-tone-3 | 🚵🏽 | mountain_bicyclist::skin-tone-4 |
-| 🚵🏾 | mountain_bicyclist::skin-tone-5 | 🚵🏿 | mountain_bicyclist::skin-tone-6 |
+| 🌤️ | mostly_sunny | 🤶 🤶🏻 🤶🏼 🤶🏽 🤶🏾 🤶🏿 | mother_christmas |
+| 🛥️ | motor_boat | 🛵 | motor_scooter |
+| 🛣️ | motorway | 🗻 | mount_fuji |
+| ⛰️ | mountain | 🚵 🚵🏻 🚵🏼 🚵🏽 🚵🏾 🚵🏿 | mountain_bicyclist |
 | 🚠 | mountain_cableway | 🚞 | mountain_railway |
 | 🐭 | mouse | 🐁 | mouse2 |
 | 🎥 | movie_camera | 🗿 | moyai |
-| 🤶 | mrs_claus | 🤶🏻 | mrs_claus::skin-tone-2 |
-| 🤶🏼 | mrs_claus::skin-tone-3 | 🤶🏽 | mrs_claus::skin-tone-4 |
-| 🤶🏾 | mrs_claus::skin-tone-5 | 🤶🏿 | mrs_claus::skin-tone-6 |
-| 💪 | muscle | 💪🏻 | muscle::skin-tone-2 |
-| 💪🏼 | muscle::skin-tone-3 | 💪🏽 | muscle::skin-tone-4 |
-| 💪🏾 | muscle::skin-tone-5 | 💪🏿 | muscle::skin-tone-6 |
+| 🤶 🤶🏻 🤶🏼 🤶🏽 🤶🏾 🤶🏿 | mrs_claus | 💪 💪🏻 💪🏼 💪🏽 💪🏾 💪🏿 | muscle |
 | 🍄 | mushroom | 🎹 | musical_keyboard |
 | 🎵 | musical_note | 🎼 | musical_score |
-| 🔇 | mute | 💅 | nail_care |
-| 💅🏻 | nail_care::skin-tone-2 | 💅🏼 | nail_care::skin-tone-3 |
-| 💅🏽 | nail_care::skin-tone-4 | 💅🏾 | nail_care::skin-tone-5 |
-| 💅🏿 | nail_care::skin-tone-6 | 📛 | name_badge |
-| 🏞️ | national_park | 🤢 | nauseated_face |
-| 👔 | necktie | ❎ | negative_squared_cross_mark |
-| 🤓 | nerd_face | 😐 | neutral_face |
-| 🆕 | new | 🌑 | new_moon |
-| 🌚 | new_moon_with_face | 📰 | newspaper |
-| 🆖 | ng | 🌃 | night_with_stars |
-| 9️⃣ | nine | 🔕 | no_bell |
-| 🚳 | no_bicycles | ⛔ | no_entry |
-| 🚫 | no_entry_sign | 🙅 | no_good |
-| 🙅🏻 | no_good::skin-tone-2 | 🙅🏼 | no_good::skin-tone-3 |
-| 🙅🏽 | no_good::skin-tone-4 | 🙅🏾 | no_good::skin-tone-5 |
-| 🙅🏿 | no_good::skin-tone-6 | 📵 | no_mobile_phones |
+| 🔇 | mute | 💅 💅🏻 💅🏼 💅🏽 💅🏾 💅🏿 | nail_care |
+| 📛 | name_badge | 🏞️ | national_park |
+| 🤢 | nauseated_face | 👔 | necktie |
+| ❎ | negative_squared_cross_mark | 🤓 | nerd_face |
+| 😐 | neutral_face | 🆕 | new |
+| 🌑 | new_moon | 🌚 | new_moon_with_face |
+| 📰 | newspaper | 🆖 | ng |
+| 🌃 | night_with_stars | 9️⃣ | nine |
+| 🔕 | no_bell | 🚳 | no_bicycles |
+| ⛔ | no_entry | 🚫 | no_entry_sign |
+| 🙅 🙅🏻 🙅🏼 🙅🏽 🙅🏾 🙅🏿 | no_good | 📵 | no_mobile_phones |
 | 😶 | no_mouth | 🚷 | no_pedestrians |
 | 🚭 | no_smoking | 🚱 | non-potable_water |
-| 👃 | nose | 👃🏻 | nose::skin-tone-2 |
-| 👃🏼 | nose::skin-tone-3 | 👃🏽 | nose::skin-tone-4 |
-| 👃🏾 | nose::skin-tone-5 | 👃🏿 | nose::skin-tone-6 |
-| 📓 | notebook | 📔 | notebook_with_decorative_cover |
-| 🎶 | notes | 🔩 | nut_and_bolt |
-| ⭕ | o | 🅾️ | o2 |
-| 🌊 | ocean | 🛑 | octagonal_sign |
-| 🐙 | octopus | 🍢 | oden |
-| 🏢 | office | 🛢️ | oil_drum |
-| 🆗 | ok | 👌 | ok_hand |
-| 👌🏻 | ok_hand::skin-tone-2 | 👌🏼 | ok_hand::skin-tone-3 |
-| 👌🏽 | ok_hand::skin-tone-4 | 👌🏾 | ok_hand::skin-tone-5 |
-| 👌🏿 | ok_hand::skin-tone-6 | 🙆 | ok_woman |
-| 🙆🏻 | ok_woman::skin-tone-2 | 🙆🏼 | ok_woman::skin-tone-3 |
-| 🙆🏽 | ok_woman::skin-tone-4 | 🙆🏾 | ok_woman::skin-tone-5 |
-| 🙆🏿 | ok_woman::skin-tone-6 | 🗝️ | old_key |
-| 🧓 | older_adult | 🧓🏻 | older_adult::skin-tone-2 |
-| 🧓🏼 | older_adult::skin-tone-3 | 🧓🏽 | older_adult::skin-tone-4 |
-| 🧓🏾 | older_adult::skin-tone-5 | 🧓🏿 | older_adult::skin-tone-6 |
-| 👴 | older_man | 👴🏻 | older_man::skin-tone-2 |
-| 👴🏼 | older_man::skin-tone-3 | 👴🏽 | older_man::skin-tone-4 |
-| 👴🏾 | older_man::skin-tone-5 | 👴🏿 | older_man::skin-tone-6 |
-| 👵 | older_woman | 👵🏻 | older_woman::skin-tone-2 |
-| 👵🏼 | older_woman::skin-tone-3 | 👵🏽 | older_woman::skin-tone-4 |
-| 👵🏾 | older_woman::skin-tone-5 | 👵🏿 | older_woman::skin-tone-6 |
+| 👃 👃🏻 👃🏼 👃🏽 👃🏾 👃🏿 | nose | 📓 | notebook |
+| 📔 | notebook_with_decorative_cover | 🎶 | notes |
+| 🔩 | nut_and_bolt | ⭕ | o |
+| 🅾️ | o2 | 🌊 | ocean |
+| 🛑 | octagonal_sign | 🐙 | octopus |
+| 🍢 | oden | 🏢 | office |
+| 🛢️ | oil_drum | 🆗 | ok |
+| 👌 👌🏻 👌🏼 👌🏽 👌🏾 👌🏿 | ok_hand | 🙆 🙆🏻 🙆🏼 🙆🏽 🙆🏾 🙆🏿 | ok_woman |
+| 🗝️ | old_key | 🧓 🧓🏻 🧓🏼 🧓🏽 🧓🏾 🧓🏿 | older_adult |
+| 👴 👴🏻 👴🏼 👴🏽 👴🏾 👴🏿 | older_man | 👵 👵🏻 👵🏼 👵🏽 👵🏾 👵🏿 | older_woman |
 | 🕉️ | om_symbol | 🔛 | on |
 | 🚘 | oncoming_automobile | 🚍 | oncoming_bus |
 | 🚔 | oncoming_police_car | 🚖 | oncoming_taxi |
 | 1️⃣ | one | 📖 | open_book |
-| 📂 | open_file_folder | 👐 | open_hands |
-| 👐🏻 | open_hands::skin-tone-2 | 👐🏼 | open_hands::skin-tone-3 |
-| 👐🏽 | open_hands::skin-tone-4 | 👐🏾 | open_hands::skin-tone-5 |
-| 👐🏿 | open_hands::skin-tone-6 | 😮 | open_mouth |
-| ⛎ | ophiuchus | 📙 | orange_book |
-| 🧡 | orange_heart | ☦️ | orthodox_cross |
-| 📤 | outbox_tray | 🦉 | owl |
-| 🐂 | ox | 📦 | package |
-| 📄 | page_facing_up | 📃 | page_with_curl |
-| 📟 | pager | 🌴 | palm_tree |
-| 🤲 | palms_up_together | 🤲🏻 | palms_up_together::skin-tone-2 |
-| 🤲🏼 | palms_up_together::skin-tone-3 | 🤲🏽 | palms_up_together::skin-tone-4 |
-| 🤲🏾 | palms_up_together::skin-tone-5 | 🤲🏿 | palms_up_together::skin-tone-6 |
+| 📂 | open_file_folder | 👐 👐🏻 👐🏼 👐🏽 👐🏾 👐🏿 | open_hands |
+| 😮 | open_mouth | ⛎ | ophiuchus |
+| 📙 | orange_book | 🧡 | orange_heart |
+| ☦️ | orthodox_cross | 📤 | outbox_tray |
+| 🦉 | owl | 🐂 | ox |
+| 📦 | package | 📄 | page_facing_up |
+| 📃 | page_with_curl | 📟 | pager |
+| 🌴 | palm_tree | 🤲 🤲🏻 🤲🏼 🤲🏽 🤲🏾 🤲🏿 | palms_up_together |
 | 🥞 | pancakes | 🐼 | panda_face |
 | 📎 | paperclip | 🅿️ | parking |
 | 〽️ | part_alternation_mark | ⛅ | partly_sunny |
@@ -1031,140 +676,65 @@ Here is a table of the available emojis and their aliases.
 | 📝 | pencil | ✏️ | pencil2 |
 | 🐧 | penguin | 😔 | pensive |
 | 🎭 | performing_arts | 😣 | persevere |
-| 🧗 | person_climbing | 🧗🏻 | person_climbing::skin-tone-2 |
-| 🧗🏼 | person_climbing::skin-tone-3 | 🧗🏽 | person_climbing::skin-tone-4 |
-| 🧗🏾 | person_climbing::skin-tone-5 | 🧗🏿 | person_climbing::skin-tone-6 |
-| 🤸 | person_doing_cartwheel | 🤸🏻 | person_doing_cartwheel::skin-tone-2 |
-| 🤸🏼 | person_doing_cartwheel::skin-tone-3 | 🤸🏽 | person_doing_cartwheel::skin-tone-4 |
-| 🤸🏾 | person_doing_cartwheel::skin-tone-5 | 🤸🏿 | person_doing_cartwheel::skin-tone-6 |
-| 🙍 | person_frowning | 🙍🏻 | person_frowning::skin-tone-2 |
-| 🙍🏼 | person_frowning::skin-tone-3 | 🙍🏽 | person_frowning::skin-tone-4 |
-| 🙍🏾 | person_frowning::skin-tone-5 | 🙍🏿 | person_frowning::skin-tone-6 |
-| 🧘 | person_in_lotus_position | 🧘🏻 | person_in_lotus_position::skin-tone-2 |
-| 🧘🏼 | person_in_lotus_position::skin-tone-3 | 🧘🏽 | person_in_lotus_position::skin-tone-4 |
-| 🧘🏾 | person_in_lotus_position::skin-tone-5 | 🧘🏿 | person_in_lotus_position::skin-tone-6 |
-| 🧖 | person_in_steamy_room | 🧖🏻 | person_in_steamy_room::skin-tone-2 |
-| 🧖🏼 | person_in_steamy_room::skin-tone-3 | 🧖🏽 | person_in_steamy_room::skin-tone-4 |
-| 🧖🏾 | person_in_steamy_room::skin-tone-5 | 🧖🏿 | person_in_steamy_room::skin-tone-6 |
-| ⛹️ | person_with_ball | ⛹🏻 | person_with_ball::skin-tone-2 |
-| ⛹🏼 | person_with_ball::skin-tone-3 | ⛹🏽 | person_with_ball::skin-tone-4 |
-| ⛹🏾 | person_with_ball::skin-tone-5 | ⛹🏿 | person_with_ball::skin-tone-6 |
-| 👱 | person_with_blond_hair | 👱🏻 | person_with_blond_hair::skin-tone-2 |
-| 👱🏼 | person_with_blond_hair::skin-tone-3 | 👱🏽 | person_with_blond_hair::skin-tone-4 |
-| 👱🏾 | person_with_blond_hair::skin-tone-5 | 👱🏿 | person_with_blond_hair::skin-tone-6 |
-| 🧕 | person_with_headscarf | 🧕🏻 | person_with_headscarf::skin-tone-2 |
-| 🧕🏼 | person_with_headscarf::skin-tone-3 | 🧕🏽 | person_with_headscarf::skin-tone-4 |
-| 🧕🏾 | person_with_headscarf::skin-tone-5 | 🧕🏿 | person_with_headscarf::skin-tone-6 |
-| 🙎 | person_with_pouting_face | 🙎🏻 | person_with_pouting_face::skin-tone-2 |
-| 🙎🏼 | person_with_pouting_face::skin-tone-3 | 🙎🏽 | person_with_pouting_face::skin-tone-4 |
-| 🙎🏾 | person_with_pouting_face::skin-tone-5 | 🙎🏿 | person_with_pouting_face::skin-tone-6 |
-| ☎️ | phone | ⛏️ | pick |
-| 🥧 | pie | 🐷 | pig |
-| 🐖 | pig2 | 🐽 | pig_nose |
-| 💊 | pill | 🍍 | pineapple |
-| ♓ | pisces | 🍕 | pizza |
-| 🛐 | place_of_worship | 👇 | point_down |
-| 👇🏻 | point_down::skin-tone-2 | 👇🏼 | point_down::skin-tone-3 |
-| 👇🏽 | point_down::skin-tone-4 | 👇🏾 | point_down::skin-tone-5 |
-| 👇🏿 | point_down::skin-tone-6 | 👈 | point_left |
-| 👈🏻 | point_left::skin-tone-2 | 👈🏼 | point_left::skin-tone-3 |
-| 👈🏽 | point_left::skin-tone-4 | 👈🏾 | point_left::skin-tone-5 |
-| 👈🏿 | point_left::skin-tone-6 | 👉 | point_right |
-| 👉🏻 | point_right::skin-tone-2 | 👉🏼 | point_right::skin-tone-3 |
-| 👉🏽 | point_right::skin-tone-4 | 👉🏾 | point_right::skin-tone-5 |
-| 👉🏿 | point_right::skin-tone-6 | ☝️ | point_up |
-| ☝🏻 | point_up::skin-tone-2 | ☝🏼 | point_up::skin-tone-3 |
-| ☝🏽 | point_up::skin-tone-4 | ☝🏾 | point_up::skin-tone-5 |
-| ☝🏿 | point_up::skin-tone-6 | 👆 | point_up_2 |
-| 👆🏻 | point_up_2::skin-tone-2 | 👆🏼 | point_up_2::skin-tone-3 |
-| 👆🏽 | point_up_2::skin-tone-4 | 👆🏾 | point_up_2::skin-tone-5 |
-| 👆🏿 | point_up_2::skin-tone-6 | 🚓 | police_car |
+| 🧗 🧗🏻 🧗🏼 🧗🏽 🧗🏾 🧗🏿 | person_climbing | 🤸 🤸🏻 🤸🏼 🤸🏽 🤸🏾 🤸🏿 | person_doing_cartwheel |
+| 🙍 🙍🏻 🙍🏼 🙍🏽 🙍🏾 🙍🏿 | person_frowning | 🧘 🧘🏻 🧘🏼 🧘🏽 🧘🏾 🧘🏿 | person_in_lotus_position |
+| 🧖 🧖🏻 🧖🏼 🧖🏽 🧖🏾 🧖🏿 | person_in_steamy_room | ⛹️ ⛹🏻 ⛹🏼 ⛹🏽 ⛹🏾 ⛹🏿 | person_with_ball |
+| 👱 👱🏻 👱🏼 👱🏽 👱🏾 👱🏿 | person_with_blond_hair | 🧕 🧕🏻 🧕🏼 🧕🏽 🧕🏾 🧕🏿 | person_with_headscarf |
+| 🙎 🙎🏻 🙎🏼 🙎🏽 🙎🏾 🙎🏿 | person_with_pouting_face | ☎️ | phone |
+| ⛏️ | pick | 🥧 | pie |
+| 🐷 | pig | 🐖 | pig2 |
+| 🐽 | pig_nose | 💊 | pill |
+| 🍍 | pineapple | ♓ | pisces |
+| 🍕 | pizza | 🛐 | place_of_worship |
+| 👇 👇🏻 👇🏼 👇🏽 👇🏾 👇🏿 | point_down | 👈 👈🏻 👈🏼 👈🏽 👈🏾 👈🏿 | point_left |
+| 👉 👉🏻 👉🏼 👉🏽 👉🏾 👉🏿 | point_right | ☝️ ☝🏻 ☝🏼 ☝🏽 ☝🏾 ☝🏿 | point_up |
+| 👆 👆🏻 👆🏼 👆🏽 👆🏾 👆🏿 | point_up_2 | 🚓 | police_car |
 | 🐩 | poodle | 💩 | poop |
 | 🍿 | popcorn | 🏣 | post_office |
 | 📯 | postal_horn | 📮 | postbox |
 | 🚰 | potable_water | 🥔 | potato |
 | 👝 | pouch | 🍗 | poultry_leg |
 | 💷 | pound | 😾 | pouting_cat |
-| 🙏 | pray | 🙏🏻 | pray::skin-tone-2 |
-| 🙏🏼 | pray::skin-tone-3 | 🙏🏽 | pray::skin-tone-4 |
-| 🙏🏾 | pray::skin-tone-5 | 🙏🏿 | pray::skin-tone-6 |
-| 📿 | prayer_beads | 🤰 | pregnant_woman |
-| 🤰🏻 | pregnant_woman::skin-tone-2 | 🤰🏼 | pregnant_woman::skin-tone-3 |
-| 🤰🏽 | pregnant_woman::skin-tone-4 | 🤰🏾 | pregnant_woman::skin-tone-5 |
-| 🤰🏿 | pregnant_woman::skin-tone-6 | 🥨 | pretzel |
-| 🤴 | prince | 🤴🏻 | prince::skin-tone-2 |
-| 🤴🏼 | prince::skin-tone-3 | 🤴🏽 | prince::skin-tone-4 |
-| 🤴🏾 | prince::skin-tone-5 | 🤴🏿 | prince::skin-tone-6 |
-| 👸 | princess | 👸🏻 | princess::skin-tone-2 |
-| 👸🏼 | princess::skin-tone-3 | 👸🏽 | princess::skin-tone-4 |
-| 👸🏾 | princess::skin-tone-5 | 👸🏿 | princess::skin-tone-6 |
-| 🖨️ | printer | 👊 | punch |
-| 👊🏻 | punch::skin-tone-2 | 👊🏼 | punch::skin-tone-3 |
-| 👊🏽 | punch::skin-tone-4 | 👊🏾 | punch::skin-tone-5 |
-| 👊🏿 | punch::skin-tone-6 | 💜 | purple_heart |
-| 👛 | purse | 📌 | pushpin |
-| 🚮 | put_litter_in_its_place | ❓ | question |
-| 🐰 | rabbit | 🐇 | rabbit2 |
-| 🐎 | racehorse | 🏎️ | racing_car |
-| 🏍️ | racing_motorcycle | 📻 | radio |
-| 🔘 | radio_button | ☢️ | radioactive_sign |
-| 😡 | rage | 🚃 | railway_car |
-| 🛤️ | railway_track | 🌧️ | rain_cloud |
-| 🌈 | rainbow | 🏳️‍🌈 | rainbow-flag |
-| 🤚 | raised_back_of_hand | 🤚🏻 | raised_back_of_hand::skin-tone-2 |
-| 🤚🏼 | raised_back_of_hand::skin-tone-3 | 🤚🏽 | raised_back_of_hand::skin-tone-4 |
-| 🤚🏾 | raised_back_of_hand::skin-tone-5 | 🤚🏿 | raised_back_of_hand::skin-tone-6 |
-| ✋ | raised_hand | ✋🏻 | raised_hand::skin-tone-2 |
-| ✋🏼 | raised_hand::skin-tone-3 | ✋🏽 | raised_hand::skin-tone-4 |
-| ✋🏾 | raised_hand::skin-tone-5 | ✋🏿 | raised_hand::skin-tone-6 |
-| 🖐️ | raised_hand_with_fingers_splayed | 🖐🏻 | raised_hand_with_fingers_splayed::skin-tone-2 |
-| 🖐🏼 | raised_hand_with_fingers_splayed::skin-tone-3 | 🖐🏽 | raised_hand_with_fingers_splayed::skin-tone-4 |
-| 🖐🏾 | raised_hand_with_fingers_splayed::skin-tone-5 | 🖐🏿 | raised_hand_with_fingers_splayed::skin-tone-6 |
-| 🙌 | raised_hands | 🙌🏻 | raised_hands::skin-tone-2 |
-| 🙌🏼 | raised_hands::skin-tone-3 | 🙌🏽 | raised_hands::skin-tone-4 |
-| 🙌🏾 | raised_hands::skin-tone-5 | 🙌🏿 | raised_hands::skin-tone-6 |
-| 🙋 | raising_hand | 🙋🏻 | raising_hand::skin-tone-2 |
-| 🙋🏼 | raising_hand::skin-tone-3 | 🙋🏽 | raising_hand::skin-tone-4 |
-| 🙋🏾 | raising_hand::skin-tone-5 | 🙋🏿 | raising_hand::skin-tone-6 |
+| 🙏 🙏🏻 🙏🏼 🙏🏽 🙏🏾 🙏🏿 | pray | 📿 | prayer_beads |
+| 🤰 🤰🏻 🤰🏼 🤰🏽 🤰🏾 🤰🏿 | pregnant_woman | 🥨 | pretzel |
+| 🤴 🤴🏻 🤴🏼 🤴🏽 🤴🏾 🤴🏿 | prince | 👸 👸🏻 👸🏼 👸🏽 👸🏾 👸🏿 | princess |
+| 🖨️ | printer | 👊 👊🏻 👊🏼 👊🏽 👊🏾 👊🏿 | punch |
+| 💜 | purple_heart | 👛 | purse |
+| 📌 | pushpin | 🚮 | put_litter_in_its_place |
+| ❓ | question | 🐰 | rabbit |
+| 🐇 | rabbit2 | 🐎 | racehorse |
+| 🏎️ | racing_car | 🏍️ | racing_motorcycle |
+| 📻 | radio | 🔘 | radio_button |
+| ☢️ | radioactive_sign | 😡 | rage |
+| 🚃 | railway_car | 🛤️ | railway_track |
+| 🌧️ | rain_cloud | 🌈 | rainbow |
+| 🏳️‍🌈 | rainbow-flag | 🤚 🤚🏻 🤚🏼 🤚🏽 🤚🏾 🤚🏿 | raised_back_of_hand |
+| ✋ ✋🏻 ✋🏼 ✋🏽 ✋🏾 ✋🏿 | raised_hand | 🖐️ 🖐🏻 🖐🏼 🖐🏽 🖐🏾 🖐🏿 | raised_hand_with_fingers_splayed |
+| 🙌 🙌🏻 🙌🏼 🙌🏽 🙌🏾 🙌🏿 | raised_hands | 🙋 🙋🏻 🙋🏼 🙋🏽 🙋🏾 🙋🏿 | raising_hand |
 | 🐏 | ram | 🍜 | ramen |
 | 🐀 | rat | ♻️ | recycle |
 | 🚗 | red_car | 🔴 | red_circle |
 | ®️ | registered | ☺️ | relaxed |
 | 😌 | relieved | 🎗️ | reminder_ribbon |
 | 🔁 | repeat | 🔂 | repeat_one |
-| 🚻 | restroom | 🖕 | reversed_hand_with_middle_finger_extended |
-| 🖕🏻 | reversed_hand_with_middle_finger_extended::skin-tone-2 | 🖕🏼 | reversed_hand_with_middle_finger_extended::skin-tone-3 |
-| 🖕🏽 | reversed_hand_with_middle_finger_extended::skin-tone-4 | 🖕🏾 | reversed_hand_with_middle_finger_extended::skin-tone-5 |
-| 🖕🏿 | reversed_hand_with_middle_finger_extended::skin-tone-6 | 💞 | revolving_hearts |
-| ⏪ | rewind | 🦏 | rhinoceros |
-| 🎀 | ribbon | 🍚 | rice |
-| 🍙 | rice_ball | 🍘 | rice_cracker |
-| 🎑 | rice_scene | 🤜 | right-facing_fist |
-| 🤜🏻 | right-facing_fist::skin-tone-2 | 🤜🏼 | right-facing_fist::skin-tone-3 |
-| 🤜🏽 | right-facing_fist::skin-tone-4 | 🤜🏾 | right-facing_fist::skin-tone-5 |
-| 🤜🏿 | right-facing_fist::skin-tone-6 | 🗯️ | right_anger_bubble |
+| 🚻 | restroom | 🖕 🖕🏻 🖕🏼 🖕🏽 🖕🏾 🖕🏿 | reversed_hand_with_middle_finger_extended |
+| 💞 | revolving_hearts | ⏪ | rewind |
+| 🦏 | rhinoceros | 🎀 | ribbon |
+| 🍚 | rice | 🍙 | rice_ball |
+| 🍘 | rice_cracker | 🎑 | rice_scene |
+| 🤜 🤜🏻 🤜🏼 🤜🏽 🤜🏾 🤜🏿 | right-facing_fist | 🗯️ | right_anger_bubble |
 | 💍 | ring | 🤖 | robot_face |
 | 🚀 | rocket | 🗞️ | rolled_up_newspaper |
 | 🎢 | roller_coaster | 🤣 | rolling_on_the_floor_laughing |
 | 🐓 | rooster | 🌹 | rose |
 | 🏵️ | rosette | 🚨 | rotating_light |
-| 📍 | round_pushpin | 🚣 | rowboat |
-| 🚣🏻 | rowboat::skin-tone-2 | 🚣🏼 | rowboat::skin-tone-3 |
-| 🚣🏽 | rowboat::skin-tone-4 | 🚣🏾 | rowboat::skin-tone-5 |
-| 🚣🏿 | rowboat::skin-tone-6 | 🇷🇺 | ru |
-| 🏉 | rugby_football | 🏃 | runner |
-| 🏃🏻 | runner::skin-tone-2 | 🏃🏼 | runner::skin-tone-3 |
-| 🏃🏽 | runner::skin-tone-4 | 🏃🏾 | runner::skin-tone-5 |
-| 🏃🏿 | runner::skin-tone-6 | 🏃 | running |
-| 🏃🏻 | running::skin-tone-2 | 🏃🏼 | running::skin-tone-3 |
-| 🏃🏽 | running::skin-tone-4 | 🏃🏾 | running::skin-tone-5 |
-| 🏃🏿 | running::skin-tone-6 | 🎽 | running_shirt_with_sash |
-| 🈂️ | sa | ♐ | sagittarius |
-| ⛵ | sailboat | 🍶 | sake |
-| 👡 | sandal | 🥪 | sandwich |
-| 🎅 | santa | 🎅🏻 | santa::skin-tone-2 |
-| 🎅🏼 | santa::skin-tone-3 | 🎅🏽 | santa::skin-tone-4 |
-| 🎅🏾 | santa::skin-tone-5 | 🎅🏿 | santa::skin-tone-6 |
+| 📍 | round_pushpin | 🚣 🚣🏻 🚣🏼 🚣🏽 🚣🏾 🚣🏿 | rowboat |
+| 🇷🇺 | ru | 🏉 | rugby_football |
+| 🏃 🏃🏻 🏃🏼 🏃🏽 🏃🏾 🏃🏿 | runner | 🏃 🏃🏻 🏃🏼 🏃🏽 🏃🏾 🏃🏿 | running |
+| 🎽 | running_shirt_with_sash | 🈂️ | sa |
+| ♐ | sagittarius | ⛵ | sailboat |
+| 🍶 | sake | 👡 | sandal |
+| 🥪 | sandwich | 🎅 🎅🏻 🎅🏼 🎅🏽 🎅🏾 🎅🏿 | santa |
 | 🛰️ | satellite | 📡 | satellite_antenna |
 | 😆 | satisfied | 🦕 | sauropod |
 | 🎷 | saxophone | ⚖️ | scales |
@@ -1175,53 +745,38 @@ Here is a table of the available emojis and their aliases.
 | 🙀 | scream_cat | 📜 | scroll |
 | 💺 | seat | 🥈 | second_place_medal |
 | ㊙️ | secret | 🙈 | see_no_evil |
-| 🌱 | seedling | 🤳 | selfie |
-| 🤳🏻 | selfie::skin-tone-2 | 🤳🏼 | selfie::skin-tone-3 |
-| 🤳🏽 | selfie::skin-tone-4 | 🤳🏾 | selfie::skin-tone-5 |
-| 🤳🏿 | selfie::skin-tone-6 | 🤬 | serious_face_with_symbols_covering_mouth |
-| 7️⃣ | seven | 🥘 | shallow_pan_of_food |
-| ☘️ | shamrock | 🦈 | shark |
-| 🍧 | shaved_ice | 🐑 | sheep |
-| 🐚 | shell | 🛡️ | shield |
-| ⛩️ | shinto_shrine | 🚢 | ship |
-| 👕 | shirt | 💩 | shit |
-| 🤯 | shocked_face_with_exploding_head | 👞 | shoe |
-| 🛍️ | shopping_bags | 🛒 | shopping_trolley |
-| 🚿 | shower | 🦐 | shrimp |
-| 🤷 | shrug | 🤷🏻 | shrug::skin-tone-2 |
-| 🤷🏼 | shrug::skin-tone-3 | 🤷🏽 | shrug::skin-tone-4 |
-| 🤷🏾 | shrug::skin-tone-5 | 🤷🏿 | shrug::skin-tone-6 |
-| 🤫 | shushing_face | 🤘 | sign_of_the_horns |
-| 🤘🏻 | sign_of_the_horns::skin-tone-2 | 🤘🏼 | sign_of_the_horns::skin-tone-3 |
-| 🤘🏽 | sign_of_the_horns::skin-tone-4 | 🤘🏾 | sign_of_the_horns::skin-tone-5 |
-| 🤘🏿 | sign_of_the_horns::skin-tone-6 | 📶 | signal_strength |
-| 6️⃣ | six | 🔯 | six_pointed_star |
-| 🎿 | ski | ⛷️ | skier |
-| 🏻 | skin-tone-2 | 🏼 | skin-tone-3 |
-| 🏽 | skin-tone-4 | 🏾 | skin-tone-5 |
-| 🏿 | skin-tone-6 | 💀 | skull |
-| ☠️ | skull_and_crossbones | 🛷 | sled |
-| 😴 | sleeping | 🛌 | sleeping_accommodation |
-| 🛌🏻 | sleeping_accommodation::skin-tone-2 | 🛌🏼 | sleeping_accommodation::skin-tone-3 |
-| 🛌🏽 | sleeping_accommodation::skin-tone-4 | 🛌🏾 | sleeping_accommodation::skin-tone-5 |
-| 🛌🏿 | sleeping_accommodation::skin-tone-6 | 😪 | sleepy |
-| 🕵️ | sleuth_or_spy | 🕵🏻 | sleuth_or_spy::skin-tone-2 |
-| 🕵🏼 | sleuth_or_spy::skin-tone-3 | 🕵🏽 | sleuth_or_spy::skin-tone-4 |
-| 🕵🏾 | sleuth_or_spy::skin-tone-5 | 🕵🏿 | sleuth_or_spy::skin-tone-6 |
-| 🙁 | slightly_frowning_face | 🙂 | slightly_smiling_face |
-| 🎰 | slot_machine | 🛩️ | small_airplane |
-| 🔹 | small_blue_diamond | 🔸 | small_orange_diamond |
-| 🔺 | small_red_triangle | 🔻 | small_red_triangle_down |
-| 😄 | smile | 😸 | smile_cat |
-| 😃 | smiley | 😺 | smiley_cat |
-| 🤭 | smiling_face_with_smiling_eyes_and_hand_covering_mouth | 😈 | smiling_imp |
-| 😏 | smirk | 😼 | smirk_cat |
-| 🚬 | smoking | 🐌 | snail |
-| 🐍 | snake | 🤧 | sneezing_face |
-| 🏔️ | snow_capped_mountain | 🌨️ | snow_cloud |
-| 🏂 | snowboarder | 🏂🏻 | snowboarder::skin-tone-2 |
-| 🏂🏼 | snowboarder::skin-tone-3 | 🏂🏽 | snowboarder::skin-tone-4 |
-| 🏂🏾 | snowboarder::skin-tone-5 | 🏂🏿 | snowboarder::skin-tone-6 |
+| 🌱 | seedling | 🤳 🤳🏻 🤳🏼 🤳🏽 🤳🏾 🤳🏿 | selfie |
+| 🤬 | serious_face_with_symbols_covering_mouth | 7️⃣ | seven |
+| 🥘 | shallow_pan_of_food | ☘️ | shamrock |
+| 🦈 | shark | 🍧 | shaved_ice |
+| 🐑 | sheep | 🐚 | shell |
+| 🛡️ | shield | ⛩️ | shinto_shrine |
+| 🚢 | ship | 👕 | shirt |
+| 💩 | shit | 🤯 | shocked_face_with_exploding_head |
+| 👞 | shoe | 🛍️ | shopping_bags |
+| 🛒 | shopping_trolley | 🚿 | shower |
+| 🦐 | shrimp | 🤷 🤷🏻 🤷🏼 🤷🏽 🤷🏾 🤷🏿 | shrug |
+| 🤫 | shushing_face | 🤘 🤘🏻 🤘🏼 🤘🏽 🤘🏾 🤘🏿 | sign_of_the_horns |
+| 📶 | signal_strength | 6️⃣ | six |
+| 🔯 | six_pointed_star | 🎿 | ski |
+| ⛷️ | skier | 🏻 | skin-tone-2 |
+| 🏼 | skin-tone-3 | 🏽 | skin-tone-4 |
+| 🏾 | skin-tone-5 | 🏿 | skin-tone-6 |
+| 💀 | skull | ☠️ | skull_and_crossbones |
+| 🛷 | sled | 😴 | sleeping |
+| 🛌 🛌🏻 🛌🏼 🛌🏽 🛌🏾 🛌🏿 | sleeping_accommodation | 😪 | sleepy |
+| 🕵️ 🕵🏻 🕵🏼 🕵🏽 🕵🏾 🕵🏿 | sleuth_or_spy | 🙁 | slightly_frowning_face |
+| 🙂 | slightly_smiling_face | 🎰 | slot_machine |
+| 🛩️ | small_airplane | 🔹 | small_blue_diamond |
+| 🔸 | small_orange_diamond | 🔺 | small_red_triangle |
+| 🔻 | small_red_triangle_down | 😄 | smile |
+| 😸 | smile_cat | 😃 | smiley |
+| 😺 | smiley_cat | 🤭 | smiling_face_with_smiling_eyes_and_hand_covering_mouth |
+| 😈 | smiling_imp | 😏 | smirk |
+| 😼 | smirk_cat | 🚬 | smoking |
+| 🐌 | snail | 🐍 | snake |
+| 🤧 | sneezing_face | 🏔️ | snow_capped_mountain |
+| 🌨️ | snow_cloud | 🏂 🏂🏻 🏂🏼 🏂🏽 🏂🏾 🏂🏿 | snowboarder |
 | ❄️ | snowflake | ☃️ | snowman |
 | ⛄ | snowman_without_snow | 😭 | sob |
 | ⚽ | soccer | 🧦 | socks |
@@ -1234,56 +789,41 @@ Here is a table of the available emojis and their aliases.
 | 🗣️ | speaking_head_in_silhouette | 💬 | speech_balloon |
 | 🚤 | speedboat | 🕷️ | spider |
 | 🕸️ | spider_web | 🗓️ | spiral_calendar_pad |
-| 🗒️ | spiral_note_pad | 🖖 | spock-hand |
-| 🖖🏻 | spock-hand::skin-tone-2 | 🖖🏼 | spock-hand::skin-tone-3 |
-| 🖖🏽 | spock-hand::skin-tone-4 | 🖖🏾 | spock-hand::skin-tone-5 |
-| 🖖🏿 | spock-hand::skin-tone-6 | 🥄 | spoon |
-| 🏅 | sports_medal | 🦑 | squid |
-| 🏟️ | stadium | ⚕️ | staff_of_aesculapius |
-| ⭐ | star | 🤩 | star-struck |
-| 🌟 | star2 | ☪️ | star_and_crescent |
-| ✡️ | star_of_david | 🌠 | stars |
-| 🚉 | station | 🗽 | statue_of_liberty |
-| 🚂 | steam_locomotive | 🍲 | stew |
-| ⏱️ | stopwatch | 📏 | straight_ruler |
-| 🍓 | strawberry | 😛 | stuck_out_tongue |
-| 😝 | stuck_out_tongue_closed_eyes | 😜 | stuck_out_tongue_winking_eye |
-| 🎙️ | studio_microphone | 🥙 | stuffed_flatbread |
-| 🌥️ | sun_behind_cloud | 🌦️ | sun_behind_rain_cloud |
-| 🌤️ | sun_small_cloud | 🌞 | sun_with_face |
-| 🌻 | sunflower | 😎 | sunglasses |
-| ☀️ | sunny | 🌅 | sunrise |
-| 🌄 | sunrise_over_mountains | 🏄 | surfer |
-| 🏄🏻 | surfer::skin-tone-2 | 🏄🏼 | surfer::skin-tone-3 |
-| 🏄🏽 | surfer::skin-tone-4 | 🏄🏾 | surfer::skin-tone-5 |
-| 🏄🏿 | surfer::skin-tone-6 | 🍣 | sushi |
+| 🗒️ | spiral_note_pad | 🖖 🖖🏻 🖖🏼 🖖🏽 🖖🏾 🖖🏿 | spock-hand |
+| 🥄 | spoon | 🏅 | sports_medal |
+| 🦑 | squid | 🏟️ | stadium |
+| ⚕️ | staff_of_aesculapius | ⭐ | star |
+| 🤩 | star-struck | 🌟 | star2 |
+| ☪️ | star_and_crescent | ✡️ | star_of_david |
+| 🌠 | stars | 🚉 | station |
+| 🗽 | statue_of_liberty | 🚂 | steam_locomotive |
+| 🍲 | stew | ⏱️ | stopwatch |
+| 📏 | straight_ruler | 🍓 | strawberry |
+| 😛 | stuck_out_tongue | 😝 | stuck_out_tongue_closed_eyes |
+| 😜 | stuck_out_tongue_winking_eye | 🎙️ | studio_microphone |
+| 🥙 | stuffed_flatbread | 🌥️ | sun_behind_cloud |
+| 🌦️ | sun_behind_rain_cloud | 🌤️ | sun_small_cloud |
+| 🌞 | sun_with_face | 🌻 | sunflower |
+| 😎 | sunglasses | ☀️ | sunny |
+| 🌅 | sunrise | 🌄 | sunrise_over_mountains |
+| 🏄 🏄🏻 🏄🏼 🏄🏽 🏄🏾 🏄🏿 | surfer | 🍣 | sushi |
 | 🚟 | suspension_railway | 😓 | sweat |
 | 💦 | sweat_drops | 😅 | sweat_smile |
-| 🍠 | sweet_potato | 🏊 | swimmer |
-| 🏊🏻 | swimmer::skin-tone-2 | 🏊🏼 | swimmer::skin-tone-3 |
-| 🏊🏽 | swimmer::skin-tone-4 | 🏊🏾 | swimmer::skin-tone-5 |
-| 🏊🏿 | swimmer::skin-tone-6 | 🔣 | symbols |
-| 🕍 | synagogue | 💉 | syringe |
-| 🦖 | t-rex | 🏓 | table_tennis_paddle_and_ball |
-| 🌮 | taco | 🎉 | tada |
-| 🥡 | takeout_box | 🎋 | tanabata_tree |
-| 🍊 | tangerine | ♉ | taurus |
-| 🚕 | taxi | 🍵 | tea |
-| ☎️ | telephone | 📞 | telephone_receiver |
-| 🔭 | telescope | 🎾 | tennis |
-| ⛺ | tent | 🤘 | the_horns |
-| 🤘🏻 | the_horns::skin-tone-2 | 🤘🏼 | the_horns::skin-tone-3 |
-| 🤘🏽 | the_horns::skin-tone-4 | 🤘🏾 | the_horns::skin-tone-5 |
-| 🤘🏿 | the_horns::skin-tone-6 | 🌡️ | thermometer |
+| 🍠 | sweet_potato | 🏊 🏊🏻 🏊🏼 🏊🏽 🏊🏾 🏊🏿 | swimmer |
+| 🔣 | symbols | 🕍 | synagogue |
+| 💉 | syringe | 🦖 | t-rex |
+| 🏓 | table_tennis_paddle_and_ball | 🌮 | taco |
+| 🎉 | tada | 🥡 | takeout_box |
+| 🎋 | tanabata_tree | 🍊 | tangerine |
+| ♉ | taurus | 🚕 | taxi |
+| 🍵 | tea | ☎️ | telephone |
+| 📞 | telephone_receiver | 🔭 | telescope |
+| 🎾 | tennis | ⛺ | tent |
+| 🤘 🤘🏻 🤘🏼 🤘🏽 🤘🏾 🤘🏿 | the_horns | 🌡️ | thermometer |
 | 🤔 | thinking_face | 🥉 | third_place_medal |
 | 💭 | thought_balloon | 3️⃣ | three |
-| 🖱️ | three_button_mouse | 👎 | thumbsdown |
-| 👎🏻 | thumbsdown::skin-tone-2 | 👎🏼 | thumbsdown::skin-tone-3 |
-| 👎🏽 | thumbsdown::skin-tone-4 | 👎🏾 | thumbsdown::skin-tone-5 |
-| 👎🏿 | thumbsdown::skin-tone-6 | 👍 | thumbsup |
-| 👍🏻 | thumbsup::skin-tone-2 | 👍🏼 | thumbsup::skin-tone-3 |
-| 👍🏽 | thumbsup::skin-tone-4 | 👍🏾 | thumbsup::skin-tone-5 |
-| 👍🏿 | thumbsup::skin-tone-6 | ⛈️ | thunder_cloud_and_rain |
+| 🖱️ | three_button_mouse | 👎 👎🏻 👎🏼 👎🏽 👎🏾 👎🏿 | thumbsdown |
+| 👍 👍🏻 👍🏼 👍🏽 👍🏾 👍🏿 | thumbsup | ⛈️ | thunder_cloud_and_rain |
 | 🎫 | ticket | 🐯 | tiger |
 | 🐅 | tiger2 | ⏲️ | timer_clock |
 | 😫 | tired_face | ™️ | tm |
@@ -1315,37 +855,22 @@ Here is a table of the available emojis and their aliases.
 | 😒 | unamused | 🔞 | underage |
 | 🦄 | unicorn_face | 🔓 | unlock |
 | 🆙 | up | 🙃 | upside_down_face |
-| 🇺🇸 | us | ✌️ | v |
-| ✌🏻 | v::skin-tone-2 | ✌🏼 | v::skin-tone-3 |
-| ✌🏽 | v::skin-tone-4 | ✌🏾 | v::skin-tone-5 |
-| ✌🏿 | v::skin-tone-6 | 🧛 | vampire |
-| 🧛🏻 | vampire::skin-tone-2 | 🧛🏼 | vampire::skin-tone-3 |
-| 🧛🏽 | vampire::skin-tone-4 | 🧛🏾 | vampire::skin-tone-5 |
-| 🧛🏿 | vampire::skin-tone-6 | 🚦 | vertical_traffic_light |
+| 🇺🇸 | us | ✌️ ✌🏻 ✌🏼 ✌🏽 ✌🏾 ✌🏿 | v |
+| 🧛 🧛🏻 🧛🏼 🧛🏽 🧛🏾 🧛🏿 | vampire | 🚦 | vertical_traffic_light |
 | 📼 | vhs | 📳 | vibration_mode |
 | 📹 | video_camera | 🎮 | video_game |
 | 🎻 | violin | ♍ | virgo |
 | 🌋 | volcano | 🏐 | volleyball |
-| 🆚 | vs | 🚶 | walking |
-| 🚶🏻 | walking::skin-tone-2 | 🚶🏼 | walking::skin-tone-3 |
-| 🚶🏽 | walking::skin-tone-4 | 🚶🏾 | walking::skin-tone-5 |
-| 🚶🏿 | walking::skin-tone-6 | 🌘 | waning_crescent_moon |
-| 🌖 | waning_gibbous_moon | ⚠️ | warning |
-| 🗑️ | wastebasket | ⌚ | watch |
-| 🐃 | water_buffalo | 🤽 | water_polo |
-| 🤽🏻 | water_polo::skin-tone-2 | 🤽🏼 | water_polo::skin-tone-3 |
-| 🤽🏽 | water_polo::skin-tone-4 | 🤽🏾 | water_polo::skin-tone-5 |
-| 🤽🏿 | water_polo::skin-tone-6 | 🍉 | watermelon |
-| 👋 | wave | 👋🏻 | wave::skin-tone-2 |
-| 👋🏼 | wave::skin-tone-3 | 👋🏽 | wave::skin-tone-4 |
-| 👋🏾 | wave::skin-tone-5 | 👋🏿 | wave::skin-tone-6 |
-| 🏴 | waving_black_flag | 🏳️ | waving_white_flag |
-| 〰️ | wavy_dash | 🌒 | waxing_crescent_moon |
-| 🌔 | waxing_gibbous_moon | 🚾 | wc |
-| 😩 | weary | 💒 | wedding |
-| 🏋️ | weight_lifter | 🏋🏻 | weight_lifter::skin-tone-2 |
-| 🏋🏼 | weight_lifter::skin-tone-3 | 🏋🏽 | weight_lifter::skin-tone-4 |
-| 🏋🏾 | weight_lifter::skin-tone-5 | 🏋🏿 | weight_lifter::skin-tone-6 |
+| 🆚 | vs | 🚶 🚶🏻 🚶🏼 🚶🏽 🚶🏾 🚶🏿 | walking |
+| 🌘 | waning_crescent_moon | 🌖 | waning_gibbous_moon |
+| ⚠️ | warning | 🗑️ | wastebasket |
+| ⌚ | watch | 🐃 | water_buffalo |
+| 🤽 🤽🏻 🤽🏼 🤽🏽 🤽🏾 🤽🏿 | water_polo | 🍉 | watermelon |
+| 👋 👋🏻 👋🏼 👋🏽 👋🏾 👋🏿 | wave | 🏴 | waving_black_flag |
+| 🏳️ | waving_white_flag | 〰️ | wavy_dash |
+| 🌒 | waxing_crescent_moon | 🌔 | waxing_gibbous_moon |
+| 🚾 | wc | 😩 | weary |
+| 💒 | wedding | 🏋️ 🏋🏻 🏋🏼 🏋🏽 🏋🏾 🏋🏿 | weight_lifter |
 | 🐳 | whale | 🐋 | whale2 |
 | ☸️ | wheel_of_dharma | ♿ | wheelchair |
 | ✅ | white_check_mark | ⚪ | white_circle |
@@ -1355,114 +880,37 @@ Here is a table of the available emojis and their aliases.
 | 🔳 | white_square_button | 🥀 | wilted_flower |
 | 🌬️ | wind_blowing_face | 🎐 | wind_chime |
 | 🍷 | wine_glass | 😉 | wink |
-| 🐺 | wolf | 👩 | woman |
-| 👩🏻 | woman::skin-tone-2 | 👩🏼 | woman::skin-tone-3 |
-| 👩🏽 | woman::skin-tone-4 | 👩🏾 | woman::skin-tone-5 |
-| 👩🏿 | woman::skin-tone-6 | 🚴‍♀️ | woman-biking |
-| 🚴🏻‍♀️ | woman-biking::skin-tone-2 | 🚴🏼‍♀️ | woman-biking::skin-tone-3 |
-| 🚴🏽‍♀️ | woman-biking::skin-tone-4 | 🚴🏾‍♀️ | woman-biking::skin-tone-5 |
-| 🚴🏿‍♀️ | woman-biking::skin-tone-6 | ⛹️‍♀️ | woman-bouncing-ball |
-| ⛹🏻‍♀️ | woman-bouncing-ball::skin-tone-2 | ⛹🏼‍♀️ | woman-bouncing-ball::skin-tone-3 |
-| ⛹🏽‍♀️ | woman-bouncing-ball::skin-tone-4 | ⛹🏾‍♀️ | woman-bouncing-ball::skin-tone-5 |
-| ⛹🏿‍♀️ | woman-bouncing-ball::skin-tone-6 | 🙇‍♀️ | woman-bowing |
-| 🙇🏻‍♀️ | woman-bowing::skin-tone-2 | 🙇🏼‍♀️ | woman-bowing::skin-tone-3 |
-| 🙇🏽‍♀️ | woman-bowing::skin-tone-4 | 🙇🏾‍♀️ | woman-bowing::skin-tone-5 |
-| 🙇🏿‍♀️ | woman-bowing::skin-tone-6 | 👩‍👦 | woman-boy |
-| 👩‍👦‍👦 | woman-boy-boy | 🤸‍♀️ | woman-cartwheeling |
-| 🤸🏻‍♀️ | woman-cartwheeling::skin-tone-2 | 🤸🏼‍♀️ | woman-cartwheeling::skin-tone-3 |
-| 🤸🏽‍♀️ | woman-cartwheeling::skin-tone-4 | 🤸🏾‍♀️ | woman-cartwheeling::skin-tone-5 |
-| 🤸🏿‍♀️ | woman-cartwheeling::skin-tone-6 | 🤦‍♀️ | woman-facepalming |
-| 🤦🏻‍♀️ | woman-facepalming::skin-tone-2 | 🤦🏼‍♀️ | woman-facepalming::skin-tone-3 |
-| 🤦🏽‍♀️ | woman-facepalming::skin-tone-4 | 🤦🏾‍♀️ | woman-facepalming::skin-tone-5 |
-| 🤦🏿‍♀️ | woman-facepalming::skin-tone-6 | 🙍‍♀️ | woman-frowning |
-| 🙍🏻‍♀️ | woman-frowning::skin-tone-2 | 🙍🏼‍♀️ | woman-frowning::skin-tone-3 |
-| 🙍🏽‍♀️ | woman-frowning::skin-tone-4 | 🙍🏾‍♀️ | woman-frowning::skin-tone-5 |
-| 🙍🏿‍♀️ | woman-frowning::skin-tone-6 | 🙅‍♀️ | woman-gesturing-no |
-| 🙅🏻‍♀️ | woman-gesturing-no::skin-tone-2 | 🙅🏼‍♀️ | woman-gesturing-no::skin-tone-3 |
-| 🙅🏽‍♀️ | woman-gesturing-no::skin-tone-4 | 🙅🏾‍♀️ | woman-gesturing-no::skin-tone-5 |
-| 🙅🏿‍♀️ | woman-gesturing-no::skin-tone-6 | 🙆‍♀️ | woman-gesturing-ok |
-| 🙆🏻‍♀️ | woman-gesturing-ok::skin-tone-2 | 🙆🏼‍♀️ | woman-gesturing-ok::skin-tone-3 |
-| 🙆🏽‍♀️ | woman-gesturing-ok::skin-tone-4 | 🙆🏾‍♀️ | woman-gesturing-ok::skin-tone-5 |
-| 🙆🏿‍♀️ | woman-gesturing-ok::skin-tone-6 | 💇‍♀️ | woman-getting-haircut |
-| 💇🏻‍♀️ | woman-getting-haircut::skin-tone-2 | 💇🏼‍♀️ | woman-getting-haircut::skin-tone-3 |
-| 💇🏽‍♀️ | woman-getting-haircut::skin-tone-4 | 💇🏾‍♀️ | woman-getting-haircut::skin-tone-5 |
-| 💇🏿‍♀️ | woman-getting-haircut::skin-tone-6 | 💆‍♀️ | woman-getting-massage |
-| 💆🏻‍♀️ | woman-getting-massage::skin-tone-2 | 💆🏼‍♀️ | woman-getting-massage::skin-tone-3 |
-| 💆🏽‍♀️ | woman-getting-massage::skin-tone-4 | 💆🏾‍♀️ | woman-getting-massage::skin-tone-5 |
-| 💆🏿‍♀️ | woman-getting-massage::skin-tone-6 | 👩‍👧 | woman-girl |
-| 👩‍👧‍👦 | woman-girl-boy | 👩‍👧‍👧 | woman-girl-girl |
-| 🏌️‍♀️ | woman-golfing | 🏌🏻‍♀️ | woman-golfing::skin-tone-2 |
-| 🏌🏼‍♀️ | woman-golfing::skin-tone-3 | 🏌🏽‍♀️ | woman-golfing::skin-tone-4 |
-| 🏌🏾‍♀️ | woman-golfing::skin-tone-5 | 🏌🏿‍♀️ | woman-golfing::skin-tone-6 |
+| 🐺 | wolf | 👩 👩🏻 👩🏼 👩🏽 👩🏾 👩🏿 | woman |
+| 🚴‍♀️ 🚴🏻‍♀️ 🚴🏼‍♀️ 🚴🏽‍♀️ 🚴🏾‍♀️ 🚴🏿‍♀️ | woman-biking | ⛹️‍♀️ ⛹🏻‍♀️ ⛹🏼‍♀️ ⛹🏽‍♀️ ⛹🏾‍♀️ ⛹🏿‍♀️ | woman-bouncing-ball |
+| 🙇‍♀️ 🙇🏻‍♀️ 🙇🏼‍♀️ 🙇🏽‍♀️ 🙇🏾‍♀️ 🙇🏿‍♀️ | woman-bowing | 👩‍👦 | woman-boy |
+| 👩‍👦‍👦 | woman-boy-boy | 🤸‍♀️ 🤸🏻‍♀️ 🤸🏼‍♀️ 🤸🏽‍♀️ 🤸🏾‍♀️ 🤸🏿‍♀️ | woman-cartwheeling |
+| 🤦‍♀️ 🤦🏻‍♀️ 🤦🏼‍♀️ 🤦🏽‍♀️ 🤦🏾‍♀️ 🤦🏿‍♀️ | woman-facepalming | 🙍‍♀️ 🙍🏻‍♀️ 🙍🏼‍♀️ 🙍🏽‍♀️ 🙍🏾‍♀️ 🙍🏿‍♀️ | woman-frowning |
+| 🙅‍♀️ 🙅🏻‍♀️ 🙅🏼‍♀️ 🙅🏽‍♀️ 🙅🏾‍♀️ 🙅🏿‍♀️ | woman-gesturing-no | 🙆‍♀️ 🙆🏻‍♀️ 🙆🏼‍♀️ 🙆🏽‍♀️ 🙆🏾‍♀️ 🙆🏿‍♀️ | woman-gesturing-ok |
+| 💇‍♀️ 💇🏻‍♀️ 💇🏼‍♀️ 💇🏽‍♀️ 💇🏾‍♀️ 💇🏿‍♀️ | woman-getting-haircut | 💆‍♀️ 💆🏻‍♀️ 💆🏼‍♀️ 💆🏽‍♀️ 💆🏾‍♀️ 💆🏿‍♀️ | woman-getting-massage |
+| 👩‍👧 | woman-girl | 👩‍👧‍👦 | woman-girl-boy |
+| 👩‍👧‍👧 | woman-girl-girl | 🏌️‍♀️ 🏌🏻‍♀️ 🏌🏼‍♀️ 🏌🏽‍♀️ 🏌🏾‍♀️ 🏌🏿‍♀️ | woman-golfing |
 | 👩‍❤️‍👨 | woman-heart-man | 👩‍❤️‍👩 | woman-heart-woman |
-| 🤹‍♀️ | woman-juggling | 🤹🏻‍♀️ | woman-juggling::skin-tone-2 |
-| 🤹🏼‍♀️ | woman-juggling::skin-tone-3 | 🤹🏽‍♀️ | woman-juggling::skin-tone-4 |
-| 🤹🏾‍♀️ | woman-juggling::skin-tone-5 | 🤹🏿‍♀️ | woman-juggling::skin-tone-6 |
-| 👩‍❤️‍💋‍👨 | woman-kiss-man | 👩‍❤️‍💋‍👩 | woman-kiss-woman |
-| 🏋️‍♀️ | woman-lifting-weights | 🏋🏻‍♀️ | woman-lifting-weights::skin-tone-2 |
-| 🏋🏼‍♀️ | woman-lifting-weights::skin-tone-3 | 🏋🏽‍♀️ | woman-lifting-weights::skin-tone-4 |
-| 🏋🏾‍♀️ | woman-lifting-weights::skin-tone-5 | 🏋🏿‍♀️ | woman-lifting-weights::skin-tone-6 |
-| 🚵‍♀️ | woman-mountain-biking | 🚵🏻‍♀️ | woman-mountain-biking::skin-tone-2 |
-| 🚵🏼‍♀️ | woman-mountain-biking::skin-tone-3 | 🚵🏽‍♀️ | woman-mountain-biking::skin-tone-4 |
-| 🚵🏾‍♀️ | woman-mountain-biking::skin-tone-5 | 🚵🏿‍♀️ | woman-mountain-biking::skin-tone-6 |
-| 🤾‍♀️ | woman-playing-handball | 🤾🏻‍♀️ | woman-playing-handball::skin-tone-2 |
-| 🤾🏼‍♀️ | woman-playing-handball::skin-tone-3 | 🤾🏽‍♀️ | woman-playing-handball::skin-tone-4 |
-| 🤾🏾‍♀️ | woman-playing-handball::skin-tone-5 | 🤾🏿‍♀️ | woman-playing-handball::skin-tone-6 |
-| 🤽‍♀️ | woman-playing-water-polo | 🤽🏻‍♀️ | woman-playing-water-polo::skin-tone-2 |
-| 🤽🏼‍♀️ | woman-playing-water-polo::skin-tone-3 | 🤽🏽‍♀️ | woman-playing-water-polo::skin-tone-4 |
-| 🤽🏾‍♀️ | woman-playing-water-polo::skin-tone-5 | 🤽🏿‍♀️ | woman-playing-water-polo::skin-tone-6 |
-| 🙎‍♀️ | woman-pouting | 🙎🏻‍♀️ | woman-pouting::skin-tone-2 |
-| 🙎🏼‍♀️ | woman-pouting::skin-tone-3 | 🙎🏽‍♀️ | woman-pouting::skin-tone-4 |
-| 🙎🏾‍♀️ | woman-pouting::skin-tone-5 | 🙎🏿‍♀️ | woman-pouting::skin-tone-6 |
-| 🙋‍♀️ | woman-raising-hand | 🙋🏻‍♀️ | woman-raising-hand::skin-tone-2 |
-| 🙋🏼‍♀️ | woman-raising-hand::skin-tone-3 | 🙋🏽‍♀️ | woman-raising-hand::skin-tone-4 |
-| 🙋🏾‍♀️ | woman-raising-hand::skin-tone-5 | 🙋🏿‍♀️ | woman-raising-hand::skin-tone-6 |
-| 🚣‍♀️ | woman-rowing-boat | 🚣🏻‍♀️ | woman-rowing-boat::skin-tone-2 |
-| 🚣🏼‍♀️ | woman-rowing-boat::skin-tone-3 | 🚣🏽‍♀️ | woman-rowing-boat::skin-tone-4 |
-| 🚣🏾‍♀️ | woman-rowing-boat::skin-tone-5 | 🚣🏿‍♀️ | woman-rowing-boat::skin-tone-6 |
-| 🏃‍♀️ | woman-running | 🏃🏻‍♀️ | woman-running::skin-tone-2 |
-| 🏃🏼‍♀️ | woman-running::skin-tone-3 | 🏃🏽‍♀️ | woman-running::skin-tone-4 |
-| 🏃🏾‍♀️ | woman-running::skin-tone-5 | 🏃🏿‍♀️ | woman-running::skin-tone-6 |
-| 🤷‍♀️ | woman-shrugging | 🤷🏻‍♀️ | woman-shrugging::skin-tone-2 |
-| 🤷🏼‍♀️ | woman-shrugging::skin-tone-3 | 🤷🏽‍♀️ | woman-shrugging::skin-tone-4 |
-| 🤷🏾‍♀️ | woman-shrugging::skin-tone-5 | 🤷🏿‍♀️ | woman-shrugging::skin-tone-6 |
-| 🏄‍♀️ | woman-surfing | 🏄🏻‍♀️ | woman-surfing::skin-tone-2 |
-| 🏄🏼‍♀️ | woman-surfing::skin-tone-3 | 🏄🏽‍♀️ | woman-surfing::skin-tone-4 |
-| 🏄🏾‍♀️ | woman-surfing::skin-tone-5 | 🏄🏿‍♀️ | woman-surfing::skin-tone-6 |
-| 🏊‍♀️ | woman-swimming | 🏊🏻‍♀️ | woman-swimming::skin-tone-2 |
-| 🏊🏼‍♀️ | woman-swimming::skin-tone-3 | 🏊🏽‍♀️ | woman-swimming::skin-tone-4 |
-| 🏊🏾‍♀️ | woman-swimming::skin-tone-5 | 🏊🏿‍♀️ | woman-swimming::skin-tone-6 |
-| 💁‍♀️ | woman-tipping-hand | 💁🏻‍♀️ | woman-tipping-hand::skin-tone-2 |
-| 💁🏼‍♀️ | woman-tipping-hand::skin-tone-3 | 💁🏽‍♀️ | woman-tipping-hand::skin-tone-4 |
-| 💁🏾‍♀️ | woman-tipping-hand::skin-tone-5 | 💁🏿‍♀️ | woman-tipping-hand::skin-tone-6 |
-| 🚶‍♀️ | woman-walking | 🚶🏻‍♀️ | woman-walking::skin-tone-2 |
-| 🚶🏼‍♀️ | woman-walking::skin-tone-3 | 🚶🏽‍♀️ | woman-walking::skin-tone-4 |
-| 🚶🏾‍♀️ | woman-walking::skin-tone-5 | 🚶🏿‍♀️ | woman-walking::skin-tone-6 |
-| 👳‍♀️ | woman-wearing-turban | 👳🏻‍♀️ | woman-wearing-turban::skin-tone-2 |
-| 👳🏼‍♀️ | woman-wearing-turban::skin-tone-3 | 👳🏽‍♀️ | woman-wearing-turban::skin-tone-4 |
-| 👳🏾‍♀️ | woman-wearing-turban::skin-tone-5 | 👳🏿‍♀️ | woman-wearing-turban::skin-tone-6 |
-| 👯‍♀️ | woman-with-bunny-ears-partying | 👩‍👩‍👦 | woman-woman-boy |
-| 👩‍👩‍👦‍👦 | woman-woman-boy-boy | 👩‍👩‍👧 | woman-woman-girl |
-| 👩‍👩‍👧‍👦 | woman-woman-girl-boy | 👩‍👩‍👧‍👧 | woman-woman-girl-girl |
-| 🤼‍♀️ | woman-wrestling | 🧗‍♀️ | woman_climbing |
-| 🧗🏻‍♀️ | woman_climbing::skin-tone-2 | 🧗🏼‍♀️ | woman_climbing::skin-tone-3 |
-| 🧗🏽‍♀️ | woman_climbing::skin-tone-4 | 🧗🏾‍♀️ | woman_climbing::skin-tone-5 |
-| 🧗🏿‍♀️ | woman_climbing::skin-tone-6 | 🧘‍♀️ | woman_in_lotus_position |
-| 🧘🏻‍♀️ | woman_in_lotus_position::skin-tone-2 | 🧘🏼‍♀️ | woman_in_lotus_position::skin-tone-3 |
-| 🧘🏽‍♀️ | woman_in_lotus_position::skin-tone-4 | 🧘🏾‍♀️ | woman_in_lotus_position::skin-tone-5 |
-| 🧘🏿‍♀️ | woman_in_lotus_position::skin-tone-6 | 🧖‍♀️ | woman_in_steamy_room |
-| 🧖🏻‍♀️ | woman_in_steamy_room::skin-tone-2 | 🧖🏼‍♀️ | woman_in_steamy_room::skin-tone-3 |
-| 🧖🏽‍♀️ | woman_in_steamy_room::skin-tone-4 | 🧖🏾‍♀️ | woman_in_steamy_room::skin-tone-5 |
-| 🧖🏿‍♀️ | woman_in_steamy_room::skin-tone-6 | 👚 | womans_clothes |
+| 🤹‍♀️ 🤹🏻‍♀️ 🤹🏼‍♀️ 🤹🏽‍♀️ 🤹🏾‍♀️ 🤹🏿‍♀️ | woman-juggling | 👩‍❤️‍💋‍👨 | woman-kiss-man |
+| 👩‍❤️‍💋‍👩 | woman-kiss-woman | 🏋️‍♀️ 🏋🏻‍♀️ 🏋🏼‍♀️ 🏋🏽‍♀️ 🏋🏾‍♀️ 🏋🏿‍♀️ | woman-lifting-weights |
+| 🚵‍♀️ 🚵🏻‍♀️ 🚵🏼‍♀️ 🚵🏽‍♀️ 🚵🏾‍♀️ 🚵🏿‍♀️ | woman-mountain-biking | 🤾‍♀️ 🤾🏻‍♀️ 🤾🏼‍♀️ 🤾🏽‍♀️ 🤾🏾‍♀️ 🤾🏿‍♀️ | woman-playing-handball |
+| 🤽‍♀️ 🤽🏻‍♀️ 🤽🏼‍♀️ 🤽🏽‍♀️ 🤽🏾‍♀️ 🤽🏿‍♀️ | woman-playing-water-polo | 🙎‍♀️ 🙎🏻‍♀️ 🙎🏼‍♀️ 🙎🏽‍♀️ 🙎🏾‍♀️ 🙎🏿‍♀️ | woman-pouting |
+| 🙋‍♀️ 🙋🏻‍♀️ 🙋🏼‍♀️ 🙋🏽‍♀️ 🙋🏾‍♀️ 🙋🏿‍♀️ | woman-raising-hand | 🚣‍♀️ 🚣🏻‍♀️ 🚣🏼‍♀️ 🚣🏽‍♀️ 🚣🏾‍♀️ 🚣🏿‍♀️ | woman-rowing-boat |
+| 🏃‍♀️ 🏃🏻‍♀️ 🏃🏼‍♀️ 🏃🏽‍♀️ 🏃🏾‍♀️ 🏃🏿‍♀️ | woman-running | 🤷‍♀️ 🤷🏻‍♀️ 🤷🏼‍♀️ 🤷🏽‍♀️ 🤷🏾‍♀️ 🤷🏿‍♀️ | woman-shrugging |
+| 🏄‍♀️ 🏄🏻‍♀️ 🏄🏼‍♀️ 🏄🏽‍♀️ 🏄🏾‍♀️ 🏄🏿‍♀️ | woman-surfing | 🏊‍♀️ 🏊🏻‍♀️ 🏊🏼‍♀️ 🏊🏽‍♀️ 🏊🏾‍♀️ 🏊🏿‍♀️ | woman-swimming |
+| 💁‍♀️ 💁🏻‍♀️ 💁🏼‍♀️ 💁🏽‍♀️ 💁🏾‍♀️ 💁🏿‍♀️ | woman-tipping-hand | 🚶‍♀️ 🚶🏻‍♀️ 🚶🏼‍♀️ 🚶🏽‍♀️ 🚶🏾‍♀️ 🚶🏿‍♀️ | woman-walking |
+| 👳‍♀️ 👳🏻‍♀️ 👳🏼‍♀️ 👳🏽‍♀️ 👳🏾‍♀️ 👳🏿‍♀️ | woman-wearing-turban | 👯‍♀️ | woman-with-bunny-ears-partying |
+| 👩‍👩‍👦 | woman-woman-boy | 👩‍👩‍👦‍👦 | woman-woman-boy-boy |
+| 👩‍👩‍👧 | woman-woman-girl | 👩‍👩‍👧‍👦 | woman-woman-girl-boy |
+| 👩‍👩‍👧‍👧 | woman-woman-girl-girl | 🤼‍♀️ | woman-wrestling |
+| 🧗‍♀️ 🧗🏻‍♀️ 🧗🏼‍♀️ 🧗🏽‍♀️ 🧗🏾‍♀️ 🧗🏿‍♀️ | woman_climbing | 🧘‍♀️ 🧘🏻‍♀️ 🧘🏼‍♀️ 🧘🏽‍♀️ 🧘🏾‍♀️ 🧘🏿‍♀️ | woman_in_lotus_position |
+| 🧖‍♀️ 🧖🏻‍♀️ 🧖🏼‍♀️ 🧖🏽‍♀️ 🧖🏾‍♀️ 🧖🏿‍♀️ | woman_in_steamy_room | 👚 | womans_clothes |
 | 👒 | womans_hat | 🚺 | womens |
 | 🗺️ | world_map | 😟 | worried |
 | 🔧 | wrench | 🤼 | wrestlers |
-| ✍️ | writing_hand | ✍🏻 | writing_hand::skin-tone-2 |
-| ✍🏼 | writing_hand::skin-tone-3 | ✍🏽 | writing_hand::skin-tone-4 |
-| ✍🏾 | writing_hand::skin-tone-5 | ✍🏿 | writing_hand::skin-tone-6 |
-| ❌ | x | 💛 | yellow_heart |
-| 💴 | yen | ☯️ | yin_yang |
-| 😋 | yum | 🤪 | zany_face |
-| ⚡ | zap | 🦓 | zebra_face |
-| 0️⃣ | zero | 🤐 | zipper_mouth_face |
-| 🧟 | zombie | 💤 | zzz |
+| ✍️ ✍🏻 ✍🏼 ✍🏽 ✍🏾 ✍🏿 | writing_hand | ❌ | x |
+| 💛 | yellow_heart | 💴 | yen |
+| ☯️ | yin_yang | 😋 | yum |
+| 🤪 | zany_face | ⚡ | zap |
+| 🦓 | zebra_face | 0️⃣ | zero |
+| 🤐 | zipper_mouth_face | 🧟 | zombie |
+| 💤 | zzz |
