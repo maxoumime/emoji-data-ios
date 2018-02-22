@@ -31,16 +31,16 @@ Since it takes some time to load the Emoji list, you might want to consider call
 
 #### Categories
 
-There is 8 different categories, their are available through a enum named `EmojiCategory`
+There is 8 different categories, they are available through a enum named `EmojiCategory`
 
-| Symbols |
-| Objects |
-| Nature |
-| People |
-| Foods |
-| Places |
-| Activity |
-| Flags |
+- Symbols
+- Objects
+- Nature
+- People
+- Foods
+- Places
+- Activity
+- Flags
 
 To get a list of Emojis depending on a category, use `EmojiParser#getEmojisForCategory(EmojiCategory)`
 
@@ -85,7 +85,6 @@ print(EmojiParser.parseAliases(str))
 
 ## Credits
 
-**emoji-java** based on the great work of the community from [vdurmont/emoji-java](https://github.com/vdurmont/emoji-java). The logic is inspired from there.
 **emoji-data** provides the emojis for the library to work [iamcal/emoji-data](https://github.com/iamcal/emoji-data).
 
 ## Author
