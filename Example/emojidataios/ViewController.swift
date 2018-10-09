@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     
     NotificationCenter.default.addObserver(self,
                                            selector: #selector(self.keyboardWillShowForResizing),
-                                           name: Notification.Name.UIKeyboardWillShow,
+                                           name: UIResponder.keyboardWillShowNotification,
                                            object: nil)
     
     emojisTextView.becomeFirstResponder()
@@ -39,7 +39,7 @@ class ViewController: UIViewController {
   }
   
   @objc func keyboardWillShowForResizing(notification: Notification) {
-    if let keyboardSize = (notification.userInfo?[UIKeyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue,
+    if let keyboardSize = (notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue,
       let window = self.view.window?.frame {
       // We're not just minusing the kb height from the view height because
       // the view could already have been resized for the keyboard before

@@ -8,21 +8,14 @@
 
 Pod::Spec.new do |s|
   s.name             = 'emojidataios'
-  s.version          = '0.1.9'
+  s.version          = '0.2.0'
   s.summary          = 'The missing Emoji library for iOS ❤️  Based on emoji-data'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
 Parses your emojis from Unicode to aliases, and vice versa. Based on emoji-data
                        DESC
 
   s.homepage         = 'https://github.com/maxoumime/emoji-data-ios'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Maxime Bertheau' => 'maxime.bertheau@gmail.com' }
   s.source           = { :git => 'https://github.com/maxoumime/emoji-data-ios.git', :tag => s.version.to_s }
@@ -32,17 +25,6 @@ Parses your emojis from Unicode to aliases, and vice versa. Based on emoji-data
 
   s.source_files = 'emojidataios/Classes/**/*'
   
-  # s.resource_bundles = {
-  #  'emojidataios' => ['emojidataios/Assets/*', 'emojidataios/*.json']
-  # }
-  
   s.resources = ['emojidataios/Assets/*', 'emojidataios/*.json']
-
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
-
-  s.swift_version = '4.0'
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.swift_version = '4.2'
 end

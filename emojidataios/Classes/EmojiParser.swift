@@ -43,7 +43,7 @@ open class EmojiParser {
     return _aliasMatchingRegexOptionalColon!
   }
 
-  open static func prepare() {
+  public static func prepare() {
 
     if loading || _emojiManager != nil { return }
     
@@ -61,7 +61,7 @@ open class EmojiParser {
     }
   }
   
-  open static func getAliasesFromUnicode(_ unicode: String) -> [String] {
+  public static func getAliasesFromUnicode(_ unicode: String) -> [String] {
     
     let escapedUnicode = unicode.unicodeScalars.map { $0.escaped(asASCII: true) }
       .map { (escaped: String) -> String? in
@@ -101,7 +101,7 @@ open class EmojiParser {
     return emojiManager.emojiForUnified[unified]?.map { $0.shortName } ?? []
   }
   
-  open static func getUnicodeFromAlias(_ alias: String) -> String? {
+  public static func getUnicodeFromAlias(_ alias: String) -> String? {
     
     let input = alias as NSString
     
@@ -139,7 +139,7 @@ open class EmojiParser {
     return emoji
   }
   
-  open static func getEmojiFromUnified(_ unified: String) -> String {
+  public static func getEmojiFromUnified(_ unified: String) -> String {
     
     return Emoji(shortName: "", unified: unified).emoji
   }
@@ -151,7 +151,7 @@ open class EmojiParser {
     return emoji.first
   }
   
-  open static func parseUnicode(_ input: String) -> String {
+  public static func parseUnicode(_ input: String) -> String {
     
     return input
       .map {
@@ -193,7 +193,7 @@ open class EmojiParser {
     }
   }
   
-  open static func parseAliases(_ input: String) -> String {
+  public static func parseAliases(_ input: String) -> String {
   
     var result = input
     
@@ -206,7 +206,7 @@ open class EmojiParser {
     return result
   }
   
-  open static func getUnicodesForAliases(_ input: String) -> [(key: String, value: String?)] {
+  public static func getUnicodesForAliases(_ input: String) -> [(key: String, value: String?)] {
     
     let matches = aliasMatchingRegex.matches(in: input, options: .withoutAnchoringBounds, range: NSRange(location: 0, length: input.count))
     
@@ -233,7 +233,7 @@ open class EmojiParser {
     })
   }
   
-  open static func getEmojisForCategory(_ category: EmojiCategory) -> [String] {
+  public static func getEmojisForCategory(_ category: EmojiCategory) -> [String] {
     
     let emojis = emojiManager.getEmojisForCategory(category) ?? []
     
