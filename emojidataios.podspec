@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'emojidataios'
-  s.version          = '0.3.0'
+  s.version          = '0.3.1'
   s.summary          = 'The missing Emoji library for iOS ❤️  Based on emoji-data'
 
   s.description      = <<-DESC
