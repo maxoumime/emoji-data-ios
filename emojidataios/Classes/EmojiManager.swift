@@ -56,20 +56,18 @@ class EmojiManager {
             if let shortNames = emoji["short_names"] as? [String] {
               shortNames.forEach { shortName in
                 
-                let emojiSkinVariations = emoji["skin_variations"] as? [[String]]
-                
-                var skinVariations: [SkinVariation]
-                
-                if let emojiSkinVariations = emojiSkinVariations {
-                  
-                  skinVariations = emojiSkinVariations.map {
-                    let skinVariation = SkinVariations.getFromUnified($0[0])
-                    return SkinVariation(unified: $0[1], skinVariation: skinVariation!)
-                  }
-                  
-                } else {
-                  skinVariations = []
-                }
+                var skinVariations: [SkinVariation] = []
+				
+				if let emojiSkinVariations = emoji["skin_variations"] as? [[String]] {
+					for skin in emojiSkinVariations {
+						if skin.count > 1 {
+							if let skinVariation = SkinVariations.getFromUnified(skin.first!) {
+								skinVariations.append(SkinVariation(unified: skin.last!, skinVariation: skinVariation))
+							}
+						}
+						
+					}
+				}
                 
                 let emojiObject = Emoji(
                   name: name ?? "",
