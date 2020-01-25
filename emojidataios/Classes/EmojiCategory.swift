@@ -18,5 +18,5 @@ public enum EmojiCategory: String, CaseIterable {
 	case PLACES = "Travel & Places"
 	case ACTIVITY = "Activities"
 	case FLAGS = "Flags"
-	case FAV = "Favorites"
+	case FAV = "⭐️ Favorites" // intended to be used for a local db
 }
