@@ -10,11 +10,11 @@ import Foundation
 
 public class Emoji {
   public var name: String = ""
-  var shortName: String
+  public var shortName: String
   var unified: String
   var skinVariations: [SkinVariation] = []
   var category: EmojiCategory?
-  var isObsoleted: Bool = false
+  public var isObsoleted: Bool = false
   var sortOrder: Int = 0
   
   public var emoji: String {
