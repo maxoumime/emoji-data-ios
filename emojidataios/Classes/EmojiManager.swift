@@ -14,6 +14,7 @@ class EmojiManager {
   var shortNameForUnified: [String:[Emoji]] = [:]
   var emojisForCategory: [EmojiCategory:[Emoji]] = [:]
   var emojiForUnified: [String:[Emoji]] = [:]
+  var emojiForUnicode: [String: Emoji] = [:]
 
   init() {
 
@@ -92,7 +93,8 @@ class EmojiManager {
       emojis
         .sorted { $0.isObsoleted && $1.isObsoleted }
         .forEach { emoji in
-          
+          emojiForUnicode[emoji.emoji] = emoji
+
           var emojiListFromDictionary = shortNameForUnified[emoji.shortName] ?? []
           emojiListFromDictionary.append(emoji)
           shortNameForUnified[emoji.shortName] = emojiListFromDictionary

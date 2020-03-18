@@ -8,8 +8,8 @@
 
 import Foundation
 
-class Emoji {
-  var name: String = ""
+public class Emoji {
+  public var name: String = ""
   var shortName: String
   var unified: String
   var skinVariations: [SkinVariation] = []
@@ -17,7 +17,7 @@ class Emoji {
   var isObsoleted: Bool = false
   var sortOrder: Int = 0
   
-  var emoji: String {
+  public var emoji: String {
     return getEmojiFor(unified: self.unified)
   }
   
