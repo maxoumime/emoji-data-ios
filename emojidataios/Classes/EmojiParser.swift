@@ -233,6 +233,14 @@ open class EmojiParser {
     })
   }
   
+  public static var emojisByCategory: [EmojiCategory: [Emoji]]{
+    return emojiManager.emojisForCategory
+  }
+  
+  public static var emojisByUnicode: [String: Emoji] {
+    return emojiManager.emojiForUnicode
+  }
+  
   public static func getEmojisForCategory(_ category: EmojiCategory) -> [String] {
     
     let emojis = emojiManager.getEmojisForCategory(category) ?? []
