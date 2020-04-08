@@ -8,7 +8,7 @@
 
 import Foundation
 
-public enum EmojiCategory: String {
+public enum EmojiCategory: String, CaseIterable {
   
   case SYMBOLS = "Symbols"
   case OBJECTS = "Objects"
