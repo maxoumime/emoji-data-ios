@@ -22,6 +22,7 @@ Parses your emojis from Unicode to aliases, and vice versa. Based on emoji-data
   s.social_media_url = 'https://twitter.com/maxoumime'
 
   s.ios.deployment_target = '8.0'
+  s.watchos.deployment_target = '5.0'
 
   s.source_files = 'emojidataios/Classes/**/*'
   
