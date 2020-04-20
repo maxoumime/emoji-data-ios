@@ -23,7 +23,7 @@ open class EmojiParser {
   fileprivate static var aliasMatchingRegex: NSRegularExpression {
     if _aliasMatchingRegex == nil {
       do {
-        _aliasMatchingRegex = try NSRegularExpression(pattern: ":([\\w_+-]+)(?:(?:\\||::)((type_|skin-tone-)[\\w_]*))?:", options: .caseInsensitive)
+        _aliasMatchingRegex = try NSRegularExpression(pattern: ":([\\w_+-]+)(?:(?:\\||::)((type_|skin-tone-\\d+)[\\w_]*))*:", options: .caseInsensitive)
       } catch {
         
       }
@@ -35,7 +35,7 @@ open class EmojiParser {
   fileprivate static var aliasMatchingRegexOptionalColon: NSRegularExpression {
     if _aliasMatchingRegexOptionalColon == nil {
       do {
-        _aliasMatchingRegexOptionalColon = try NSRegularExpression(pattern: ":?([\\w_+-]+)(?:(?:\\||::)((type_|skin-tone-)[\\w_]*))?:?", options: .caseInsensitive)
+        _aliasMatchingRegexOptionalColon = try NSRegularExpression(pattern: ":?([\\w_+-]+)(?:(?:\\||::)((type_|skin-tone-\\d+)[\\w_]*))*:?", options: .caseInsensitive)
       } catch {
         
       }
@@ -112,36 +112,28 @@ open class EmojiParser {
     }
     
     let match = matches[0]
-    
-    let alias = input.substring(with: match.range(at: 1))
-    
-    var skinVariationString: String?
-    let skinVariationLocation = match.range(at: 2)
-    
-    if skinVariationLocation.location + skinVariationLocation.length < input.length  {
-      
-      let skinVariationExtracted = input.substring(with: match.range(at: 2))
-      
-      if skinVariationExtracted.count > 0 {
-        skinVariationString = skinVariationExtracted
-      }
-    }
+
+    let aliasMatch = match.range(at: 1)
+    let alias = input.substring(with: aliasMatch)
+
+    let skinVariationsString = input.substring(from: aliasMatch.upperBound)
+            .split(separator: ":")
+            .map { $0.trimmingCharacters(in: [":"]) }
+            .filter { !$0.isEmpty }
     
     guard let emojiObject = getEmojiFromAlias(alias) else { return nil }
     
     let emoji: String
-    if let skinVariationStringUnWrapped = skinVariationString,
-      let skinVariation = SkinVariations(rawValue: skinVariationStringUnWrapped.uppercased()) ?? SkinVariations.getFromAlias(skinVariationStringUnWrapped.lowercased()) {
-      emoji = emojiObject.getEmojiWithSkinVariation(skinVariation)
-    } else {
-      emoji = emojiObject.emoji
+    let skinVariations = skinVariationsString.compactMap {
+      SkinVariationTypes(rawValue: $0.uppercased()) ?? SkinVariationTypes.getFromAlias($0.lowercased())
     }
+    emoji = emojiObject.getEmojiWithSkinVariations(skinVariations)
+
     return emoji
   }
   
   public static func getEmojiFromUnified(_ unified: String) -> String {
-    
-    return Emoji(shortName: "", unified: unified).emoji
+    Emoji(shortName: "", unified: unified).emoji
   }
   
   static func getEmojiFromAlias(_ alias: String) -> Emoji? {

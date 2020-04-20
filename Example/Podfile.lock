@@ -1,15 +1,15 @@
 PODS:
-  - emojidataios (0.2.0)
-  - Nimble (8.0.1)
-  - Quick (2.1.0)
+  - emojidataios (0.5.0)
+  - Nimble (7.3.4)
+  - Quick (1.2.0)
 
 DEPENDENCIES:
   - emojidataios (from `../`)
-  - Nimble (~> 8.0.1)
-  - Quick (~> 2.1.0)
+  - Nimble (~> 7.0)
+  - Quick (~> 1.2.0)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - Nimble
     - Quick
 
@@ -18,10 +18,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  emojidataios: b6f24d265146524fa9d5adf787d73ae84dbd7725
-  Nimble: 45f786ae66faa9a709624227fae502db55a8bdd0
-  Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
+  emojidataios: d77f2b4bb71003dc6e207c423417808dff4b47db
+  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
 
-PODFILE CHECKSUM: cc934e57bf4c0bf9d68c158c19b327266268bed4
+PODFILE CHECKSUM: 5318cb7e230f40d069a906d67b6d7515ae187e1a
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.9.1
