@@ -24,9 +24,9 @@ emojis.map(emoji => {
     const emojisUnicode = emoji.variations.map(variation => {
         const hexes = variation.split('-').map(it => `0x${it}`);
         return String.fromCodePoint(...hexes);
-    }).join('\n')
+    }).join(' ')
 
-    return `| ${emojisUnicode} | ${names} |`
+    return `${emojisUnicode} | ${names}`
 }).forEach((it, index) => {
     if (index % 2 === 0) {
         collumn1 = collumn1.concat(it)
@@ -38,11 +38,10 @@ emojis.map(emoji => {
 let markdown = `
 | Emoji | Aliases | Emoji | Aliases |
 | :---: | ------- | :---: | ------- |
-
 `;
 
 for(let i = 0; i < collumn1.length; i++) {
-    markdown = markdown + collumn1[i] + collumn2[i] + '\n';
+    markdown += '| ' + collumn1[i] + ' | ' + (collumn2[i] ? collumn2[i] : '') + ' |' + '\r\n';
 }
 
-fs.writeFile('emojis.md', markdown, () => {})
+console.log(markdown)
