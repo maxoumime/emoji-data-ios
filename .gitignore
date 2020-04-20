@@ -69,3 +69,5 @@ fastlane/test_output
 **/*.iml
 **/.idea
 **/.vscode
+
+**/.DS_Store
