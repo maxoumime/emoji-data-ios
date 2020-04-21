@@ -1,13 +1,10 @@
-// This scripts generates the emoji table for README.md
-const fs = require('fs');
-
+// This script generates the emoji table for README.md
 const emojis = require('../emojidataios/Assets/emojilist.json')
     .map(emoji => {
         const aliases = [emoji.name].concat(emoji.short_names).filter(it => it)
 
         const skinVariations = [emoji.unified]
             .concat(emoji.skin_variations.map(it => it[1]))
-            // .map(it => it.replace(/-/g, ''))
 
         return {
                 aliases: aliases,

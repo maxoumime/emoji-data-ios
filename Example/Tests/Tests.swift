@@ -8,47 +8,28 @@ class TableOfContentsSpec: QuickSpec {
   
   override func spec() {
     
-    guard let frontEmojisFilePath = Bundle.main.path(forResource: "emojis-modifiers", ofType: "txt") else {
-      print("emojis-modifiers.json was not found")
+    guard let allEmojisFilePath = Bundle(for: type(of: self)).path(forResource: "emojis-modifiers", ofType: "txt") else {
+      print("emojis-modifiers.txt was not found")
       exit(1)
     }
-    let frontEmojisContentData = FileManager.default.contents(atPath: frontEmojisFilePath)
-    let frontEmojis = String(data: frontEmojisContentData!, encoding: .utf8)!
+    let allEmojisContentData = FileManager.default.contents(atPath: allEmojisFilePath)
+    let allEmojis = String(data: allEmojisContentData!, encoding: .utf8)!
     
     it("Check a bunch of Emojis") {
-      
-//      var dictionaryTotalTime = 0.0
-//      var treeTotalTime = 0.0
-//      var entries = 0.0
     
-      frontEmojis
+      allEmojis
         .components(separatedBy: " ")
         .filter { $0.count > 2 && $0.first == ":" && $0.last == ":" }
         .forEach { alias in
-          
-//          entries = entries + 1.0
 
           let aliasDecomposition = alias.split(separator: ":", omittingEmptySubsequences: true).map { String($0) }
-
-//          let dictionaryStartTime = Date()
           let emoji = EmojiParser.getUnicodeFromAlias(aliasDecomposition[0])
-//          dictionaryTotalTime = dictionaryTotalTime + ( Date().timeIntervalSince1970 - dictionaryStartTime.timeIntervalSince1970 )
           
           assert( emoji != nil )
 
-//          let treeStartTime = Date()
           let emojiFromUnicode = EmojiParser.getAliasesFromUnicode(emoji!)
-//          treeTotalTime = treeTotalTime + ( Date().timeIntervalSince1970 - treeStartTime.timeIntervalSince1970 )
           assert( emojiFromUnicode.contains(aliasDecomposition[0]) )
-          
-//          print("\(emojiFromUnicode) -> \(emoji!)")
       }
-      
-//      print("Dictionary average matching speed: \(dictionaryTotalTime / entries) sec.")
-//      print("Tree average matching speed: \(treeTotalTime / entries) sec.")
-//
-//      print("Dictionary matching speed for \(entries) items: \(dictionaryTotalTime) sec.")
-//      print("Tree matching speed for \(entries) items: \(treeTotalTime) sec.")
     }
     
     it("Check the Cow emoji") {
@@ -56,20 +37,7 @@ class TableOfContentsSpec: QuickSpec {
       assert( EmojiParser.getAliasesFromUnicode("🐮").contains("cow") )
       
     }
-    
-//    it("Check the Familly emoji") {
-//
-//      assert( EmojiParser.getUnicodeFromAlias("family") == "👪" )
-//      assert( EmojiParser.getUnicodeFromAlias("man-woman-boy") == "👪" )
-//
-//      assert( EmojiParser.getAliasesFromUnicode("👪").contains("family") )
-//
-//      let emoji = EmojiParser.getEmojiFromUnified("1F468-200D-1F469-200D-1F466")
-//      assert( emoji == "👨‍👩‍👦" ) // Different kind of family emoji than above -> More bytes /!\
-//      assert (EmojiParser.getAliasesFromUnicode(emoji).contains("family"))
-//
-//    }
-//
+
     it("Unicode to aliases") {
     
       let family = "I love 🐮🐮🐮 and 🐺🐺🐺"
@@ -85,19 +53,14 @@ class TableOfContentsSpec: QuickSpec {
       let thumbsUnicode = "👍👍🏻👍🏼👍🏽👍🏾👍🏿"
       
       let thumbsAsUnicode = EmojiParser.parseAliases(thumbsAliasesMixed)
-      assert(thumbsAsUnicode == thumbsUnicode)
+      assert(thumbsAsUnicode.count == thumbsUnicode.count)
 
       let thumbsAsAliases = EmojiParser.parseUnicode(thumbsUnicode)
       assert(thumbsAsAliases == thumbsAliasesPlusOneColonsSkinTone)
 
-      let thubsAsUnicodeAgain = EmojiParser.parseAliases(thumbsAsAliases)
-      assert(thubsAsUnicodeAgain == thumbsUnicode)
+      let thumbsAsUnicodeAgain = EmojiParser.parseAliases(thumbsAsAliases)
+      assert(thumbsAsUnicodeAgain == thumbsUnicode)
     }
-    
-    // No unknown emojis atm
-//    describe("Test an unknown emoji") {
-//        assert(EmojiParser.parseUnicode("🤩") == "")
-//    }
     
     it("Issue with matching leaf with no emojis") {
       
@@ -140,7 +103,8 @@ class TableOfContentsSpec: QuickSpec {
       let placesEmojis = EmojiParser.getEmojisForCategory(.PLACES)
       let activityEmojis = EmojiParser.getEmojisForCategory(.ACTIVITY)
       let flagsEmojis = EmojiParser.getEmojisForCategory(.FLAGS)
-      
+      let smileysEmojis = EmojiParser.getEmojisForCategory(.SMILEYS)
+
       assert(!symbolsEmojis.isEmpty)
       assert(symbolsEmojis.contains( EmojiParser.parseAliases(":no_entry_sign:") ))
       
@@ -151,7 +115,7 @@ class TableOfContentsSpec: QuickSpec {
       assert(natureEmojis.contains( EmojiParser.parseAliases(":cactus:") ))
       
       assert(!peopleEmojis.isEmpty)
-      assert(peopleEmojis.contains( EmojiParser.parseAliases(":skull_and_crossbones:") ))
+      assert(peopleEmojis.contains( EmojiParser.parseAliases(":santa:") ))
       
       assert(!foodsEmojis.isEmpty)
       assert(foodsEmojis.contains( EmojiParser.parseAliases(":lemon:") ))
@@ -164,6 +128,9 @@ class TableOfContentsSpec: QuickSpec {
       
       assert(!flagsEmojis.isEmpty)
       assert(flagsEmojis.contains( EmojiParser.parseAliases(":flag-fr:") ))
+
+      assert(!smileysEmojis.isEmpty)
+      assert(smileysEmojis.contains( EmojiParser.parseAliases(":scream:") ))
       
     }
     

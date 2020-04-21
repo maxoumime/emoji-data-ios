@@ -14,6 +14,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		B9166737244E11CD00BBA19F /* emojis-no-modifiers.txt in Resources */ = {isa = PBXBuildFile; fileRef = B9166735244E11CD00BBA19F /* emojis-no-modifiers.txt */; };
+		B9166738244E11CD00BBA19F /* emojis-modifiers.txt in Resources */ = {isa = PBXBuildFile; fileRef = B9166736244E11CD00BBA19F /* emojis-modifiers.txt */; };
 		F7A2BCC9EBBEA81E225E3543 /* Pods_emojidataios_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B10DEF8E80426AE8EFCB9F /* Pods_emojidataios_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +48,8 @@
 		74D5EB2D0027A3472A1E7D28 /* Pods_emojidataios_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_emojidataios_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DD7282722BC34B7BC7B2803 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		ACCBFFE5597A1C3945DE147F /* Pods-emojidataios_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emojidataios_Example.debug.xcconfig"; path = "Target Support Files/Pods-emojidataios_Example/Pods-emojidataios_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B9166735244E11CD00BBA19F /* emojis-no-modifiers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "emojis-no-modifiers.txt"; sourceTree = "<group>"; };
+		B9166736244E11CD00BBA19F /* emojis-modifiers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "emojis-modifiers.txt"; sourceTree = "<group>"; };
 		D02AC0D81001D8B0AE853EDE /* Pods-emojidataios_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-emojidataios_Example.release.xcconfig"; path = "Target Support Files/Pods-emojidataios_Example/Pods-emojidataios_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +132,8 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				B9166736244E11CD00BBA19F /* emojis-modifiers.txt */,
+				B9166735244E11CD00BBA19F /* emojis-no-modifiers.txt */,
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
@@ -259,6 +265,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9166738244E11CD00BBA19F /* emojis-modifiers.txt in Resources */,
+				B9166737244E11CD00BBA19F /* emojis-no-modifiers.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
