@@ -8,9 +8,9 @@
 
 import Foundation
 
-enum SkinVariations: String {
+enum SkinVariationTypes: String {
   
-  static let values: [SkinVariations] = [.TYPE_1_2, .TYPE_3, .TYPE_4, .TYPE_5, .TYPE_6]
+  static let values: [SkinVariationTypes] = [.TYPE_1_2, .TYPE_3, .TYPE_4, .TYPE_5, .TYPE_6]
   
   case TYPE_1_2 = "TYPE_1_2"
   case TYPE_3 = "TYPE_3"
@@ -50,10 +50,13 @@ enum SkinVariations: String {
     }
   }
   
-  static func getFromUnified(_ unified: String) -> SkinVariations? {
-    return self.values.first(where: { $0.getUnifiedValue() == unified })
+  static func getFromUnified(_ unified: String) -> [SkinVariationTypes]? {
+
+    let splitUnified = unified.split(separator: "-").map(String.init)
+
+    return self.values.filter({ splitUnified.contains($0.getUnifiedValue()) })
   }
-  static func getFromAlias(_ unified: String) -> SkinVariations? {
+  static func getFromAlias(_ unified: String) -> SkinVariationTypes? {
     return self.values.first(where: { $0.getAliasValue() == unified.lowercased() })
   }
 }

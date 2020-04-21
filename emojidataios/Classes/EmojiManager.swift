@@ -62,10 +62,12 @@ class EmojiManager {
                 var skinVariations: [SkinVariation]
                 
                 if let emojiSkinVariations = emojiSkinVariations {
-                  
-                  skinVariations = emojiSkinVariations.map {
-                    let skinVariation = SkinVariations.getFromUnified($0[0])
-                    return SkinVariation(unified: $0[1], skinVariation: skinVariation!)
+                  skinVariations = emojiSkinVariations.compactMap {
+                    guard let skinVariationTypes = SkinVariationTypes.getFromUnified($0[0]) else {
+                      return nil
+                      
+                    }
+                    return SkinVariation(unified: $0[1], skinVariations: skinVariationTypes)
                   }
                   
                 } else {
@@ -108,7 +110,7 @@ class EmojiManager {
             var emojisVariationForUnified  = emojiForUnified[variation.unified] ?? []
             
             let emojiVariation = emoji.clone()
-            emojiVariation.shortName = emoji.shortName + "::" + variation.skinVariation.getAliasValue()
+            emojiVariation.shortName = emoji.shortName + ":" + variation.skinVariationTypes.map { ":\($0.getAliasValue())" }.joined(separator: ":")
             
             emojisVariationForUnified.append(emojiVariation)
             emojiForUnified[variation.unified] = emojisVariationForUnified

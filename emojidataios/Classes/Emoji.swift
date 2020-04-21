@@ -53,12 +53,15 @@ public class Emoji {
     }
     return emoji
   }
+
+  func getEmojiWithSkinVariation(_ skinVariationType: SkinVariationTypes) -> String {
+    getEmojiWithSkinVariations([skinVariationType])
+  }
   
-  func getEmojiWithSkinVariation(_ skinVariation: SkinVariations) -> String {
+  func getEmojiWithSkinVariations(_ skinVariationTypes: [SkinVariationTypes]) -> String {
+    if (skinVariationTypes.isEmpty) { return emoji }
 
-//    guard supportsSkinVariation else { return emoji }
-
-    guard let skinVariation = skinVariations.first(where: { $0.skinVariation == skinVariation }) else { return emoji }
+    guard let skinVariation = self.skinVariations.first(where: { $0.skinVariationTypes == skinVariationTypes }) else { return emoji }
     
     let unifiedVariation = skinVariation.unified
 
@@ -66,7 +69,7 @@ public class Emoji {
   }
   
   func clone() -> Emoji {
-    return Emoji(
+    Emoji(
       name: self.name,
       shortName: self.shortName,
       unified: self.unified,
@@ -80,11 +83,11 @@ public class Emoji {
 
 class SkinVariation {
   var unified: String
-  var skinVariation: SkinVariations
+  var skinVariationTypes: [SkinVariationTypes]
   
-  init(unified: String, skinVariation: SkinVariations) {
+  init(unified: String, skinVariations: [SkinVariationTypes]) {
     self.unified = unified
-    self.skinVariation = skinVariation
+    self.skinVariationTypes = skinVariations
   }
 }
 

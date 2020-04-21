@@ -13,9 +13,10 @@ public enum EmojiCategory: String, CaseIterable {
   case SYMBOLS = "Symbols"
   case OBJECTS = "Objects"
   case NATURE = "Animals & Nature"
-  case PEOPLE = "Smileys & People"
+  case PEOPLE = "People & Body"
   case FOODS = "Food & Drink"
   case PLACES = "Travel & Places"
   case ACTIVITY = "Activities"
   case FLAGS = "Flags"
+  case SMILEYS = "Smileys & Emotion"
 }
